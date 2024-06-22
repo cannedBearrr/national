@@ -26,7 +26,7 @@ class AppStateNotifier extends ChangeNotifier {
 }
 
 GoRouter createRouter(AppStateNotifier appStateNotifier, String apiKey) => GoRouter(
-      initialLocation: '/',
+      initialLocation: '/homePage',
       debugLogDiagnostics: true,
       refreshListenable: appStateNotifier,
       errorBuilder: (context, state) => appStateNotifier.showSplashImage
