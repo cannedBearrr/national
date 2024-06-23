@@ -1,10 +1,13 @@
-2024/06/22-19:56:23.032 5ffc Log #3: 2 ops saved to Table #7 OK
-2024/06/22-19:56:23.036 5ffc Archiving C:\Users\yuvra\AppData\Local\Temp\flutter_tools.7d5480fa\flutter_tools_chrome_device.efc715ae\Default\Site Characteristics Database/000003.log: OK
-2024/06/22-19:56:23.037 5ffc Log #6: 2 ops saved to Table #8 OK
-2024/06/22-19:56:23.038 5ffc Archiving C:\Users\yuvra\AppData\Local\Temp\flutter_tools.7d5480fa\flutter_tools_chrome_device.efc715ae\Default\Site Characteristics Database/000006.log: OK
-2024/06/22-19:56:23.038 5ffc Table #4: 2 entries OK
-2024/06/22-19:56:23.038 5ffc Table #6: 2 entries OK
-2024/06/22-19:56:23.038 5ffc Table #7: 2 entries OK
-2024/06/22-19:56:23.038 5ffc Table #8: 2 entries OK
-2024/06/22-19:56:23.040 5ffc Archiving C:\Users\yuvra\AppData\Local\Temp\flutter_tools.7d5480fa\flutter_tools_chrome_device.efc715ae\Default\Site Characteristics Database/MANIFEST-000001: OK
-2024/06/22-19:56:23.042 5ffc **** Repaired leveldb C:\Users\yuvra\AppData\Local\Temp\flutter_tools.7d5480fa\flutter_tools_chrome_device.efc715ae\Default\Site Characteristics Database; recovered 4 files; 762 bytes. Some data may have been lost. ****
+2024/06/22-20:02:58.882 4b9c Reusing MANIFEST C:\Users\yuvra\AppData\Local\Temp\flutter_tools.22967b69\flutter_tools_chrome_device.70660fdc\Default\Site Characteristics Database/MANIFEST-000001
+2024/06/22-20:02:58.883 4b9c Recovering log #3
+2024/06/22-20:02:58.883 4b9c Level-0 table #13: started
+2024/06/22-20:02:58.884 4b9c Level-0 table #13: 194 bytes OK
+2024/06/22-20:02:58.884 4b9c Recovering log #6
+2024/06/22-20:02:58.884 4b9c Level-0 table #14: started
+2024/06/22-20:02:58.885 4b9c Level-0 table #14: 180 bytes OK
+2024/06/22-20:02:58.885 4b9c Recovering log #10
+2024/06/22-20:02:58.886 4b9c Reusing old log C:\Users\yuvra\AppData\Local\Temp\flutter_tools.22967b69\flutter_tools_chrome_device.70660fdc\Default\Site Characteristics Database/000010.log 
+2024/06/22-20:02:58.887 4b9c Delete type=0 #3
+2024/06/22-20:02:58.887 4b9c Delete type=2 #4
+2024/06/22-20:02:58.887 4b9c Delete type=2 #6
+2024/06/22-20:02:58.887 4b9c Delete type=0 #6
