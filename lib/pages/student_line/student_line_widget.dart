@@ -807,7 +807,7 @@ class _StudentLineWidgetState extends State<StudentLineWidget>
                                                   .override(
                                                     fontFamily: 'NORD',
                                                     color: const Color(0xFFEEB609),
-                                                    fontSize: 24.0,
+                                                    fontSize: 48.0,
                                                     letterSpacing: 0.0,
                                                     fontWeight: FontWeight.bold,
                                                     useGoogleFonts: false,
@@ -962,7 +962,7 @@ class _StudentLineWidgetState extends State<StudentLineWidget>
                                                   .override(
                                                     fontFamily: 'NORD',
                                                     color: const Color(0xFFEEB609),
-                                                    fontSize: 24.0,
+                                                    fontSize: 48.0,
                                                     letterSpacing: 0.0,
                                                     fontWeight: FontWeight.bold,
                                                     useGoogleFonts: false,

@@ -782,7 +782,7 @@ class _HomePageWidgetState extends State<HomePageWidget>
                           ))
                             Container(
                               width: MediaQuery.sizeOf(context).width * 1.0,
-                              height: MediaQuery.sizeOf(context).height * 1.0,
+                              height: MediaQuery.sizeOf(context).height * 0.5,
                               decoration: BoxDecoration(
                                 color: FlutterFlowTheme.of(context)
                                     .secondaryBackground,
@@ -824,7 +824,7 @@ class _HomePageWidgetState extends State<HomePageWidget>
                                                 const EdgeInsetsDirectional.fromSTEB(
                                                     0.0, 0.0, 40.0, 0.0),
                                             child: Text(
-                                              'Lorem ipsum dolor sit amet, \nconsecteturadipiscing elit. \nIn a quam tellus. Mauris risus \ndui,efficitur sit amet eros ut, \nultricies cursus felis.Phasellus \negestas finibus nisi, id vehicula \narcusodales in. Pellentesque \nvitae efficitur eros. Fuscein \nvarius elit, quis ullamcorper \narcu. Suspendisseligula purus, \nmolestie non nunc vitae,\nconsectetur vestibulum sem.',
+                                              'At Northern Horizon, we transform education by \nintegrating real-world experience with academic learning. Our mission is to \nguide students towards future careers through personalized counseling, \nskill development programs, and project-based learning. \nLocated in the Catskills, we nurture the next \ngeneration of leaders and innovators by providing practical \nexperience and meaningful industry partnerships.',
                                               textAlign: TextAlign.center,
                                               style:
                                                   FlutterFlowTheme.of(context)
@@ -927,7 +927,7 @@ class _HomePageWidgetState extends State<HomePageWidget>
                                     ),
                                   ),
                                   Text(
-                                    'Lorem ipsum dolor sit amet, consectetur \nadipiscing elit. In a quam tellus. Mauris risus dui, \nefficitur sit amet eros ut, ultricies cursus felis. \nPhasellus egestas finibus nisi, id vehicula arcu \nsodales in. Pellentesque vitae efficitur eros. Fusce \nin varius elit, quis ullamcorper arcu. Suspendisse \nligula purus, molestie non nunc vitae, \nconsectetur vestibulum sem.',
+                                    'At Northern Horizon, we transform education by \nintegrating real-world experience with academic learning. Our mission is to \nguide students towards future careers through personalized counseling, \nskill development programs, and project-based learning. \nLocated in the Catskills, we nurture the next \ngeneration of leaders and innovators by providing practical \nexperience and meaningful industry partnerships.',
                                     textAlign: TextAlign.center,
                                     style: FlutterFlowTheme.of(context)
                                         .bodyMedium
@@ -1234,7 +1234,7 @@ class _HomePageWidgetState extends State<HomePageWidget>
                                         padding: const EdgeInsetsDirectional.fromSTEB(
                                             40.0, 15.0, 40.0, 0.0),
                                         child: Text(
-                                          'Lorem ipsum dolor sit amet, consectetur \nadipiscing elit. In a quam tellus. Mauris risus dui, \nefficitur sit amet eros ut, ultricies cursus felis. \nPhasellus egestas finibus nisi, id vehicula arcu \nsodales in. Pellentesque vitae efficitur eros. Fusce \nin varius elit, quis ullamcorper arcu. Suspendisse \nligula purus, molestie non nunc vitae, \nconsectetur vestibulum sem.',
+                                          'Discover the Northern Horizon experience firsthand. \nNestled in the scenic Catskills, our campus \noffers an inspiring environment for learning \nand growth. Whether you are a prospective \nstudent, parent, or industry partner, \nvisit us to see how our innovative \napproach is shaping the future of \neducation. Explore our facilities, meet our \nteam, and learn how we can help you \nachieve your career aspirations.',
                                           style: FlutterFlowTheme.of(context)
                                               .bodyMedium
                                               .override(
@@ -1353,7 +1353,7 @@ class _HomePageWidgetState extends State<HomePageWidget>
                                   ),
                                 ],
                               ),
-                            ),
+                            ), //Visit Us Web
                           if (responsiveVisibility(
                             context: context,
                             tablet: false,
@@ -1546,7 +1546,7 @@ class _HomePageWidgetState extends State<HomePageWidget>
                                   ),
                                 ],
                               ),
-                            ),
+                            ), //Visit Us
                           if (responsiveVisibility(
                             context: context,
                             phone: false,
@@ -1555,7 +1555,7 @@ class _HomePageWidgetState extends State<HomePageWidget>
                           ))
                             Container(
                               width: MediaQuery.sizeOf(context).width * 1.0,
-                              height: MediaQuery.sizeOf(context).height * 1.0,
+                              height: MediaQuery.sizeOf(context).height * 0.75,
                               decoration: const BoxDecoration(
                                 color: Colors.white,
                               ),
@@ -1564,7 +1564,7 @@ class _HomePageWidgetState extends State<HomePageWidget>
                                 child: Container(
                                   width: MediaQuery.sizeOf(context).width * 0.9,
                                   height:
-                                      MediaQuery.sizeOf(context).height * 0.9,
+                                      MediaQuery.sizeOf(context).height * 0.65,
                                   decoration: const BoxDecoration(
                                     color: Color(0xFFE7DCC6),
                                     shape: BoxShape.rectangle,
@@ -1727,7 +1727,7 @@ class _HomePageWidgetState extends State<HomePageWidget>
                                   ),
                                 ),
                               ),
-                            ),
+                            ), //Newsletter Web
                           if (responsiveVisibility(
                             context: context,
                             tablet: false,
@@ -1926,7 +1926,7 @@ class _HomePageWidgetState extends State<HomePageWidget>
                                   ),
                                 ),
                               ),
-                            ),
+                            ), //Newsletter
                           if (responsiveVisibility(
                             context: context,
                             phone: false,
