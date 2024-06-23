@@ -474,7 +474,7 @@ class _BusinessLineWidgetState extends State<BusinessLineWidget>
                                     ),
                                 ],
                               ),
-                            ),
+                            ), //Tagline Web
                           if (responsiveVisibility(
                             context: context,
                             tablet: false,
@@ -693,7 +693,7 @@ class _BusinessLineWidgetState extends State<BusinessLineWidget>
                                   ),
                                 ],
                               ),
-                            ),
+                            ), //Tagline
                           if (responsiveVisibility(
                             context: context,
                             tablet: false,
@@ -985,7 +985,7 @@ class _BusinessLineWidgetState extends State<BusinessLineWidget>
                                                             const AlignmentDirectional(
                                                                 0.0, 0.0),
                                                         child: Text(
-                                                          'Proin in elit diam. Nulla molestie magna in elit laoreet, a tincidunt odio varius. Fusce non suscipit quam. Nam cursus efficitur erat ac posuere. Cras vel neque lectus. Suspendisse ut accumsan dui, in placerat metus. Vivamus dictum diam sit amet suscipit lobortis. Nullam aliquam leo non tellus placerat ornare ac vel ex. Proin in elit diam. \nNulla molestie magna in elit laoreet, a tincidunt odio varius. Fusce non suscipit quam. Nam cursus efficitur erat ac posuere. Cras vel neque lectus.Suspendisse ut accumsan dui, in placerat metus. Vivamus dictum diam sit amet suscipit lobortis. Nullam aliquam leo non tellus placerat ornare ac vel ex.',
+                                                          'Northern Horizon (NH) stands out for your educational needs with personalized career counseling, skill development programs, industry exposure, and mentorship. Led by President Anson Zhao, with over 30 years of diverse corporate experience, NH empowers students to become leaders and innovators. We are not just an institution; we are a pathway to realizing potential into real-world achievements.',
                                                           textAlign:
                                                               TextAlign.justify,
                                                           style: FlutterFlowTheme
@@ -1032,7 +1032,7 @@ class _BusinessLineWidgetState extends State<BusinessLineWidget>
                                   ),
                                 ),
                               ),
-                            ),
+                            ), // Why Us
                           if (responsiveVisibility(
                             context: context,
                             phone: false,
