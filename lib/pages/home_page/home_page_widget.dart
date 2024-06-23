@@ -850,7 +850,7 @@ class _HomePageWidgetState extends State<HomePageWidget>
                                               borderRadius:
                                                   BorderRadius.circular(8.0),
                                               child: Image.network(
-                                                'https://picsum.photos/seed/876/600',
+                                                'https://images.unsplash.com/photo-1662663560803-db03b7821eb9?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NTYyMDF8MHwxfHNlYXJjaHwxNHx8Y2F0c2tpbGwlMjBtb3VudGFpbnN8ZW58MHx8fHwxNzE4NzM2NjkxfDA&ixlib=rb-4.0.3&q=80&w=1080',
                                                 width:
                                                     MediaQuery.sizeOf(context)
                                                             .width *
@@ -862,49 +862,6 @@ class _HomePageWidgetState extends State<HomePageWidget>
                                                 fit: BoxFit.cover,
                                               ),
                                             ),
-                                          ),
-                                          Row(
-                                            mainAxisSize: MainAxisSize.max,
-                                            children: [
-                                              ClipRRect(
-                                                borderRadius:
-                                                    BorderRadius.circular(8.0),
-                                                child: Image.network(
-                                                  'https://picsum.photos/seed/667/600',
-                                                  width:
-                                                      MediaQuery.sizeOf(context)
-                                                              .width *
-                                                          0.193,
-                                                  height:
-                                                      MediaQuery.sizeOf(context)
-                                                              .height *
-                                                          0.25,
-                                                  fit: BoxFit.cover,
-                                                ),
-                                              ),
-                                              Padding(
-                                                padding: const EdgeInsetsDirectional
-                                                    .fromSTEB(
-                                                        20.0, 0.0, 0.0, 0.0),
-                                                child: ClipRRect(
-                                                  borderRadius:
-                                                      BorderRadius.circular(
-                                                          8.0),
-                                                  child: Image.network(
-                                                    'https://picsum.photos/seed/759/600',
-                                                    width: MediaQuery.sizeOf(
-                                                                context)
-                                                            .width *
-                                                        0.193,
-                                                    height: MediaQuery.sizeOf(
-                                                                context)
-                                                            .height *
-                                                        0.25,
-                                                    fit: BoxFit.cover,
-                                                  ),
-                                                ),
-                                              ),
-                                            ],
                                           ),
                                         ],
                                       ),
@@ -958,7 +915,7 @@ class _HomePageWidgetState extends State<HomePageWidget>
                                     child: ClipRRect(
                                       borderRadius: BorderRadius.circular(0.0),
                                       child: Image.network(
-                                        'https://picsum.photos/seed/876/600',
+                                        'https://images.unsplash.com/photo-1662663560803-db03b7821eb9?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NTYyMDF8MHwxfHNlYXJjaHwxNHx8Y2F0c2tpbGwlMjBtb3VudGFpbnN8ZW58MHx8fHwxNzE4NzM2NjkxfDA&ixlib=rb-4.0.3&q=80&w=1080',
                                         width:
                                             MediaQuery.sizeOf(context).width *
                                                 0.85,
@@ -1000,8 +957,8 @@ class _HomePageWidgetState extends State<HomePageWidget>
                                 children: [
                                   ClipRRect(
                                     borderRadius: BorderRadius.circular(8.0),
-                                    child: Image.network(
-                                      'https://images.unsplash.com/photo-1545935950-b7a28791ad7a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NTYyMDF8MHwxfHNlYXJjaHw3fHxPVVIlMjBNSVNTSU9OfGVufDB8fHx8MTcxODQ2OTQ3NHww&ixlib=rb-4.0.3&q=80&w=1080',
+                                    child: Image.asset(
+                                      'images/2023NA_289.webp',
                                       width: MediaQuery.sizeOf(context).width *
                                           1.0,
                                       height:
@@ -1107,8 +1064,8 @@ class _HomePageWidgetState extends State<HomePageWidget>
                                 children: [
                                   ClipRRect(
                                     borderRadius: BorderRadius.circular(8.0),
-                                    child: Image.network(
-                                      'https://images.unsplash.com/photo-1545935950-b7a28791ad7a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NTYyMDF8MHwxfHNlYXJjaHw3fHxPVVIlMjBNSVNTSU9OfGVufDB8fHx8MTcxODQ2OTQ3NHww&ixlib=rb-4.0.3&q=80&w=1080',
+                                    child: Image.asset(
+                                      'images/2023NA_289.webp',
                                       width: MediaQuery.sizeOf(context).width *
                                           1.0,
                                       height:

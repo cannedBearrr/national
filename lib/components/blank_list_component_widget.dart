@@ -83,7 +83,7 @@ class _BlankListComponentWidgetState extends State<BlankListComponentWidget> {
                 children: [
                   SelectionArea(
                       child: AutoSizeText(
-                    'You can build a custom ChatGPT x FlutterFlow app in a matter of minutes 🤯\n\nTry out the project by typing a response below or clone the project by clicking the button above  🎉',
+                    'Ask any questions you have to our built in Open AI API!',
                     style: FlutterFlowTheme.of(context).titleMedium.override(
                           fontFamily: 'Plus Jakarta Sans',
                           color: FlutterFlowTheme.of(context).primaryBtnText,
