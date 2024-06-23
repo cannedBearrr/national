@@ -756,7 +756,7 @@ class _BusinessLineWidgetState extends State<BusinessLineWidget>
                                           borderRadius:
                                               BorderRadius.circular(0.0),
                                           child: Image.asset(
-                                            'assets/images/FT_239_M.webp',
+                                            'images/FT_239_M.webp',
                                             width: MediaQuery.sizeOf(context)
                                                     .width *
                                                 0.35,
@@ -1016,7 +1016,7 @@ class _BusinessLineWidgetState extends State<BusinessLineWidget>
                                           borderRadius:
                                               BorderRadius.circular(0.0),
                                           child: Image.asset(
-                                            'assets/images/FT_239_M.webp',
+                                            'images/FT_239_M.webp',
                                             width: MediaQuery.sizeOf(context)
                                                     .width *
                                                 0.35,
@@ -1121,7 +1121,7 @@ class _BusinessLineWidgetState extends State<BusinessLineWidget>
                                                                           0.0),
                                                               child:
                                                                   Image.asset(
-                                                                'assets/images/NAM_007_M.webp',
+                                                                'images/NAM_007_M.webp',
                                                                 width: MediaQuery.sizeOf(
                                                                             context)
                                                                         .width *
@@ -1707,7 +1707,7 @@ class _BusinessLineWidgetState extends State<BusinessLineWidget>
                                                                             BorderRadius.circular(0.0),
                                                                         child: Image
                                                                             .asset(
-                                                                          'assets/images/NAM_007_M.webp',
+                                                                          'images/NAM_007_M.webp',
                                                                           width:
                                                                               MediaQuery.sizeOf(context).width * 1.0,
                                                                           height:
@@ -2146,19 +2146,15 @@ class _BusinessLineWidgetState extends State<BusinessLineWidget>
                                         0.333,
                                     child: Stack(
                                       children: [
-                                        ClipRRect(
-                                          borderRadius:
-                                              BorderRadius.circular(0.0),
-                                          child: Image.network(
-                                            'https://images.unsplash.com/photo-1541873676-a18131494184?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NTYyMDF8MHwxfHNlYXJjaHwxfHxOQVNBfGVufDB8fHx8MTcxNjgyMzEyOHww&ixlib=rb-4.0.3&q=80&w=1080',
-                                            width: MediaQuery.sizeOf(context)
-                                                    .width *
-                                                1.0,
-                                            height: MediaQuery.sizeOf(context)
-                                                    .height *
-                                                1.0,
-                                            fit: BoxFit.cover,
-                                            alignment: const Alignment(0.0, -0.3),
+                                        Container(
+                                          width: MediaQuery.sizeOf(context)
+                                              .width *
+                                              1.0,
+                                          height: MediaQuery.sizeOf(context)
+                                              .height *
+                                              0.333,
+                                          decoration: const BoxDecoration(
+                                            color: Color(0xFFEEB609),
                                           ),
                                         ),
                                         Row(
@@ -2178,7 +2174,7 @@ class _BusinessLineWidgetState extends State<BusinessLineWidget>
                                                       BorderRadius.circular(
                                                           0.0),
                                                   child: Image.asset(
-                                                    'assets/images/7422495_nasa_space_shuttle_universe_explore_icon_1.png',
+                                                    'images/7422495_nasa_space_shuttle_universe_explore_icon_1.png',
                                                     width: MediaQuery.sizeOf(
                                                                 context)
                                                             .width *
@@ -2240,8 +2236,7 @@ class _BusinessLineWidgetState extends State<BusinessLineWidget>
                                                       .override(
                                                         fontFamily:
                                                             'Inria Serif',
-                                                        color:
-                                                            const Color(0xFFEEB609),
+                                                        color: Colors.white,
                                                         fontSize: 96.0,
                                                         letterSpacing: 0.0,
                                                         fontWeight:
@@ -2262,19 +2257,15 @@ class _BusinessLineWidgetState extends State<BusinessLineWidget>
                                         0.333,
                                     child: Stack(
                                       children: [
-                                        ClipRRect(
-                                          borderRadius:
-                                              BorderRadius.circular(0.0),
-                                          child: Image.network(
-                                            'https://images.unsplash.com/photo-1623278589094-6741f418d3bf?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NTYyMDF8MHwxfHNlYXJjaHwzfHxVTklURUQlMjBOQVRJT05TfGVufDB8fHx8MTcxNjgyMzI4M3ww&ixlib=rb-4.0.3&q=80&w=1080',
-                                            width: MediaQuery.sizeOf(context)
-                                                    .width *
-                                                1.0,
-                                            height: MediaQuery.sizeOf(context)
-                                                    .height *
-                                                1.0,
-                                            fit: BoxFit.cover,
-                                            alignment: const Alignment(0.0, -0.5),
+                                        Container(
+                                          width: MediaQuery.sizeOf(context)
+                                              .width *
+                                              1.0,
+                                          height: MediaQuery.sizeOf(context)
+                                              .height *
+                                              0.333,
+                                          decoration: const BoxDecoration(
+                                            color: Color(0xFFE7DDC6),
                                           ),
                                         ),
                                         Row(
@@ -2328,8 +2319,7 @@ class _BusinessLineWidgetState extends State<BusinessLineWidget>
                                                       .override(
                                                         fontFamily:
                                                             'Inria Serif',
-                                                        color:
-                                                            const Color(0xFFEEB609),
+                                                        color: Colors.white,
                                                         fontSize: 96.0,
                                                         letterSpacing: 0.0,
                                                         fontWeight:
@@ -2350,7 +2340,7 @@ class _BusinessLineWidgetState extends State<BusinessLineWidget>
                                                       BorderRadius.circular(
                                                           8.0),
                                                   child: Image.asset(
-                                                    'assets/images/Mask_group.png',
+                                                    'images/Mask_group.png',
                                                     width: MediaQuery.sizeOf(
                                                                 context)
                                                             .width *
@@ -2378,18 +2368,15 @@ class _BusinessLineWidgetState extends State<BusinessLineWidget>
                                         0.333,
                                     child: Stack(
                                       children: [
-                                        ClipRRect(
-                                          borderRadius:
-                                              BorderRadius.circular(0.0),
-                                          child: Image.network(
-                                            'https://images.unsplash.com/photo-1631563018889-23f47a027973?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NTYyMDF8MHwxfHNlYXJjaHwyfHxVU0dTfGVufDB8fHx8MTcxNjgyMzM0MHww&ixlib=rb-4.0.3&q=80&w=1080',
-                                            width: MediaQuery.sizeOf(context)
-                                                    .width *
-                                                1.0,
-                                            height: MediaQuery.sizeOf(context)
-                                                    .height *
-                                                1.0,
-                                            fit: BoxFit.cover,
+                                        Container(
+                                          width: MediaQuery.sizeOf(context)
+                                              .width *
+                                              1.0,
+                                          height: MediaQuery.sizeOf(context)
+                                              .height *
+                                              0.333,
+                                          decoration: const BoxDecoration(
+                                            color: Color(0xFFD9D9D9),
                                           ),
                                         ),
                                         Row(
@@ -2408,8 +2395,8 @@ class _BusinessLineWidgetState extends State<BusinessLineWidget>
                                                   borderRadius:
                                                       BorderRadius.circular(
                                                           8.0),
-                                                  child: Image.network(
-                                                    'https://static.wixstatic.com/media/b95a20_e357c64f59a540c58b7a8dda5a8bbd84~mv2.png/v1/fill/w_740,h_495,al_c,q_90/b95a20_e357c64f59a540c58b7a8dda5a8bbd84~mv2.png',
+                                                  child: Image.asset(
+                                                    'images/USGS.png',
                                                     width: MediaQuery.sizeOf(
                                                                 context)
                                                             .width *
@@ -2433,7 +2420,7 @@ class _BusinessLineWidgetState extends State<BusinessLineWidget>
                                                   CrossAxisAlignment.center,
                                               children: [
                                                 Text(
-                                                  'THE GREAT LEAP FORWARD',
+                                                  'OUR LATEST PARTNER',
                                                   style: FlutterFlowTheme.of(
                                                           context)
                                                       .bodyMedium
@@ -2488,7 +2475,7 @@ class _BusinessLineWidgetState extends State<BusinessLineWidget>
                                   ),
                                 ],
                               ),
-                            ),
+                            ), //WEB PP
                           if (responsiveVisibility(
                             context: context,
                             tablet: false,
@@ -2557,7 +2544,7 @@ class _BusinessLineWidgetState extends State<BusinessLineWidget>
                                                             BorderRadius
                                                                 .circular(8.0),
                                                         child: Image.asset(
-                                                          'assets/images/7422495_nasa_space_shuttle_universe_explore_icon_1.png',
+                                                          'images/7422495_nasa_space_shuttle_universe_explore_icon_1.png',
                                                           width:
                                                               MediaQuery.sizeOf(
                                                                           context)
@@ -2678,7 +2665,7 @@ class _BusinessLineWidgetState extends State<BusinessLineWidget>
                                                             BorderRadius
                                                                 .circular(8.0),
                                                         child: Image.asset(
-                                                          'assets/images/Mask_group.png',
+                                                          'images/Mask_group.png',
                                                           width:
                                                               MediaQuery.sizeOf(
                                                                           context)
@@ -2809,8 +2796,8 @@ class _BusinessLineWidgetState extends State<BusinessLineWidget>
                                                               BorderRadius
                                                                   .circular(
                                                                       8.0),
-                                                          child: Image.network(
-                                                            'https://static.wixstatic.com/media/b95a20_e357c64f59a540c58b7a8dda5a8bbd84~mv2.png/v1/fill/w_740,h_495,al_c,q_90/b95a20_e357c64f59a540c58b7a8dda5a8bbd84~mv2.png',
+                                                          child: Image.asset(
+                                                            'images/USGS.png',
                                                             width: MediaQuery
                                                                         .sizeOf(
                                                                             context)
@@ -2827,7 +2814,7 @@ class _BusinessLineWidgetState extends State<BusinessLineWidget>
                                                       ),
                                                     ),
                                                     Text(
-                                                      'WHERE IT ALL BEGAN',
+                                                      'Our Latest Partner',
                                                       textAlign:
                                                           TextAlign.start,
                                                       style: FlutterFlowTheme
@@ -2887,7 +2874,7 @@ class _BusinessLineWidgetState extends State<BusinessLineWidget>
                                   ),
                                 ],
                               ),
-                            ),
+                            ), //PP
                           if (responsiveVisibility(
                             context: context,
                             phone: false,
@@ -3359,72 +3346,6 @@ class _BusinessLineWidgetState extends State<BusinessLineWidget>
                                                             Color(0xCCFFFFFF),
                                                       ),
                                                     ),
-                                                    Padding(
-                                                      padding:
-                                                          const EdgeInsetsDirectional
-                                                              .fromSTEB(
-                                                                  0.0,
-                                                                  10.0,
-                                                                  0.0,
-                                                                  0.0),
-                                                      child: FFButtonWidget(
-                                                        onPressed: () {
-                                                          print(
-                                                              'Button pressed ...');
-                                                        },
-                                                        text:
-                                                            'PROVIDE PROJECTS',
-                                                        options:
-                                                            FFButtonOptions(
-                                                          height:
-                                                              MediaQuery.sizeOf(
-                                                                          context)
-                                                                      .height *
-                                                                  0.05,
-                                                          padding:
-                                                              const EdgeInsetsDirectional
-                                                                  .fromSTEB(
-                                                                      24.0,
-                                                                      0.0,
-                                                                      24.0,
-                                                                      0.0),
-                                                          iconPadding:
-                                                              const EdgeInsetsDirectional
-                                                                  .fromSTEB(
-                                                                      0.0,
-                                                                      0.0,
-                                                                      0.0,
-                                                                      0.0),
-                                                          color:
-                                                              const Color(0xFFEEB609),
-                                                          textStyle:
-                                                              FlutterFlowTheme.of(
-                                                                      context)
-                                                                  .titleSmall
-                                                                  .override(
-                                                                    fontFamily:
-                                                                        'NORD',
-                                                                    color: Colors
-                                                                        .white,
-                                                                    letterSpacing:
-                                                                        0.0,
-                                                                    useGoogleFonts:
-                                                                        false,
-                                                                  ),
-                                                          elevation: 3.0,
-                                                          borderSide:
-                                                              const BorderSide(
-                                                            color: Colors
-                                                                .transparent,
-                                                            width: 1.0,
-                                                          ),
-                                                          borderRadius:
-                                                              BorderRadius
-                                                                  .circular(
-                                                                      8.0),
-                                                        ),
-                                                      ),
-                                                    ),
                                                   ],
                                                 ),
                                               ),
@@ -3832,64 +3753,6 @@ class _BusinessLineWidgetState extends State<BusinessLineWidget>
                                                   child: Divider(
                                                     thickness: 1.0,
                                                     color: Color(0xCCFFFFFF),
-                                                  ),
-                                                ),
-                                                Padding(
-                                                  padding: const EdgeInsetsDirectional
-                                                      .fromSTEB(
-                                                          0.0, 10.0, 0.0, 0.0),
-                                                  child: FFButtonWidget(
-                                                    onPressed: () {
-                                                      print(
-                                                          'Button pressed ...');
-                                                    },
-                                                    text: 'PROVIDE PROJECTS',
-                                                    options: FFButtonOptions(
-                                                      height: MediaQuery.sizeOf(
-                                                                  context)
-                                                              .height *
-                                                          0.04,
-                                                      padding:
-                                                          const EdgeInsetsDirectional
-                                                              .fromSTEB(
-                                                                  24.0,
-                                                                  0.0,
-                                                                  24.0,
-                                                                  0.0),
-                                                      iconPadding:
-                                                          const EdgeInsetsDirectional
-                                                              .fromSTEB(
-                                                                  0.0,
-                                                                  0.0,
-                                                                  0.0,
-                                                                  0.0),
-                                                      color: const Color(0xFFEEB609),
-                                                      textStyle:
-                                                          FlutterFlowTheme.of(
-                                                                  context)
-                                                              .titleSmall
-                                                              .override(
-                                                                fontFamily:
-                                                                    'NORD',
-                                                                color: Colors
-                                                                    .white,
-                                                                letterSpacing:
-                                                                    0.0,
-                                                                useGoogleFonts:
-                                                                    false,
-                                                              ),
-                                                      elevation: 3.0,
-                                                      borderSide: const BorderSide(
-                                                        color:
-                                                            Colors.transparent,
-                                                        width: 1.0,
-                                                      ),
-                                                      borderRadius:
-                                                          BorderRadius.circular(
-                                                              8.0),
-                                                      hoverTextColor:
-                                                          Colors.black,
-                                                    ),
                                                   ),
                                                 ),
                                               ],

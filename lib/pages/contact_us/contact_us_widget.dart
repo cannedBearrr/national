@@ -186,8 +186,8 @@ class _ContactUsWidgetState extends State<ContactUsWidget> {
                                       ClipRRect(
                                         borderRadius:
                                             BorderRadius.circular(0.0),
-                                        child: Image.network(
-                                          'https://picsum.photos/seed/806/600',
+                                        child: Image.asset(
+                                          'images/Mr.Anson.png',
                                           width:
                                               MediaQuery.sizeOf(context).width *
                                                   0.183,
@@ -315,8 +315,8 @@ class _ContactUsWidgetState extends State<ContactUsWidget> {
                                       ClipRRect(
                                         borderRadius:
                                             BorderRadius.circular(0.0),
-                                        child: Image.network(
-                                          'https://picsum.photos/seed/806/600',
+                                        child: Image.asset(
+                                          'images/Yuvraj.png',
                                           width:
                                               MediaQuery.sizeOf(context).width *
                                                   0.183,
@@ -430,8 +430,8 @@ class _ContactUsWidgetState extends State<ContactUsWidget> {
                                       ClipRRect(
                                         borderRadius:
                                             BorderRadius.circular(0.0),
-                                        child: Image.network(
-                                          'https://picsum.photos/seed/806/600',
+                                        child: Image.asset(
+                                          'images/Richard.png',
                                           width:
                                               MediaQuery.sizeOf(context).width *
                                                   0.183,
@@ -545,8 +545,8 @@ class _ContactUsWidgetState extends State<ContactUsWidget> {
                                       ClipRRect(
                                         borderRadius:
                                             BorderRadius.circular(0.0),
-                                        child: Image.network(
-                                          'https://picsum.photos/seed/806/600',
+                                        child: Image.asset(
+                                          'images/Angel.png',
                                           width:
                                               MediaQuery.sizeOf(context).width *
                                                   0.183,
@@ -678,8 +678,8 @@ class _ContactUsWidgetState extends State<ContactUsWidget> {
                                           ClipRRect(
                                             borderRadius:
                                                 BorderRadius.circular(0.0),
-                                            child: Image.network(
-                                              'https://picsum.photos/seed/806/600',
+                                            child: Image.asset(
+                                              'images/Mr.Anson.png',
                                               width: MediaQuery.sizeOf(context)
                                                       .width *
                                                   0.43,
@@ -802,8 +802,8 @@ class _ContactUsWidgetState extends State<ContactUsWidget> {
                                           ClipRRect(
                                             borderRadius:
                                                 BorderRadius.circular(0.0),
-                                            child: Image.network(
-                                              'https://picsum.photos/seed/806/600',
+                                            child: Image.asset(
+                                              'images/Yuvraj.png',
                                               width: MediaQuery.sizeOf(context)
                                                       .width *
                                                   0.43,
@@ -926,8 +926,8 @@ class _ContactUsWidgetState extends State<ContactUsWidget> {
                                           ClipRRect(
                                             borderRadius:
                                                 BorderRadius.circular(0.0),
-                                            child: Image.network(
-                                              'https://picsum.photos/seed/806/600',
+                                            child: Image.asset(
+                                              'images/Richard.png',
                                               width: MediaQuery.sizeOf(context)
                                                       .width *
                                                   0.43,
@@ -1050,8 +1050,8 @@ class _ContactUsWidgetState extends State<ContactUsWidget> {
                                           ClipRRect(
                                             borderRadius:
                                                 BorderRadius.circular(0.0),
-                                            child: Image.network(
-                                              'https://picsum.photos/seed/806/600',
+                                            child: Image.asset(
+                                              'images/Angel.png',
                                               width: MediaQuery.sizeOf(context)
                                                       .width *
                                                   0.43,

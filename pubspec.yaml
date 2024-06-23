@@ -111,7 +111,7 @@ flutter:
     - assets/lottie_animations/
     - assets/rive_animations/
     - assets/pdfs/
-    - assets/.env/
+    - .env
 
   fonts:
     - family: 'NORD'
