@@ -956,7 +956,7 @@ class _HomePageWidgetState extends State<HomePageWidget>
                               child: Stack(
                                 children: [
                                   ClipRRect(
-                                    borderRadius: BorderRadius.circular(8.0),
+                                    borderRadius: BorderRadius.circular(0),
                                     child: Image.asset(
                                       'images/2023NA_289.webp',
                                       width: MediaQuery.sizeOf(context).width *
@@ -1015,38 +1015,40 @@ class _HomePageWidgetState extends State<HomePageWidget>
                                         padding: const EdgeInsetsDirectional.fromSTEB(
                                             0.0, 0.0, 0.0, 15.0),
                                         child: Text(
-                                          'LOREM IPSUIM DOLOR SIT AMET, CONSECTETUR ADIPISCING ELIT.',
+                                          'Empower students with real-world experience.',
+                                          textAlign: TextAlign.center,
                                           style: FlutterFlowTheme.of(context)
                                               .bodyMedium
                                               .override(
-                                                fontFamily: 'NORD',
-                                                color: Colors.white,
-                                                fontSize: 20.0,
-                                                letterSpacing: 0.0,
-                                                useGoogleFonts: false,
-                                              ),
+                                            fontFamily: 'NORD',
+                                            color: Colors.white,
+                                            fontSize: 30.0,
+                                            letterSpacing: 0.0,
+                                            useGoogleFonts: false,
+                                          ),
                                         ),
                                       ),
                                       Padding(
                                         padding: const EdgeInsetsDirectional.fromSTEB(
                                             200.0, 0.0, 200.0, 0.0),
                                         child: Text(
-                                          'Lorem ipsum dolor sit amet, consectetur adipiscing elit. In a quam tellus. Mauris risus dui, efficitur sit amet eros ut, ultricies cursus felis. Phasellus egestas finibus nisi, id vehicula arcu sodales in. Pellentesque vitae efficitur eros. Fusce in varius elit, quis ullamcorper arcu. Suspendisse ligula purus, molestie non nunc vitae, consectetur vestibulum sem.',
+                                          'At Northern Horizon, our mission is to bridge the gap between academic learning and real-world experience. \nWe strive to provide our students with hands-on opportunities through collaborations with \nleading organizations, enabling them to develop practical skills, gain valuable insights, and prepare \nfor impactful careers. Our focus is on creating an immersive educational environment \nthat fosters innovation, critical thinking, and a passion for lifelong learning.',
+                                          textAlign: TextAlign.center,
                                           style: FlutterFlowTheme.of(context)
                                               .bodyMedium
                                               .override(
-                                                fontFamily: 'Inria Serif',
-                                                color: Colors.white,
-                                                fontSize: 20.0,
-                                                letterSpacing: 0.0,
-                                              ),
+                                            fontFamily: 'Inria Serif',
+                                            color: Colors.white,
+                                            fontSize: 24.0,
+                                            letterSpacing: 0.0,
+                                          ),
                                         ),
                                       ),
                                     ],
                                   ),
                                 ],
                               ),
-                            ),
+                            ), //Our Mission Web
                           if (responsiveVisibility(
                             context: context,
                             tablet: false,
@@ -1063,7 +1065,7 @@ class _HomePageWidgetState extends State<HomePageWidget>
                               child: Stack(
                                 children: [
                                   ClipRRect(
-                                    borderRadius: BorderRadius.circular(8.0),
+                                    borderRadius: BorderRadius.circular(0),
                                     child: Image.asset(
                                       'images/2023NA_289.webp',
                                       width: MediaQuery.sizeOf(context).width *
@@ -1122,7 +1124,7 @@ class _HomePageWidgetState extends State<HomePageWidget>
                                         padding: const EdgeInsetsDirectional.fromSTEB(
                                             15.0, 0.0, 15.0, 15.0),
                                         child: Text(
-                                          'LOREM IPSUIM DOLOR SIT AMET, CONSECTETUR ADIPISCING ELIT.',
+                                          'Empowering students with real-world experience through hands-on learning and innovative collaborations.',
                                           textAlign: TextAlign.center,
                                           style: FlutterFlowTheme.of(context)
                                               .bodyMedium
@@ -1139,7 +1141,7 @@ class _HomePageWidgetState extends State<HomePageWidget>
                                         padding: const EdgeInsetsDirectional.fromSTEB(
                                             15.0, 0.0, 15.0, 0.0),
                                         child: Text(
-                                          'Lorem ipsum dolor sit amet, consectetur adipiscing elit. In a quam tellus. Mauris risus dui, efficitur sit amet eros ut, ultricies cursus felis. Phasellus egestas finibus nisi, id vehicula arcu sodales in. Pellentesque vitae efficitur eros. Fusce in varius elit, quis ullamcorper arcu. Suspendisse ligula purus, molestie non nunc vitae, consectetur vestibulum sem.',
+                                          'At Northern Horizon, our mission is to bridge the gap between academic learning and real-world experience. \nWe strive to provide our students with hands-on opportunities through collaborations with \nleading organizations, enabling them to develop practical skills, gain valuable insights, and prepare \nfor impactful careers. Our focus is on creating an immersive educational environment \nthat fosters innovation, critical thinking, and a passion for lifelong learning.',
                                           textAlign: TextAlign.center,
                                           style: FlutterFlowTheme.of(context)
                                               .bodyMedium
@@ -1155,7 +1157,7 @@ class _HomePageWidgetState extends State<HomePageWidget>
                                   ),
                                 ],
                               ),
-                            ),
+                            ),  //Our Mission
                           if (responsiveVisibility(
                             context: context,
                             phone: false,

@@ -3457,7 +3457,7 @@ class _StudentLineWidgetState extends State<StudentLineWidget>
                                               ),
                                             ),
                                             Text(
-                                              'Cras facilisis, urna et pharetra elementum, velit \nante gravida arcu, id semper enim orci in massa. \nProin vehicula mauris a nisi dignissim, sit amet \nmolestie libero faucibus. ',
+                                              'In 2019, Northern Horizon embarked on a \ngroundbreaking journey by partnering with NASA. \nThis collaboration provided our students with unparalleled \nopportunities to work on cutting-edge space projects, \nsetting the foundation for our mission to bridge the gap \nbetween education and real-world applications.',
                                               textAlign: TextAlign.center,
                                               style: FlutterFlowTheme.of(
                                                   context)
@@ -3480,8 +3480,7 @@ class _StudentLineWidgetState extends State<StudentLineWidget>
                                                   .override(
                                                 fontFamily:
                                                 'Inria Serif',
-                                                color:
-                                                const Color(0xFFEEB609),
+                                                color: Colors.white,
                                                 fontSize: 96.0,
                                                 letterSpacing: 0.0,
                                                 fontWeight:
@@ -3541,7 +3540,7 @@ class _StudentLineWidgetState extends State<StudentLineWidget>
                                               ),
                                             ),
                                             Text(
-                                              'Cras risus tellus, pellentesque in dignissim vitae, lacinia vitae \nrisus. Quisque sit amet elit at velit congue pellentesque. Integer \nimperdiet felis eu gravida vehicula. Donec sem elit, suscipit non \nlibero ac, commodo venenatis erat. Etiam quam orci, facilisis eu \nluctus quis, laoreet at ante. Aenean dignissim nisl velit, euismod \nsollicitudin augue vehicula pretium. ',
+                                              'In 2020, we took a significant step forward by \npartnering with the United Nations. This collaboration \nenabled our students to engage in global initiatives, enhancing \ntheir skills and perspectives while preparing them for \nimpactful careers on the international stage.',
                                               textAlign: TextAlign.center,
                                               style: FlutterFlowTheme.of(
                                                   context)
@@ -3564,8 +3563,7 @@ class _StudentLineWidgetState extends State<StudentLineWidget>
                                                   .override(
                                                 fontFamily:
                                                 'Inria Serif',
-                                                color:
-                                                const Color(0xFFEEB609),
+                                                color: Colors.white,
                                                 fontSize: 96.0,
                                                 letterSpacing: 0.0,
                                                 fontWeight:
@@ -3681,7 +3679,7 @@ class _StudentLineWidgetState extends State<StudentLineWidget>
                                               ),
                                             ),
                                             Text(
-                                              'Cras facilisis, urna et pharetra elementum, velit \nante gravida arcu, id semper enim orci in massa. \nProin vehicula mauris a nisi dignissim, sit amet \nmolestie libero faucibus. ',
+                                              'In 2021, we formed a partnership with the USGS, \nfurther broadening the scope of hands-on experiences available to \nour students. This collaboration allows our students to work on real-world \nenvironmental and scientific projects, developing critical skills and \ngaining valuable insights into the field of science and technology.',
                                               textAlign: TextAlign.center,
                                               style: FlutterFlowTheme.of(
                                                   context)
@@ -3704,8 +3702,7 @@ class _StudentLineWidgetState extends State<StudentLineWidget>
                                                   .override(
                                                 fontFamily:
                                                 'Inria Serif',
-                                                color:
-                                                const Color(0xFFEEB609),
+                                                color: Colors.white,
                                                 fontSize: 96.0,
                                                 letterSpacing: 0.0,
                                                 fontWeight:
@@ -3824,21 +3821,19 @@ class _StudentLineWidgetState extends State<StudentLineWidget>
                                                   ),
                                                 ),
                                                 Text(
-                                                  'Cras facilisis, urna et pharetra elementum, velit ante gravida \narcu, id semper enim orci in massa. Proin vehicula mauris a \nnisi dignissim, sit amet molestie libero faucibus. ',
-                                                  textAlign: TextAlign.end,
-                                                  style:
-                                                  FlutterFlowTheme.of(
+                                                  'In 2019, Northern Horizon embarked on a \ngroundbreaking journey by partnering with NASA. \nThis collaboration provided our students with unparalleled \nopportunities to work on cutting-edge space projects, \nsetting the foundation for our mission to bridge the gap \nbetween education and real-world applications.',
+                                                  textAlign: TextAlign.center,
+                                                  style: FlutterFlowTheme.of(
                                                       context)
                                                       .bodyMedium
                                                       .override(
                                                     fontFamily:
                                                     'Inria Serif',
-                                                    color: FlutterFlowTheme.of(
-                                                        context)
-                                                        .secondaryBackground,
-                                                    fontSize: 10.0,
-                                                    letterSpacing:
-                                                    0.0,
+                                                    color: Colors.white,
+                                                    fontSize: 20.0,
+                                                    letterSpacing: 0.0,
+                                                    fontWeight:
+                                                    FontWeight.w300,
                                                   ),
                                                 ),
                                                 Text(
@@ -3945,22 +3940,19 @@ class _StudentLineWidgetState extends State<StudentLineWidget>
                                                   ),
                                                 ),
                                                 Text(
-                                                  'Cras risus tellus, pellentesque in dignissim vitae, lacinia vitae\nrisus. Quisque sit amet elit at velit congue pellentesque.\nInteger imperdiet felis eu gravida vehicula. Duis consectetur\nmaximus risus, ac gravida ipsum. Aenean dignissim nisl velit,\neuismod sollicitudin augue vehicula pretium. ',
-                                                  textAlign:
-                                                  TextAlign.start,
-                                                  style:
-                                                  FlutterFlowTheme.of(
+                                                  'In 2020, we took a significant step forward by \npartnering with the United Nations. This collaboration \nenabled our students to engage in global initiatives, enhancing \ntheir skills and perspectives while preparing them for \nimpactful careers on the international stage.',
+                                                  textAlign: TextAlign.center,
+                                                  style: FlutterFlowTheme.of(
                                                       context)
                                                       .bodyMedium
                                                       .override(
                                                     fontFamily:
                                                     'Inria Serif',
-                                                    color: FlutterFlowTheme.of(
-                                                        context)
-                                                        .secondaryBackground,
-                                                    fontSize: 8.0,
-                                                    letterSpacing:
-                                                    0.0,
+                                                    color: Colors.white,
+                                                    fontSize: 15.0,
+                                                    letterSpacing: 0.0,
+                                                    fontWeight:
+                                                    FontWeight.w300,
                                                   ),
                                                 ),
                                                 Text(
@@ -3971,8 +3963,7 @@ class _StudentLineWidgetState extends State<StudentLineWidget>
                                                       .override(
                                                     fontFamily:
                                                     'Inria Serif',
-                                                    color: const Color(
-                                                        0xFFEEB609),
+                                                    color: Colors.white,
                                                     fontSize: 45.0,
                                                     letterSpacing: 0.0,
                                                   ),
@@ -4078,21 +4069,19 @@ class _StudentLineWidgetState extends State<StudentLineWidget>
                                                   ),
                                                 ),
                                                 Text(
-                                                  'Cras facilisis, urna et pharetra elementum, velit ante gravida \narcu, id semper enim orci in massa. Proin vehicula mauris a \nnisi dignissim, sit amet molestie libero faucibus. ',
-                                                  textAlign: TextAlign.end,
-                                                  style:
-                                                  FlutterFlowTheme.of(
+                                                  'In 2021, we formed a partnership with the USGS, \nfurther broadening the scope of hands-on experiences available to \nour students. This collaboration allows our students to work on real-world \nenvironmental and scientific projects, developing critical skills and \ngaining valuable insights into the field of science and technology.',
+                                                  textAlign: TextAlign.center,
+                                                  style: FlutterFlowTheme.of(
                                                       context)
                                                       .bodyMedium
                                                       .override(
                                                     fontFamily:
                                                     'Inria Serif',
-                                                    color: FlutterFlowTheme.of(
-                                                        context)
-                                                        .secondaryBackground,
-                                                    fontSize: 10.0,
-                                                    letterSpacing:
-                                                    0.0,
+                                                    color: Colors.white,
+                                                    fontSize: 20.0,
+                                                    letterSpacing: 0.0,
+                                                    fontWeight:
+                                                    FontWeight.w300,
                                                   ),
                                                 ),
                                                 Text(
@@ -4103,8 +4092,7 @@ class _StudentLineWidgetState extends State<StudentLineWidget>
                                                       .override(
                                                     fontFamily:
                                                     'Inria Serif',
-                                                    color: const Color(
-                                                        0xFFEEB609),
+                                                    color: Colors.white,
                                                     fontSize: 50.0,
                                                     letterSpacing: 0.0,
                                                   ),
