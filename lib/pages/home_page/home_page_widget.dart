@@ -782,7 +782,7 @@ class _HomePageWidgetState extends State<HomePageWidget>
                           ))
                             Container(
                               width: MediaQuery.sizeOf(context).width * 1.0,
-                              height: MediaQuery.sizeOf(context).height * 1.0,
+                              height: MediaQuery.sizeOf(context).height * 0.5,
                               decoration: BoxDecoration(
                                 color: FlutterFlowTheme.of(context)
                                     .secondaryBackground,
@@ -824,7 +824,7 @@ class _HomePageWidgetState extends State<HomePageWidget>
                                                 const EdgeInsetsDirectional.fromSTEB(
                                                     0.0, 0.0, 40.0, 0.0),
                                             child: Text(
-                                              'Lorem ipsum dolor sit amet, \nconsecteturadipiscing elit. \nIn a quam tellus. Mauris risus \ndui,efficitur sit amet eros ut, \nultricies cursus felis.Phasellus \negestas finibus nisi, id vehicula \narcusodales in. Pellentesque \nvitae efficitur eros. Fuscein \nvarius elit, quis ullamcorper \narcu. Suspendisseligula purus, \nmolestie non nunc vitae,\nconsectetur vestibulum sem.',
+                                              'At Northern Horizon, we transform education by \nintegrating real-world experience with academic learning. Our mission is to \nguide students towards future careers through personalized counseling, \nskill development programs, and project-based learning. \nLocated in the Catskills, we nurture the next \ngeneration of leaders and innovators by providing practical \nexperience and meaningful industry partnerships.',
                                               textAlign: TextAlign.center,
                                               style:
                                                   FlutterFlowTheme.of(context)
@@ -850,7 +850,7 @@ class _HomePageWidgetState extends State<HomePageWidget>
                                               borderRadius:
                                                   BorderRadius.circular(8.0),
                                               child: Image.network(
-                                                'https://picsum.photos/seed/876/600',
+                                                'https://images.unsplash.com/photo-1662663560803-db03b7821eb9?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NTYyMDF8MHwxfHNlYXJjaHwxNHx8Y2F0c2tpbGwlMjBtb3VudGFpbnN8ZW58MHx8fHwxNzE4NzM2NjkxfDA&ixlib=rb-4.0.3&q=80&w=1080',
                                                 width:
                                                     MediaQuery.sizeOf(context)
                                                             .width *
@@ -862,49 +862,6 @@ class _HomePageWidgetState extends State<HomePageWidget>
                                                 fit: BoxFit.cover,
                                               ),
                                             ),
-                                          ),
-                                          Row(
-                                            mainAxisSize: MainAxisSize.max,
-                                            children: [
-                                              ClipRRect(
-                                                borderRadius:
-                                                    BorderRadius.circular(8.0),
-                                                child: Image.network(
-                                                  'https://picsum.photos/seed/667/600',
-                                                  width:
-                                                      MediaQuery.sizeOf(context)
-                                                              .width *
-                                                          0.193,
-                                                  height:
-                                                      MediaQuery.sizeOf(context)
-                                                              .height *
-                                                          0.25,
-                                                  fit: BoxFit.cover,
-                                                ),
-                                              ),
-                                              Padding(
-                                                padding: const EdgeInsetsDirectional
-                                                    .fromSTEB(
-                                                        20.0, 0.0, 0.0, 0.0),
-                                                child: ClipRRect(
-                                                  borderRadius:
-                                                      BorderRadius.circular(
-                                                          8.0),
-                                                  child: Image.network(
-                                                    'https://picsum.photos/seed/759/600',
-                                                    width: MediaQuery.sizeOf(
-                                                                context)
-                                                            .width *
-                                                        0.193,
-                                                    height: MediaQuery.sizeOf(
-                                                                context)
-                                                            .height *
-                                                        0.25,
-                                                    fit: BoxFit.cover,
-                                                  ),
-                                                ),
-                                              ),
-                                            ],
                                           ),
                                         ],
                                       ),
@@ -958,7 +915,7 @@ class _HomePageWidgetState extends State<HomePageWidget>
                                     child: ClipRRect(
                                       borderRadius: BorderRadius.circular(0.0),
                                       child: Image.network(
-                                        'https://picsum.photos/seed/876/600',
+                                        'https://images.unsplash.com/photo-1662663560803-db03b7821eb9?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NTYyMDF8MHwxfHNlYXJjaHwxNHx8Y2F0c2tpbGwlMjBtb3VudGFpbnN8ZW58MHx8fHwxNzE4NzM2NjkxfDA&ixlib=rb-4.0.3&q=80&w=1080',
                                         width:
                                             MediaQuery.sizeOf(context).width *
                                                 0.85,
@@ -970,7 +927,7 @@ class _HomePageWidgetState extends State<HomePageWidget>
                                     ),
                                   ),
                                   Text(
-                                    'Lorem ipsum dolor sit amet, consectetur \nadipiscing elit. In a quam tellus. Mauris risus dui, \nefficitur sit amet eros ut, ultricies cursus felis. \nPhasellus egestas finibus nisi, id vehicula arcu \nsodales in. Pellentesque vitae efficitur eros. Fusce \nin varius elit, quis ullamcorper arcu. Suspendisse \nligula purus, molestie non nunc vitae, \nconsectetur vestibulum sem.',
+                                    'At Northern Horizon, we transform education by \nintegrating real-world experience with academic learning. Our mission is to \nguide students towards future careers through personalized counseling, \nskill development programs, and project-based learning. \nLocated in the Catskills, we nurture the next \ngeneration of leaders and innovators by providing practical \nexperience and meaningful industry partnerships.',
                                     textAlign: TextAlign.center,
                                     style: FlutterFlowTheme.of(context)
                                         .bodyMedium
@@ -999,9 +956,9 @@ class _HomePageWidgetState extends State<HomePageWidget>
                               child: Stack(
                                 children: [
                                   ClipRRect(
-                                    borderRadius: BorderRadius.circular(8.0),
-                                    child: Image.network(
-                                      'https://images.unsplash.com/photo-1545935950-b7a28791ad7a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NTYyMDF8MHwxfHNlYXJjaHw3fHxPVVIlMjBNSVNTSU9OfGVufDB8fHx8MTcxODQ2OTQ3NHww&ixlib=rb-4.0.3&q=80&w=1080',
+                                    borderRadius: BorderRadius.circular(0),
+                                    child: Image.asset(
+                                      'images/2023NA_289.webp',
                                       width: MediaQuery.sizeOf(context).width *
                                           1.0,
                                       height:
@@ -1058,38 +1015,40 @@ class _HomePageWidgetState extends State<HomePageWidget>
                                         padding: const EdgeInsetsDirectional.fromSTEB(
                                             0.0, 0.0, 0.0, 15.0),
                                         child: Text(
-                                          'LOREM IPSUIM DOLOR SIT AMET, CONSECTETUR ADIPISCING ELIT.',
+                                          'Empower students with real-world experience.',
+                                          textAlign: TextAlign.center,
                                           style: FlutterFlowTheme.of(context)
                                               .bodyMedium
                                               .override(
-                                                fontFamily: 'NORD',
-                                                color: Colors.white,
-                                                fontSize: 20.0,
-                                                letterSpacing: 0.0,
-                                                useGoogleFonts: false,
-                                              ),
+                                            fontFamily: 'NORD',
+                                            color: Colors.white,
+                                            fontSize: 30.0,
+                                            letterSpacing: 0.0,
+                                            useGoogleFonts: false,
+                                          ),
                                         ),
                                       ),
                                       Padding(
                                         padding: const EdgeInsetsDirectional.fromSTEB(
                                             200.0, 0.0, 200.0, 0.0),
                                         child: Text(
-                                          'Lorem ipsum dolor sit amet, consectetur adipiscing elit. In a quam tellus. Mauris risus dui, efficitur sit amet eros ut, ultricies cursus felis. Phasellus egestas finibus nisi, id vehicula arcu sodales in. Pellentesque vitae efficitur eros. Fusce in varius elit, quis ullamcorper arcu. Suspendisse ligula purus, molestie non nunc vitae, consectetur vestibulum sem.',
+                                          'At Northern Horizon, our mission is to bridge the gap between academic learning and real-world experience. \nWe strive to provide our students with hands-on opportunities through collaborations with \nleading organizations, enabling them to develop practical skills, gain valuable insights, and prepare \nfor impactful careers. Our focus is on creating an immersive educational environment \nthat fosters innovation, critical thinking, and a passion for lifelong learning.',
+                                          textAlign: TextAlign.center,
                                           style: FlutterFlowTheme.of(context)
                                               .bodyMedium
                                               .override(
-                                                fontFamily: 'Inria Serif',
-                                                color: Colors.white,
-                                                fontSize: 20.0,
-                                                letterSpacing: 0.0,
-                                              ),
+                                            fontFamily: 'Inria Serif',
+                                            color: Colors.white,
+                                            fontSize: 24.0,
+                                            letterSpacing: 0.0,
+                                          ),
                                         ),
                                       ),
                                     ],
                                   ),
                                 ],
                               ),
-                            ),
+                            ), //Our Mission Web
                           if (responsiveVisibility(
                             context: context,
                             tablet: false,
@@ -1106,9 +1065,9 @@ class _HomePageWidgetState extends State<HomePageWidget>
                               child: Stack(
                                 children: [
                                   ClipRRect(
-                                    borderRadius: BorderRadius.circular(8.0),
-                                    child: Image.network(
-                                      'https://images.unsplash.com/photo-1545935950-b7a28791ad7a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NTYyMDF8MHwxfHNlYXJjaHw3fHxPVVIlMjBNSVNTSU9OfGVufDB8fHx8MTcxODQ2OTQ3NHww&ixlib=rb-4.0.3&q=80&w=1080',
+                                    borderRadius: BorderRadius.circular(0),
+                                    child: Image.asset(
+                                      'images/2023NA_289.webp',
                                       width: MediaQuery.sizeOf(context).width *
                                           1.0,
                                       height:
@@ -1165,7 +1124,7 @@ class _HomePageWidgetState extends State<HomePageWidget>
                                         padding: const EdgeInsetsDirectional.fromSTEB(
                                             15.0, 0.0, 15.0, 15.0),
                                         child: Text(
-                                          'LOREM IPSUIM DOLOR SIT AMET, CONSECTETUR ADIPISCING ELIT.',
+                                          'Empowering students with real-world experience through hands-on learning and innovative collaborations.',
                                           textAlign: TextAlign.center,
                                           style: FlutterFlowTheme.of(context)
                                               .bodyMedium
@@ -1182,7 +1141,7 @@ class _HomePageWidgetState extends State<HomePageWidget>
                                         padding: const EdgeInsetsDirectional.fromSTEB(
                                             15.0, 0.0, 15.0, 0.0),
                                         child: Text(
-                                          'Lorem ipsum dolor sit amet, consectetur adipiscing elit. In a quam tellus. Mauris risus dui, efficitur sit amet eros ut, ultricies cursus felis. Phasellus egestas finibus nisi, id vehicula arcu sodales in. Pellentesque vitae efficitur eros. Fusce in varius elit, quis ullamcorper arcu. Suspendisse ligula purus, molestie non nunc vitae, consectetur vestibulum sem.',
+                                          'At Northern Horizon, our mission is to bridge the gap between academic learning and real-world experience. \nWe strive to provide our students with hands-on opportunities through collaborations with \nleading organizations, enabling them to develop practical skills, gain valuable insights, and prepare \nfor impactful careers. Our focus is on creating an immersive educational environment \nthat fosters innovation, critical thinking, and a passion for lifelong learning.',
                                           textAlign: TextAlign.center,
                                           style: FlutterFlowTheme.of(context)
                                               .bodyMedium
@@ -1198,7 +1157,7 @@ class _HomePageWidgetState extends State<HomePageWidget>
                                   ),
                                 ],
                               ),
-                            ),
+                            ),  //Our Mission
                           if (responsiveVisibility(
                             context: context,
                             phone: false,
@@ -1275,7 +1234,7 @@ class _HomePageWidgetState extends State<HomePageWidget>
                                         padding: const EdgeInsetsDirectional.fromSTEB(
                                             40.0, 15.0, 40.0, 0.0),
                                         child: Text(
-                                          'Lorem ipsum dolor sit amet, consectetur \nadipiscing elit. In a quam tellus. Mauris risus dui, \nefficitur sit amet eros ut, ultricies cursus felis. \nPhasellus egestas finibus nisi, id vehicula arcu \nsodales in. Pellentesque vitae efficitur eros. Fusce \nin varius elit, quis ullamcorper arcu. Suspendisse \nligula purus, molestie non nunc vitae, \nconsectetur vestibulum sem.',
+                                          'Discover the Northern Horizon experience firsthand. \nNestled in the scenic Catskills, our campus \noffers an inspiring environment for learning \nand growth. Whether you are a prospective \nstudent, parent, or industry partner, \nvisit us to see how our innovative \napproach is shaping the future of \neducation. Explore our facilities, meet our \nteam, and learn how we can help you \nachieve your career aspirations.',
                                           style: FlutterFlowTheme.of(context)
                                               .bodyMedium
                                               .override(
@@ -1394,7 +1353,7 @@ class _HomePageWidgetState extends State<HomePageWidget>
                                   ),
                                 ],
                               ),
-                            ),
+                            ), //Visit Us Web
                           if (responsiveVisibility(
                             context: context,
                             tablet: false,
@@ -1587,7 +1546,7 @@ class _HomePageWidgetState extends State<HomePageWidget>
                                   ),
                                 ],
                               ),
-                            ),
+                            ), //Visit Us
                           if (responsiveVisibility(
                             context: context,
                             phone: false,
@@ -1596,7 +1555,7 @@ class _HomePageWidgetState extends State<HomePageWidget>
                           ))
                             Container(
                               width: MediaQuery.sizeOf(context).width * 1.0,
-                              height: MediaQuery.sizeOf(context).height * 1.0,
+                              height: MediaQuery.sizeOf(context).height * 0.75,
                               decoration: const BoxDecoration(
                                 color: Colors.white,
                               ),
@@ -1605,7 +1564,7 @@ class _HomePageWidgetState extends State<HomePageWidget>
                                 child: Container(
                                   width: MediaQuery.sizeOf(context).width * 0.9,
                                   height:
-                                      MediaQuery.sizeOf(context).height * 0.9,
+                                      MediaQuery.sizeOf(context).height * 0.65,
                                   decoration: const BoxDecoration(
                                     color: Color(0xFFE7DCC6),
                                     shape: BoxShape.rectangle,
@@ -1768,7 +1727,7 @@ class _HomePageWidgetState extends State<HomePageWidget>
                                   ),
                                 ),
                               ),
-                            ),
+                            ), //Newsletter Web
                           if (responsiveVisibility(
                             context: context,
                             tablet: false,
@@ -1967,7 +1926,7 @@ class _HomePageWidgetState extends State<HomePageWidget>
                                   ),
                                 ),
                               ),
-                            ),
+                            ), //Newsletter
                           if (responsiveVisibility(
                             context: context,
                             phone: false,

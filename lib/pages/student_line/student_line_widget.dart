@@ -807,7 +807,7 @@ class _StudentLineWidgetState extends State<StudentLineWidget>
                                                   .override(
                                                     fontFamily: 'NORD',
                                                     color: const Color(0xFFEEB609),
-                                                    fontSize: 24.0,
+                                                    fontSize: 48.0,
                                                     letterSpacing: 0.0,
                                                     fontWeight: FontWeight.bold,
                                                     useGoogleFonts: false,
@@ -962,7 +962,7 @@ class _StudentLineWidgetState extends State<StudentLineWidget>
                                                   .override(
                                                     fontFamily: 'NORD',
                                                     color: const Color(0xFFEEB609),
-                                                    fontSize: 24.0,
+                                                    fontSize: 48.0,
                                                     letterSpacing: 0.0,
                                                     fontWeight: FontWeight.bold,
                                                     useGoogleFonts: false,
@@ -3380,356 +3380,341 @@ class _StudentLineWidgetState extends State<StudentLineWidget>
                             color: FlutterFlowTheme.of(context)
                                 .secondaryBackground,
                           ),
-                          child: Stack(
+                          child: Column(
+                            mainAxisSize: MainAxisSize.max,
                             children: [
-                              Column(
-                                mainAxisSize: MainAxisSize.max,
-                                children: [
-                                  SizedBox(
-                                    width:
-                                        MediaQuery.sizeOf(context).width * 1.0,
-                                    height: MediaQuery.sizeOf(context).height *
-                                        0.333,
-                                    child: Stack(
+                              SizedBox(
+                                width:
+                                MediaQuery.sizeOf(context).width * 1.0,
+                                height: MediaQuery.sizeOf(context).height *
+                                    0.333,
+                                child: Stack(
+                                  children: [
+                                    Container(
+                                      width: MediaQuery.sizeOf(context)
+                                          .width *
+                                          1.0,
+                                      height: MediaQuery.sizeOf(context)
+                                          .height *
+                                          0.333,
+                                      decoration: const BoxDecoration(
+                                        color: Color(0xFFEEB609),
+                                      ),
+                                    ),
+                                    Row(
+                                      mainAxisSize: MainAxisSize.max,
+                                      mainAxisAlignment:
+                                      MainAxisAlignment.center,
                                       children: [
-                                        ClipRRect(
-                                          borderRadius:
-                                              BorderRadius.circular(0.0),
-                                          child: Image.network(
-                                            'https://images.unsplash.com/photo-1541873676-a18131494184?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NTYyMDF8MHwxfHNlYXJjaHwxfHxOQVNBfGVufDB8fHx8MTcxNjgyMzEyOHww&ixlib=rb-4.0.3&q=80&w=1080',
-                                            width: MediaQuery.sizeOf(context)
+                                        Align(
+                                          alignment: const AlignmentDirectional(
+                                              0.0, 0.0),
+                                          child: Padding(
+                                            padding: const EdgeInsetsDirectional
+                                                .fromSTEB(
+                                                0.0, 0.0, 200.0, 0.0),
+                                            child: ClipRRect(
+                                              borderRadius:
+                                              BorderRadius.circular(
+                                                  0.0),
+                                              child: Image.asset(
+                                                'images/7422495_nasa_space_shuttle_universe_explore_icon_1.png',
+                                                width: MediaQuery.sizeOf(
+                                                    context)
                                                     .width *
-                                                1.0,
-                                            height: MediaQuery.sizeOf(context)
+                                                    0.3,
+                                                height: MediaQuery.sizeOf(
+                                                    context)
                                                     .height *
-                                                1.0,
-                                            fit: BoxFit.cover,
-                                            alignment: const Alignment(0.0, -0.3),
-                                          ),
-                                        ),
-                                        Row(
-                                          mainAxisSize: MainAxisSize.max,
-                                          mainAxisAlignment:
-                                              MainAxisAlignment.center,
-                                          children: [
-                                            Align(
-                                              alignment: const AlignmentDirectional(
-                                                  0.0, 0.0),
-                                              child: Padding(
-                                                padding: const EdgeInsetsDirectional
-                                                    .fromSTEB(
-                                                        0.0, 0.0, 200.0, 0.0),
-                                                child: ClipRRect(
-                                                  borderRadius:
-                                                      BorderRadius.circular(
-                                                          0.0),
-                                                  child: Image.asset(
-                                                    'assets/images/7422495_nasa_space_shuttle_universe_explore_icon_1.png',
-                                                    width: MediaQuery.sizeOf(
-                                                                context)
-                                                            .width *
-                                                        0.3,
-                                                    height: MediaQuery.sizeOf(
-                                                                context)
-                                                            .height *
-                                                        1.0,
-                                                    fit: BoxFit.contain,
-                                                    alignment:
-                                                        const Alignment(0.0, 0.0),
-                                                  ),
-                                                ),
+                                                    1.0,
+                                                fit: BoxFit.contain,
+                                                alignment:
+                                                const Alignment(0.0, 0.0),
                                               ),
                                             ),
-                                            Column(
-                                              mainAxisSize: MainAxisSize.max,
-                                              mainAxisAlignment:
-                                                  MainAxisAlignment.center,
-                                              crossAxisAlignment:
-                                                  CrossAxisAlignment.start,
-                                              children: [
-                                                Text(
-                                                  'WHERE IT ALL BEGAN',
-                                                  style: FlutterFlowTheme.of(
-                                                          context)
-                                                      .bodyMedium
-                                                      .override(
-                                                        fontFamily: 'NORD',
-                                                        color: Colors.white,
-                                                        fontSize: 36.0,
-                                                        letterSpacing: 0.0,
-                                                        fontWeight:
-                                                            FontWeight.bold,
-                                                        useGoogleFonts: false,
-                                                      ),
-                                                ),
-                                                Text(
-                                                  'Cras facilisis, urna et pharetra elementum, velit \nante gravida arcu, id semper enim orci in massa. \nProin vehicula mauris a nisi dignissim, sit amet \nmolestie libero faucibus. ',
-                                                  style: FlutterFlowTheme.of(
-                                                          context)
-                                                      .bodyMedium
-                                                      .override(
-                                                        fontFamily:
-                                                            'Inria Serif',
-                                                        color: Colors.white,
-                                                        fontSize: 20.0,
-                                                        letterSpacing: 0.0,
-                                                        fontWeight:
-                                                            FontWeight.w300,
-                                                      ),
-                                                ),
-                                                Text(
-                                                  '2019',
-                                                  style: FlutterFlowTheme.of(
-                                                          context)
-                                                      .bodyMedium
-                                                      .override(
-                                                        fontFamily:
-                                                            'Inria Serif',
-                                                        color:
-                                                            const Color(0xFFEEB609),
-                                                        fontSize: 96.0,
-                                                        letterSpacing: 0.0,
-                                                        fontWeight:
-                                                            FontWeight.bold,
-                                                      ),
-                                                ),
-                                              ],
-                                            ),
-                                          ],
-                                        ),
-                                      ],
-                                    ),
-                                  ),
-                                  SizedBox(
-                                    width:
-                                        MediaQuery.sizeOf(context).width * 1.0,
-                                    height: MediaQuery.sizeOf(context).height *
-                                        0.333,
-                                    child: Stack(
-                                      children: [
-                                        ClipRRect(
-                                          borderRadius:
-                                              BorderRadius.circular(0.0),
-                                          child: Image.network(
-                                            'https://images.unsplash.com/photo-1623278589094-6741f418d3bf?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NTYyMDF8MHwxfHNlYXJjaHwzfHxVTklURUQlMjBOQVRJT05TfGVufDB8fHx8MTcxNjgyMzI4M3ww&ixlib=rb-4.0.3&q=80&w=1080',
-                                            width: MediaQuery.sizeOf(context)
-                                                    .width *
-                                                1.0,
-                                            height: MediaQuery.sizeOf(context)
-                                                    .height *
-                                                1.0,
-                                            fit: BoxFit.cover,
-                                            alignment: const Alignment(0.0, -0.5),
                                           ),
                                         ),
-                                        Row(
+                                        Column(
                                           mainAxisSize: MainAxisSize.max,
                                           mainAxisAlignment:
-                                              MainAxisAlignment.center,
+                                          MainAxisAlignment.center,
+                                          crossAxisAlignment:
+                                          CrossAxisAlignment.center,
                                           children: [
-                                            Column(
-                                              mainAxisSize: MainAxisSize.max,
-                                              mainAxisAlignment:
-                                                  MainAxisAlignment.center,
-                                              crossAxisAlignment:
-                                                  CrossAxisAlignment.start,
-                                              children: [
-                                                Text(
-                                                  'THE GREAT LEAP FORWARD',
-                                                  style: FlutterFlowTheme.of(
-                                                          context)
-                                                      .bodyMedium
-                                                      .override(
-                                                        fontFamily: 'NORD',
-                                                        color: Colors.white,
-                                                        fontSize: 36.0,
-                                                        letterSpacing: 0.0,
-                                                        fontWeight:
-                                                            FontWeight.bold,
-                                                        useGoogleFonts: false,
-                                                      ),
-                                                ),
-                                                Text(
-                                                  'Cras risus tellus, pellentesque in dignissim vitae, lacinia vitae \nrisus. Quisque sit amet elit at velit congue pellentesque. Integer \nimperdiet felis eu gravida vehicula. Donec sem elit, suscipit non \nlibero ac, commodo venenatis erat. Etiam quam orci, facilisis eu \nluctus quis, laoreet at ante. Aenean dignissim nisl velit, euismod \nsollicitudin augue vehicula pretium. ',
-                                                  style: FlutterFlowTheme.of(
-                                                          context)
-                                                      .bodyMedium
-                                                      .override(
-                                                        fontFamily:
-                                                            'Inria Serif',
-                                                        color: Colors.white,
-                                                        fontSize: 20.0,
-                                                        letterSpacing: 0.0,
-                                                        fontWeight:
-                                                            FontWeight.w300,
-                                                      ),
-                                                ),
-                                                Text(
-                                                  '2020',
-                                                  style: FlutterFlowTheme.of(
-                                                          context)
-                                                      .bodyMedium
-                                                      .override(
-                                                        fontFamily:
-                                                            'Inria Serif',
-                                                        color:
-                                                            const Color(0xFFEEB609),
-                                                        fontSize: 96.0,
-                                                        letterSpacing: 0.0,
-                                                        fontWeight:
-                                                            FontWeight.bold,
-                                                      ),
-                                                ),
-                                              ],
+                                            Text(
+                                              'WHERE IT ALL BEGAN',
+                                              style: FlutterFlowTheme.of(
+                                                  context)
+                                                  .bodyMedium
+                                                  .override(
+                                                fontFamily: 'NORD',
+                                                color: Colors.white,
+                                                fontSize: 36.0,
+                                                letterSpacing: 0.0,
+                                                fontWeight:
+                                                FontWeight.bold,
+                                                useGoogleFonts: false,
+                                              ),
                                             ),
-                                            Align(
-                                              alignment: const AlignmentDirectional(
-                                                  0.0, 0.0),
-                                              child: Padding(
-                                                padding: const EdgeInsetsDirectional
-                                                    .fromSTEB(
-                                                        200.0, 0.0, 0.0, 0.0),
-                                                child: ClipRRect(
-                                                  borderRadius:
-                                                      BorderRadius.circular(
-                                                          8.0),
-                                                  child: Image.asset(
-                                                    'assets/images/Mask_group.png',
-                                                    width: MediaQuery.sizeOf(
-                                                                context)
-                                                            .width *
-                                                        0.3,
-                                                    height: MediaQuery.sizeOf(
-                                                                context)
-                                                            .height *
-                                                        1.0,
-                                                    fit: BoxFit.contain,
-                                                    alignment:
-                                                        const Alignment(0.0, 0.0),
-                                                  ),
-                                                ),
+                                            Text(
+                                              'In 2019, Northern Horizon embarked on a \ngroundbreaking journey by partnering with NASA. \nThis collaboration provided our students with unparalleled \nopportunities to work on cutting-edge space projects, \nsetting the foundation for our mission to bridge the gap \nbetween education and real-world applications.',
+                                              textAlign: TextAlign.center,
+                                              style: FlutterFlowTheme.of(
+                                                  context)
+                                                  .bodyMedium
+                                                  .override(
+                                                fontFamily:
+                                                'Inria Serif',
+                                                color: Colors.white,
+                                                fontSize: 20.0,
+                                                letterSpacing: 0.0,
+                                                fontWeight:
+                                                FontWeight.w300,
+                                              ),
+                                            ),
+                                            Text(
+                                              '2019',
+                                              style: FlutterFlowTheme.of(
+                                                  context)
+                                                  .bodyMedium
+                                                  .override(
+                                                fontFamily:
+                                                'Inria Serif',
+                                                color: Colors.white,
+                                                fontSize: 96.0,
+                                                letterSpacing: 0.0,
+                                                fontWeight:
+                                                FontWeight.bold,
                                               ),
                                             ),
                                           ],
                                         ),
                                       ],
                                     ),
-                                  ),
-                                  SizedBox(
-                                    width:
-                                        MediaQuery.sizeOf(context).width * 1.0,
-                                    height: MediaQuery.sizeOf(context).height *
-                                        0.333,
-                                    child: Stack(
+                                  ],
+                                ),
+                              ),
+                              SizedBox(
+                                width:
+                                MediaQuery.sizeOf(context).width * 1.0,
+                                height: MediaQuery.sizeOf(context).height *
+                                    0.333,
+                                child: Stack(
+                                  children: [
+                                    Container(
+                                      width: MediaQuery.sizeOf(context)
+                                          .width *
+                                          1.0,
+                                      height: MediaQuery.sizeOf(context)
+                                          .height *
+                                          0.333,
+                                      decoration: const BoxDecoration(
+                                        color: Color(0xFFE7DDC6),
+                                      ),
+                                    ),
+                                    Row(
+                                      mainAxisSize: MainAxisSize.max,
+                                      mainAxisAlignment:
+                                      MainAxisAlignment.center,
                                       children: [
-                                        ClipRRect(
-                                          borderRadius:
-                                              BorderRadius.circular(0.0),
-                                          child: Image.network(
-                                            'https://images.unsplash.com/photo-1631563018889-23f47a027973?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NTYyMDF8MHwxfHNlYXJjaHwyfHxVU0dTfGVufDB8fHx8MTcxNjgyMzM0MHww&ixlib=rb-4.0.3&q=80&w=1080',
-                                            width: MediaQuery.sizeOf(context)
-                                                    .width *
-                                                1.0,
-                                            height: MediaQuery.sizeOf(context)
-                                                    .height *
-                                                1.0,
-                                            fit: BoxFit.cover,
-                                          ),
-                                        ),
-                                        Row(
+                                        Column(
                                           mainAxisSize: MainAxisSize.max,
                                           mainAxisAlignment:
-                                              MainAxisAlignment.center,
+                                          MainAxisAlignment.center,
+                                          crossAxisAlignment:
+                                          CrossAxisAlignment.center,
                                           children: [
-                                            Align(
-                                              alignment: const AlignmentDirectional(
-                                                  0.0, 0.0),
-                                              child: Padding(
-                                                padding: const EdgeInsetsDirectional
-                                                    .fromSTEB(
-                                                        0.0, 0.0, 200.0, 0.0),
-                                                child: ClipRRect(
-                                                  borderRadius:
-                                                      BorderRadius.circular(
-                                                          8.0),
-                                                  child: Image.network(
-                                                    'https://static.wixstatic.com/media/b95a20_e357c64f59a540c58b7a8dda5a8bbd84~mv2.png/v1/fill/w_740,h_495,al_c,q_90/b95a20_e357c64f59a540c58b7a8dda5a8bbd84~mv2.png',
-                                                    width: MediaQuery.sizeOf(
-                                                                context)
-                                                            .width *
-                                                        0.3,
-                                                    height: MediaQuery.sizeOf(
-                                                                context)
-                                                            .height *
-                                                        1.0,
-                                                    fit: BoxFit.contain,
-                                                    alignment:
-                                                        const Alignment(0.0, 0.0),
-                                                  ),
-                                                ),
+                                            Text(
+                                              'THE GREAT LEAP FORWARD',
+                                              style: FlutterFlowTheme.of(
+                                                  context)
+                                                  .bodyMedium
+                                                  .override(
+                                                fontFamily: 'NORD',
+                                                color: Colors.white,
+                                                fontSize: 36.0,
+                                                letterSpacing: 0.0,
+                                                fontWeight:
+                                                FontWeight.bold,
+                                                useGoogleFonts: false,
                                               ),
                                             ),
-                                            Column(
-                                              mainAxisSize: MainAxisSize.max,
-                                              mainAxisAlignment:
-                                                  MainAxisAlignment.center,
-                                              crossAxisAlignment:
-                                                  CrossAxisAlignment.start,
-                                              children: [
-                                                Text(
-                                                  'THE GREAT LEAP FORWARD',
-                                                  style: FlutterFlowTheme.of(
-                                                          context)
-                                                      .bodyMedium
-                                                      .override(
-                                                        fontFamily: 'NORD',
-                                                        color: Colors.white,
-                                                        fontSize: 36.0,
-                                                        letterSpacing: 0.0,
-                                                        fontWeight:
-                                                            FontWeight.bold,
-                                                        useGoogleFonts: false,
-                                                      ),
-                                                ),
-                                                Text(
-                                                  'Cras facilisis, urna et pharetra elementum, velit \nante gravida arcu, id semper enim orci in massa. \nProin vehicula mauris a nisi dignissim, sit amet \nmolestie libero faucibus. ',
-                                                  style: FlutterFlowTheme.of(
-                                                          context)
-                                                      .bodyMedium
-                                                      .override(
-                                                        fontFamily:
-                                                            'Inria Serif',
-                                                        color: Colors.white,
-                                                        fontSize: 20.0,
-                                                        letterSpacing: 0.0,
-                                                        fontWeight:
-                                                            FontWeight.w300,
-                                                      ),
-                                                ),
-                                                Text(
-                                                  '2021',
-                                                  style: FlutterFlowTheme.of(
-                                                          context)
-                                                      .bodyMedium
-                                                      .override(
-                                                        fontFamily:
-                                                            'Inria Serif',
-                                                        color:
-                                                            const Color(0xFFEEB609),
-                                                        fontSize: 96.0,
-                                                        letterSpacing: 0.0,
-                                                        fontWeight:
-                                                            FontWeight.bold,
-                                                      ),
-                                                ),
-                                              ],
+                                            Text(
+                                              'In 2020, we took a significant step forward by \npartnering with the United Nations. This collaboration \nenabled our students to engage in global initiatives, enhancing \ntheir skills and perspectives while preparing them for \nimpactful careers on the international stage.',
+                                              textAlign: TextAlign.center,
+                                              style: FlutterFlowTheme.of(
+                                                  context)
+                                                  .bodyMedium
+                                                  .override(
+                                                fontFamily:
+                                                'Inria Serif',
+                                                color: Colors.white,
+                                                fontSize: 15.0,
+                                                letterSpacing: 0.0,
+                                                fontWeight:
+                                                FontWeight.w300,
+                                              ),
+                                            ),
+                                            Text(
+                                              '2020',
+                                              style: FlutterFlowTheme.of(
+                                                  context)
+                                                  .bodyMedium
+                                                  .override(
+                                                fontFamily:
+                                                'Inria Serif',
+                                                color: Colors.white,
+                                                fontSize: 96.0,
+                                                letterSpacing: 0.0,
+                                                fontWeight:
+                                                FontWeight.bold,
+                                              ),
+                                            ),
+                                          ],
+                                        ),
+                                        Align(
+                                          alignment: const AlignmentDirectional(
+                                              0.0, 0.0),
+                                          child: Padding(
+                                            padding: const EdgeInsetsDirectional
+                                                .fromSTEB(
+                                                200.0, 0.0, 0.0, 0.0),
+                                            child: ClipRRect(
+                                              borderRadius:
+                                              BorderRadius.circular(
+                                                  8.0),
+                                              child: Image.asset(
+                                                'images/Mask_group.png',
+                                                width: MediaQuery.sizeOf(
+                                                    context)
+                                                    .width *
+                                                    0.3,
+                                                height: MediaQuery.sizeOf(
+                                                    context)
+                                                    .height *
+                                                    1.0,
+                                                fit: BoxFit.contain,
+                                                alignment:
+                                                const Alignment(0.0, 0.0),
+                                              ),
+                                            ),
+                                          ),
+                                        ),
+                                      ],
+                                    ),
+                                  ],
+                                ),
+                              ),
+                              SizedBox(
+                                width:
+                                MediaQuery.sizeOf(context).width * 1.0,
+                                height: MediaQuery.sizeOf(context).height *
+                                    0.333,
+                                child: Stack(
+                                  children: [
+                                    Container(
+                                      width: MediaQuery.sizeOf(context)
+                                          .width *
+                                          1.0,
+                                      height: MediaQuery.sizeOf(context)
+                                          .height *
+                                          0.333,
+                                      decoration: const BoxDecoration(
+                                        color: Color(0xFFD9D9D9),
+                                      ),
+                                    ),
+                                    Row(
+                                      mainAxisSize: MainAxisSize.max,
+                                      mainAxisAlignment:
+                                      MainAxisAlignment.center,
+                                      children: [
+                                        Align(
+                                          alignment: const AlignmentDirectional(
+                                              0.0, 0.0),
+                                          child: Padding(
+                                            padding: const EdgeInsetsDirectional
+                                                .fromSTEB(
+                                                0.0, 0.0, 200.0, 0.0),
+                                            child: ClipRRect(
+                                              borderRadius:
+                                              BorderRadius.circular(
+                                                  8.0),
+                                              child: Image.asset(
+                                                'images/USGS.png',
+                                                width: MediaQuery.sizeOf(
+                                                    context)
+                                                    .width *
+                                                    0.3,
+                                                height: MediaQuery.sizeOf(
+                                                    context)
+                                                    .height *
+                                                    1.0,
+                                                fit: BoxFit.contain,
+                                                alignment:
+                                                const Alignment(0.0, 0.0),
+                                              ),
+                                            ),
+                                          ),
+                                        ),
+                                        Column(
+                                          mainAxisSize: MainAxisSize.max,
+                                          mainAxisAlignment:
+                                          MainAxisAlignment.center,
+                                          crossAxisAlignment:
+                                          CrossAxisAlignment.center,
+                                          children: [
+                                            Text(
+                                              'OUR LATEST PARTNER',
+                                              style: FlutterFlowTheme.of(
+                                                  context)
+                                                  .bodyMedium
+                                                  .override(
+                                                fontFamily: 'NORD',
+                                                color: Colors.white,
+                                                fontSize: 36.0,
+                                                letterSpacing: 0.0,
+                                                fontWeight:
+                                                FontWeight.bold,
+                                                useGoogleFonts: false,
+                                              ),
+                                            ),
+                                            Text(
+                                              'In 2021, we formed a partnership with the USGS, \nfurther broadening the scope of hands-on experiences available to \nour students. This collaboration allows our students to work on real-world \nenvironmental and scientific projects, developing critical skills and \ngaining valuable insights into the field of science and technology.',
+                                              textAlign: TextAlign.center,
+                                              style: FlutterFlowTheme.of(
+                                                  context)
+                                                  .bodyMedium
+                                                  .override(
+                                                fontFamily:
+                                                'Inria Serif',
+                                                color: Colors.white,
+                                                fontSize: 20.0,
+                                                letterSpacing: 0.0,
+                                                fontWeight:
+                                                FontWeight.w300,
+                                              ),
+                                            ),
+                                            Text(
+                                              '2021',
+                                              style: FlutterFlowTheme.of(
+                                                  context)
+                                                  .bodyMedium
+                                                  .override(
+                                                fontFamily:
+                                                'Inria Serif',
+                                                color: Colors.white,
+                                                fontSize: 96.0,
+                                                letterSpacing: 0.0,
+                                                fontWeight:
+                                                FontWeight.bold,
+                                              ),
                                             ),
                                           ],
                                         ),
                                       ],
                                     ),
-                                  ),
-                                ],
+                                  ],
+                                ),
                               ),
                             ],
                           ),
@@ -3754,60 +3739,64 @@ class _StudentLineWidgetState extends State<StudentLineWidget>
                                 children: [
                                   SizedBox(
                                     width:
-                                        MediaQuery.sizeOf(context).width * 1.0,
+                                    MediaQuery.sizeOf(context).width *
+                                        1.0,
                                     height:
-                                        MediaQuery.sizeOf(context).height * 0.3,
+                                    MediaQuery.sizeOf(context).height *
+                                        0.3,
                                     child: Stack(
                                       children: [
-                                        ClipRRect(
-                                          borderRadius:
-                                              BorderRadius.circular(0.0),
-                                          child: Image.network(
-                                            'https://picsum.photos/seed/620/600',
-                                            width: MediaQuery.sizeOf(context)
-                                                    .width *
-                                                1.0,
-                                            height: MediaQuery.sizeOf(context)
-                                                    .height *
-                                                1.0,
-                                            fit: BoxFit.cover,
+                                        Container(
+                                          width: MediaQuery.sizeOf(context)
+                                              .width *
+                                              1.0,
+                                          height: MediaQuery.sizeOf(context)
+                                              .height *
+                                              0.333,
+                                          decoration: const BoxDecoration(
+                                            color: Color(0xFFEEB609),
                                           ),
                                         ),
                                         Align(
-                                          alignment:
-                                              const AlignmentDirectional(0.0, 0.0),
+                                          alignment: const AlignmentDirectional(
+                                              0.0, 0.0),
                                           child: Container(
-                                            width: MediaQuery.sizeOf(context)
-                                                    .width *
+                                            width:
+                                            MediaQuery.sizeOf(context)
+                                                .width *
                                                 0.9,
-                                            height: MediaQuery.sizeOf(context)
-                                                    .height *
+                                            height:
+                                            MediaQuery.sizeOf(context)
+                                                .height *
                                                 0.255,
                                             decoration: const BoxDecoration(),
                                             child: Column(
-                                              mainAxisSize: MainAxisSize.max,
+                                              mainAxisSize:
+                                              MainAxisSize.max,
                                               mainAxisAlignment:
-                                                  MainAxisAlignment.center,
+                                              MainAxisAlignment.center,
                                               crossAxisAlignment:
-                                                  CrossAxisAlignment.end,
+                                              CrossAxisAlignment.end,
                                               children: [
                                                 Align(
                                                   alignment:
-                                                      const AlignmentDirectional(
-                                                          1.0, 0.0),
+                                                  const AlignmentDirectional(
+                                                      1.0, 0.0),
                                                   child: ClipRRect(
                                                     borderRadius:
-                                                        BorderRadius.circular(
-                                                            8.0),
+                                                    BorderRadius
+                                                        .circular(8.0),
                                                     child: Image.asset(
-                                                      'assets/images/7422495_nasa_space_shuttle_universe_explore_icon_1.png',
-                                                      width: MediaQuery.sizeOf(
-                                                                  context)
-                                                              .width *
+                                                      'images/7422495_nasa_space_shuttle_universe_explore_icon_1.png',
+                                                      width:
+                                                      MediaQuery.sizeOf(
+                                                          context)
+                                                          .width *
                                                           0.45,
-                                                      height: MediaQuery.sizeOf(
-                                                                  context)
-                                                              .height *
+                                                      height:
+                                                      MediaQuery.sizeOf(
+                                                          context)
+                                                          .height *
                                                           0.1,
                                                       fit: BoxFit.cover,
                                                     ),
@@ -3815,49 +3804,50 @@ class _StudentLineWidgetState extends State<StudentLineWidget>
                                                 ),
                                                 Text(
                                                   'WHERE IT ALL BEGAN',
-                                                  textAlign: TextAlign.start,
-                                                  style: FlutterFlowTheme.of(
-                                                          context)
+                                                  textAlign:
+                                                  TextAlign.start,
+                                                  style: FlutterFlowTheme
+                                                      .of(context)
                                                       .bodyMedium
                                                       .override(
-                                                        fontFamily: 'NORD',
-                                                        color: FlutterFlowTheme
-                                                                .of(context)
-                                                            .secondaryBackground,
-                                                        fontSize: 15.0,
-                                                        letterSpacing: 0.0,
-                                                        useGoogleFonts: false,
-                                                      ),
+                                                    fontFamily: 'NORD',
+                                                    color: FlutterFlowTheme
+                                                        .of(context)
+                                                        .secondaryBackground,
+                                                    fontSize: 15.0,
+                                                    letterSpacing: 0.0,
+                                                    useGoogleFonts:
+                                                    false,
+                                                  ),
                                                 ),
                                                 Text(
-                                                  'Our journey began with a significant partnership with NASA, which set the standard for our commitment to excellence and innovation. This collaboration allowed our students to work on cutting-edge space projects, providing hands-on experience with industry-leading technology. The partnership with NASA not only enriched our students\' educational experience but also showcased our ability to connect students with real-world opportunities and industry experts.',
-                                                  textAlign: TextAlign.end,
+                                                  'In 2019, Northern Horizon embarked on a \ngroundbreaking journey by partnering with NASA. \nThis collaboration provided our students with unparalleled \nopportunities to work on cutting-edge space projects, \nsetting the foundation for our mission to bridge the gap \nbetween education and real-world applications.',
+                                                  textAlign: TextAlign.center,
                                                   style: FlutterFlowTheme.of(
-                                                          context)
+                                                      context)
                                                       .bodyMedium
                                                       .override(
-                                                        fontFamily:
-                                                            'Inria Serif',
-                                                        color: FlutterFlowTheme
-                                                                .of(context)
-                                                            .secondaryBackground,
-                                                        fontSize: 10.0,
-                                                        letterSpacing: 0.0,
-                                                      ),
+                                                    fontFamily:
+                                                    'Inria Serif',
+                                                    color: Colors.white,
+                                                    fontSize: 20.0,
+                                                    letterSpacing: 0.0,
+                                                    fontWeight:
+                                                    FontWeight.w300,
+                                                  ),
                                                 ),
                                                 Text(
                                                   '2019',
-                                                  style: FlutterFlowTheme.of(
-                                                          context)
+                                                  style: FlutterFlowTheme
+                                                      .of(context)
                                                       .bodyMedium
                                                       .override(
-                                                        fontFamily:
-                                                            'Inria Serif',
-                                                        color:
-                                                            const Color(0xFFEEB609),
-                                                        fontSize: 50.0,
-                                                        letterSpacing: 0.0,
-                                                      ),
+                                                    fontFamily:
+                                                    'Inria Serif',
+                                                    color: Colors.white,
+                                                    fontSize: 50.0,
+                                                    letterSpacing: 0.0,
+                                                  ),
                                                 ),
                                               ],
                                             ),
@@ -3868,60 +3858,64 @@ class _StudentLineWidgetState extends State<StudentLineWidget>
                                   ),
                                   SizedBox(
                                     width:
-                                        MediaQuery.sizeOf(context).width * 1.0,
+                                    MediaQuery.sizeOf(context).width *
+                                        1.0,
                                     height:
-                                        MediaQuery.sizeOf(context).height * 0.3,
+                                    MediaQuery.sizeOf(context).height *
+                                        0.3,
                                     child: Stack(
                                       children: [
-                                        ClipRRect(
-                                          borderRadius:
-                                              BorderRadius.circular(0.0),
-                                          child: Image.network(
-                                            'https://picsum.photos/seed/620/600',
-                                            width: MediaQuery.sizeOf(context)
-                                                    .width *
-                                                1.0,
-                                            height: MediaQuery.sizeOf(context)
-                                                    .height *
-                                                1.0,
-                                            fit: BoxFit.cover,
+                                        Container(
+                                          width: MediaQuery.sizeOf(context)
+                                              .width *
+                                              1.0,
+                                          height: MediaQuery.sizeOf(context)
+                                              .height *
+                                              0.333,
+                                          decoration: const BoxDecoration(
+                                            color: Color(0xFFE7DDC6),
                                           ),
                                         ),
                                         Align(
-                                          alignment:
-                                              const AlignmentDirectional(0.0, 0.0),
+                                          alignment: const AlignmentDirectional(
+                                              0.0, 0.0),
                                           child: Container(
-                                            width: MediaQuery.sizeOf(context)
-                                                    .width *
+                                            width:
+                                            MediaQuery.sizeOf(context)
+                                                .width *
                                                 0.9,
-                                            height: MediaQuery.sizeOf(context)
-                                                    .height *
+                                            height:
+                                            MediaQuery.sizeOf(context)
+                                                .height *
                                                 0.255,
                                             decoration: const BoxDecoration(),
                                             child: Column(
-                                              mainAxisSize: MainAxisSize.max,
+                                              mainAxisSize:
+                                              MainAxisSize.max,
                                               mainAxisAlignment:
-                                                  MainAxisAlignment.center,
+                                              MainAxisAlignment.center,
                                               crossAxisAlignment:
-                                                  CrossAxisAlignment.end,
+                                              CrossAxisAlignment.end,
                                               children: [
                                                 Align(
                                                   alignment:
-                                                      const AlignmentDirectional(
-                                                          1.0, 0.0),
+                                                  const AlignmentDirectional(
+                                                      1.0, 0.0),
                                                   child: ClipRRect(
                                                     borderRadius:
-                                                        BorderRadius.circular(
-                                                            8.0),
+                                                    BorderRadius
+                                                        .circular(8.0),
                                                     child: Image.asset(
-                                                      'assets/images/Mask_group.png',
-                                                      width: MediaQuery.sizeOf(
-                                                                  context)
-                                                              .width *
+                                                      'images/Mask_group.png',
+                                                      width:
+                                                      MediaQuery.sizeOf(
+                                                          context)
+                                                          .width *
                                                           0.45,
-                                                      height: MediaQuery.sizeOf(
-                                                                  context)
-                                                              .height *
+                                                      height:
+                                                      MediaQuery.sizeOf(
+                                                          context)
+                                                          .height *
                                                           0.1,
                                                       fit: BoxFit.contain,
                                                     ),
@@ -3929,49 +3923,50 @@ class _StudentLineWidgetState extends State<StudentLineWidget>
                                                 ),
                                                 Text(
                                                   'THE GREAT LEAP FORWARD',
-                                                  textAlign: TextAlign.start,
-                                                  style: FlutterFlowTheme.of(
-                                                          context)
+                                                  textAlign:
+                                                  TextAlign.start,
+                                                  style: FlutterFlowTheme
+                                                      .of(context)
                                                       .bodyMedium
                                                       .override(
-                                                        fontFamily: 'NORD',
-                                                        color: FlutterFlowTheme
-                                                                .of(context)
-                                                            .secondaryBackground,
-                                                        fontSize: 15.0,
-                                                        letterSpacing: 0.0,
-                                                        useGoogleFonts: false,
-                                                      ),
+                                                    fontFamily: 'NORD',
+                                                    color: FlutterFlowTheme
+                                                        .of(context)
+                                                        .secondaryBackground,
+                                                    fontSize: 15.0,
+                                                    letterSpacing: 0.0,
+                                                    useGoogleFonts:
+                                                    false,
+                                                  ),
                                                 ),
                                                 Text(
-                                                  'Cras risus tellus, pellentesque in dignissim vitae, lacinia vitae\nrisus. Quisque sit amet elit at velit congue pellentesque.\nInteger imperdiet felis eu gravida vehicula. Duis consectetur\nmaximus risus, ac gravida ipsum. Aenean dignissim nisl velit,\neuismod sollicitudin augue vehicula pretium. ',
-                                                  textAlign: TextAlign.start,
+                                                  'In 2020, we took a significant step forward by \npartnering with the United Nations. This collaboration \nenabled our students to engage in global initiatives, enhancing \ntheir skills and perspectives while preparing them for \nimpactful careers on the international stage.',
+                                                  textAlign: TextAlign.center,
                                                   style: FlutterFlowTheme.of(
-                                                          context)
+                                                      context)
                                                       .bodyMedium
                                                       .override(
-                                                        fontFamily:
-                                                            'Inria Serif',
-                                                        color: FlutterFlowTheme
-                                                                .of(context)
-                                                            .secondaryBackground,
-                                                        fontSize: 10.0,
-                                                        letterSpacing: 0.0,
-                                                      ),
+                                                    fontFamily:
+                                                    'Inria Serif',
+                                                    color: Colors.white,
+                                                    fontSize: 15.0,
+                                                    letterSpacing: 0.0,
+                                                    fontWeight:
+                                                    FontWeight.w300,
+                                                  ),
                                                 ),
                                                 Text(
                                                   '2020',
-                                                  style: FlutterFlowTheme.of(
-                                                          context)
+                                                  style: FlutterFlowTheme
+                                                      .of(context)
                                                       .bodyMedium
                                                       .override(
-                                                        fontFamily:
-                                                            'Inria Serif',
-                                                        color:
-                                                            const Color(0xFFEEB609),
-                                                        fontSize: 50.0,
-                                                        letterSpacing: 0.0,
-                                                      ),
+                                                    fontFamily:
+                                                    'Inria Serif',
+                                                    color: Colors.white,
+                                                    fontSize: 45.0,
+                                                    letterSpacing: 0.0,
+                                                  ),
                                                 ),
                                               ],
                                             ),
@@ -3982,110 +3977,125 @@ class _StudentLineWidgetState extends State<StudentLineWidget>
                                   ),
                                   SizedBox(
                                     width:
-                                        MediaQuery.sizeOf(context).width * 1.0,
+                                    MediaQuery.sizeOf(context).width *
+                                        1.0,
                                     height:
-                                        MediaQuery.sizeOf(context).height * 0.3,
+                                    MediaQuery.sizeOf(context).height *
+                                        0.3,
                                     child: Stack(
                                       children: [
-                                        ClipRRect(
-                                          borderRadius:
-                                              BorderRadius.circular(0.0),
-                                          child: Image.network(
-                                            'https://picsum.photos/seed/620/600',
-                                            width: MediaQuery.sizeOf(context)
-                                                    .width *
-                                                1.0,
-                                            height: MediaQuery.sizeOf(context)
-                                                    .height *
-                                                1.0,
-                                            fit: BoxFit.cover,
+                                        Container(
+                                          width: MediaQuery.sizeOf(context)
+                                              .width *
+                                              1.0,
+                                          height: MediaQuery.sizeOf(context)
+                                              .height *
+                                              0.333,
+                                          decoration: const BoxDecoration(
+                                            color: Color(0xFFD9D9D9),
                                           ),
                                         ),
                                         Align(
-                                          alignment:
-                                              const AlignmentDirectional(0.0, 0.0),
+                                          alignment: const AlignmentDirectional(
+                                              0.0, 0.0),
                                           child: Container(
-                                            width: MediaQuery.sizeOf(context)
-                                                    .width *
+                                            width:
+                                            MediaQuery.sizeOf(context)
+                                                .width *
                                                 0.9,
-                                            height: MediaQuery.sizeOf(context)
-                                                    .height *
+                                            height:
+                                            MediaQuery.sizeOf(context)
+                                                .height *
                                                 0.255,
                                             decoration: const BoxDecoration(),
                                             child: Column(
-                                              mainAxisSize: MainAxisSize.max,
+                                              mainAxisSize:
+                                              MainAxisSize.max,
                                               mainAxisAlignment:
-                                                  MainAxisAlignment.center,
+                                              MainAxisAlignment.center,
                                               crossAxisAlignment:
-                                                  CrossAxisAlignment.end,
+                                              CrossAxisAlignment.end,
                                               children: [
                                                 Align(
                                                   alignment:
-                                                      const AlignmentDirectional(
-                                                          1.0, 0.0),
-                                                  child: ClipRRect(
-                                                    borderRadius:
-                                                        BorderRadius.circular(
-                                                            8.0),
-                                                    child: Image.network(
-                                                      'https://static.wixstatic.com/media/b95a20_e357c64f59a540c58b7a8dda5a8bbd84~mv2.png/v1/fill/w_740,h_495,al_c,q_90/b95a20_e357c64f59a540c58b7a8dda5a8bbd84~mv2.png',
-                                                      width: MediaQuery.sizeOf(
-                                                                  context)
-                                                              .width *
-                                                          0.328,
-                                                      height: MediaQuery.sizeOf(
-                                                                  context)
-                                                              .height *
-                                                          0.1,
-                                                      fit: BoxFit.contain,
+                                                  const AlignmentDirectional(
+                                                      1.0, 0.0),
+                                                  child: Padding(
+                                                    padding:
+                                                    const EdgeInsetsDirectional
+                                                        .fromSTEB(
+                                                        0.0,
+                                                        0.0,
+                                                        0.0,
+                                                        10.0),
+                                                    child: ClipRRect(
+                                                      borderRadius:
+                                                      BorderRadius
+                                                          .circular(
+                                                          8.0),
+                                                      child: Image.asset(
+                                                        'images/USGS.png',
+                                                        width: MediaQuery
+                                                            .sizeOf(
+                                                            context)
+                                                            .width *
+                                                            0.328,
+                                                        height: MediaQuery
+                                                            .sizeOf(
+                                                            context)
+                                                            .height *
+                                                            0.1,
+                                                        fit: BoxFit.contain,
+                                                      ),
                                                     ),
                                                   ),
                                                 ),
                                                 Text(
-                                                  'WHERE IT ALL BEGAN',
-                                                  textAlign: TextAlign.start,
-                                                  style: FlutterFlowTheme.of(
-                                                          context)
+                                                  'Our Latest Partner',
+                                                  textAlign:
+                                                  TextAlign.start,
+                                                  style: FlutterFlowTheme
+                                                      .of(context)
                                                       .bodyMedium
                                                       .override(
-                                                        fontFamily: 'NORD',
-                                                        color: FlutterFlowTheme
-                                                                .of(context)
-                                                            .secondaryBackground,
-                                                        fontSize: 15.0,
-                                                        letterSpacing: 0.0,
-                                                        useGoogleFonts: false,
-                                                      ),
+                                                    fontFamily: 'NORD',
+                                                    color: FlutterFlowTheme
+                                                        .of(context)
+                                                        .secondaryBackground,
+                                                    fontSize: 15.0,
+                                                    letterSpacing: 0.0,
+                                                    useGoogleFonts:
+                                                    false,
+                                                  ),
                                                 ),
                                                 Text(
-                                                  'Cras facilisis, urna et pharetra elementum, velit ante gravida \narcu, id semper enim orci in massa. Proin vehicula mauris a \nnisi dignissim, sit amet molestie libero faucibus. ',
-                                                  textAlign: TextAlign.end,
+                                                  'In 2021, we formed a partnership with the USGS, \nfurther broadening the scope of hands-on experiences available to \nour students. This collaboration allows our students to work on real-world \nenvironmental and scientific projects, developing critical skills and \ngaining valuable insights into the field of science and technology.',
+                                                  textAlign: TextAlign.center,
                                                   style: FlutterFlowTheme.of(
-                                                          context)
+                                                      context)
                                                       .bodyMedium
                                                       .override(
-                                                        fontFamily:
-                                                            'Inria Serif',
-                                                        color: FlutterFlowTheme
-                                                                .of(context)
-                                                            .secondaryBackground,
-                                                        fontSize: 10.0,
-                                                        letterSpacing: 0.0,
-                                                      ),
+                                                    fontFamily:
+                                                    'Inria Serif',
+                                                    color: Colors.white,
+                                                    fontSize: 20.0,
+                                                    letterSpacing: 0.0,
+                                                    fontWeight:
+                                                    FontWeight.w300,
+                                                  ),
                                                 ),
                                                 Text(
                                                   '2021',
-                                                  style: FlutterFlowTheme.of(
-                                                          context)
+                                                  style: FlutterFlowTheme
+                                                      .of(context)
                                                       .bodyMedium
                                                       .override(
-                                                        fontFamily:
-                                                            'Inria Serif',
-                                                        color:
-                                                            const Color(0xFFEEB609),
-                                                        fontSize: 50.0,
-                                                        letterSpacing: 0.0,
-                                                      ),
+                                                    fontFamily:
+                                                    'Inria Serif',
+                                                    color: Colors.white,
+                                                    fontSize: 50.0,
+                                                    letterSpacing: 0.0,
+                                                  ),
                                                 ),
                                               ],
                                             ),
