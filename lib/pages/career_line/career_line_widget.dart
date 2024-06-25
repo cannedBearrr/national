@@ -833,8 +833,8 @@ class _CareerLineWidgetState extends State<CareerLineWidget>
                                               const AlignmentDirectional(0.0, 0.0),
                                           child: MouseRegion(
                                             opaque: false,
-                                            cursor: MouseCursor.defer ??
-                                                MouseCursor.defer,
+                                            // cursor: MouseCursor.defer ??
+                                            //     MouseCursor.defer,
                                             onEnter: ((event) async {
                                               setState(() => _model
                                                   .mouseRegionHovered2 = true);
