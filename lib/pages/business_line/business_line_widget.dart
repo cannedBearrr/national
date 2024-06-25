@@ -1307,7 +1307,7 @@ class _BusinessLineWidgetState extends State<BusinessLineWidget>
                                                                           200.0,
                                                                           0.0),
                                                                   child: Text(
-                                                                    'roin in elit diam. Nulla molestie magna in elit laoreet, a tincidunt odio varius. Fusce non suscipit quam. Nam cursus efficitur erat ac posuere. Cras vel neque lectus. Suspendisse ut accumsan dui, in placerat metus. Vivamus dictum diam sit amet suscipit lobortis. Nullam aliquam leo non tellus placerat ornare ac vel ex.',
+                                                                    'Our programming team creates robust, scalable solutions tailored to your business needs. We specialize in various languages and technologies to ensure efficient, secure, and user-friendly software. Whether it is a custom web app, mobile app, or automation tools, we deliver quality projects on time and within budget.',
                                                                     textAlign:
                                                                         TextAlign
                                                                             .center,
@@ -1342,7 +1342,7 @@ class _BusinessLineWidgetState extends State<BusinessLineWidget>
                                                                         8.0),
                                                             child:
                                                                 Image.network(
-                                                              'https://images.unsplash.com/photo-1523726491678-bf852e717f6a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NTYyMDF8MHwxfHNlYXJjaHwxfHxERVNJR058ZW58MHx8fHwxNzE4NDE0OTExfDA&ixlib=rb-4.0.3&q=80&w=1080',
+                                                              'https://images.unsplash.com/photo-1574100004472-e536d3b6bacc?q=80&w=1287&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
                                                               width: MediaQuery
                                                                           .sizeOf(
                                                                               context)
@@ -1396,7 +1396,7 @@ class _BusinessLineWidgetState extends State<BusinessLineWidget>
                                                                           200.0,
                                                                           0.0),
                                                                   child: Text(
-                                                                    'roin in elit diam. Nulla molestie magna in elit laoreet, a tincidunt odio varius. Fusce non suscipit quam. Nam cursus efficitur erat ac posuere. Cras vel neque lectus. Suspendisse ut accumsan dui, in placerat metus. Vivamus dictum diam sit amet suscipit lobortis. Nullam aliquam leo non tellus placerat ornare ac vel ex.',
+                                                                    'Our design team crafts visually stunning and functional designs that connect with your audience. We focus on strong brand identity and user experience, offering services from graphic design to UI/UX and branding. Partner with us for creative expertise and a design process that meets your business goals.',
                                                                     textAlign:
                                                                         TextAlign
                                                                             .center,
@@ -1431,7 +1431,7 @@ class _BusinessLineWidgetState extends State<BusinessLineWidget>
                                                                         8.0),
                                                             child:
                                                                 Image.network(
-                                                              'https://images.unsplash.com/photo-1493612276216-ee3925520721?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NTYyMDF8MHwxfHNlYXJjaHwzfHxNQVJLRVRJTkd8ZW58MHx8fHwxNzE4NDE0OTY1fDA&ixlib=rb-4.0.3&q=80&w=1080',
+                                                              'https://images.unsplash.com/photo-1563986768494-4dee2763ff3f?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
                                                               width: MediaQuery
                                                                           .sizeOf(
                                                                               context)
@@ -1485,7 +1485,7 @@ class _BusinessLineWidgetState extends State<BusinessLineWidget>
                                                                           200.0,
                                                                           0.0),
                                                                   child: Text(
-                                                                    'roin in elit diam. Nulla molestie magna in elit laoreet, a tincidunt odio varius. Fusce non suscipit quam. Nam cursus efficitur erat ac posuere. Cras vel neque lectus. Suspendisse ut accumsan dui, in placerat metus. Vivamus dictum diam sit amet suscipit lobortis. Nullam aliquam leo non tellus placerat ornare ac vel ex.',
+                                                                    'Effective marketing is key to business success. Our team offers digital marketing, social media management, content creation, and SEO optimization to boost your brand visibility and engage your audience. Choose us for personalized campaigns that deliver measurable results and a strong return on investment.',
                                                                     textAlign:
                                                                         TextAlign
                                                                             .center,
@@ -1857,7 +1857,7 @@ class _BusinessLineWidgetState extends State<BusinessLineWidget>
                                                                             0.0),
                                                                         child:
                                                                             Text(
-                                                                          'roin in elit diam. Nulla molestie magna in elit laoreet, a tincidunt odio varius. Fusce non suscipit quam. Nam cursus efficitur erat ac posuere. Cras vel neque lectus. Suspendisse ut accumsan dui, in placerat metus. Vivamus dictum diam sit amet suscipit lobortis. Nullam aliquam leo non tellus placerat ornare ac vel ex.',
+                                                                              'Our programming team creates robust, scalable solutions tailored to your business needs. We specialize in various languages and technologies to ensure efficient, secure, and user-friendly software. Whether it is a custom web app, mobile app, or automation tools, we deliver quality projects on time and within budget.',
                                                                           textAlign:
                                                                               TextAlign.center,
                                                                           style: FlutterFlowTheme.of(context)
@@ -1885,7 +1885,7 @@ class _BusinessLineWidgetState extends State<BusinessLineWidget>
                                                                               8.0),
                                                                   child: Image
                                                                       .network(
-                                                                    'https://images.unsplash.com/photo-1523726491678-bf852e717f6a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NTYyMDF8MHwxfHNlYXJjaHwxfHxERVNJR058ZW58MHx8fHwxNzE4NDE0OTExfDA&ixlib=rb-4.0.3&q=80&w=1080',
+                                                                    'https://images.unsplash.com/photo-1574100004472-e536d3b6bacc?q=80&w=1287&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
                                                                     width: MediaQuery.sizeOf(context)
                                                                             .width *
                                                                         1.0,
@@ -1930,7 +1930,7 @@ class _BusinessLineWidgetState extends State<BusinessLineWidget>
                                                                             0.0),
                                                                         child:
                                                                             Text(
-                                                                          'roin in elit diam. Nulla molestie magna in elit laoreet, a tincidunt odio varius. Fusce non suscipit quam. Nam cursus efficitur erat ac posuere. Cras vel neque lectus. Suspendisse ut accumsan dui, in placerat metus. Vivamus dictum diam sit amet suscipit lobortis. Nullam aliquam leo non tellus placerat ornare ac vel ex.',
+                                                                              'Our design team crafts visually stunning and functional designs that connect with your audience. We focus on strong brand identity and user experience, offering services from graphic design to UI/UX and branding. Partner with us for creative expertise and a design process that meets your business goals.',
                                                                           textAlign:
                                                                               TextAlign.center,
                                                                           style: FlutterFlowTheme.of(context)
@@ -1958,7 +1958,7 @@ class _BusinessLineWidgetState extends State<BusinessLineWidget>
                                                                               8.0),
                                                                   child: Image
                                                                       .network(
-                                                                    'https://images.unsplash.com/photo-1493612276216-ee3925520721?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NTYyMDF8MHwxfHNlYXJjaHwzfHxNQVJLRVRJTkd8ZW58MHx8fHwxNzE4NDE0OTY1fDA&ixlib=rb-4.0.3&q=80&w=1080',
+                                                                    'https://images.unsplash.com/photo-1563986768494-4dee2763ff3f?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
                                                                     width: MediaQuery.sizeOf(context)
                                                                             .width *
                                                                         1.0,
@@ -2003,7 +2003,7 @@ class _BusinessLineWidgetState extends State<BusinessLineWidget>
                                                                             0.0),
                                                                         child:
                                                                             Text(
-                                                                          'roin in elit diam. Nulla molestie magna in elit laoreet, a tincidunt odio varius. Fusce non suscipit quam. Nam cursus efficitur erat ac posuere. Cras vel neque lectus. Suspendisse ut accumsan dui, in placerat metus. Vivamus dictum diam sit amet suscipit lobortis. Nullam aliquam leo non tellus placerat ornare ac vel ex.',
+                                                                              'Effective marketing is key to business success. Our team offers digital marketing, social media management, content creation, and SEO optimization to boost your brand visibility and engage your audience. Choose us for personalized campaigns that deliver measurable results and a strong return on investment.',
                                                                           textAlign:
                                                                               TextAlign.center,
                                                                           style: FlutterFlowTheme.of(context)
@@ -3069,7 +3069,7 @@ class _BusinessLineWidgetState extends State<BusinessLineWidget>
                                                                       100.0,
                                                                       0.0),
                                                           child: Text(
-                                                            'Lorem ipsum dolor sit amet, consectetur adipiscing elit. In a quam tellus. Mauris risus dui, efficitur sit amet eros ut, ultricies cursus felis. Phasellus egestas finibus nisi, id vehicula arcu sodales in. Pellentesque vitae efficitur eros. Fusce in varius elit, quis ullamcorper arcu. Suspendisse ligula purus, molestie non nunc vitae, consectetur vestibulum sem.',
+                                                            'As a non-profit organization, we have been dedicated to providing quality education for the past few years. Your generous support helps us purchase essential resources for our students and hire experienced teachers. By becoming a patron, you ensure that we can continue to offer transformative learning experiences and create a nurturing environment for our community. Your contribution makes a real difference.',
                                                             textAlign: TextAlign
                                                                 .center,
                                                             style: FlutterFlowTheme
@@ -3310,7 +3310,7 @@ class _BusinessLineWidgetState extends State<BusinessLineWidget>
                                                                     100.0,
                                                                     0.0),
                                                         child: Text(
-                                                          'Lorem ipsum dolor sit amet, consectetur adipiscing elit. In a quam tellus. Mauris risus dui, efficitur sit amet eros ut, ultricies cursus felis. Phasellus egestas finibus nisi, id vehicula arcu sodales in. Pellentesque vitae efficitur eros. Fusce in varius elit, quis ullamcorper arcu. Suspendisse ligula purus, molestie non nunc vitae, consectetur vestibulum sem.',
+                                                          'Partner with us to bring real-world projects to life. Our collaborative approach connects students with practical opportunities, allowing them to apply their skills and knowledge in meaningful ways. Together, we can create impactful projects that benefit both our students and the broader community.',
                                                           textAlign:
                                                               TextAlign.center,
                                                           style: FlutterFlowTheme
@@ -3520,7 +3520,7 @@ class _BusinessLineWidgetState extends State<BusinessLineWidget>
                                                           0.17,
                                                   decoration: const BoxDecoration(),
                                                   child: Text(
-                                                    'Support Northern Horizon and help us guide students toward their true career aspirations. Your donation will provide vital career counseling, industry exposure, and practical skill development, empowering the next generation to achieve real-world success. Join us in transforming students\' potential into impactful careers and future leaders.',
+                                                    'As a non-profit organization, we have been dedicated to providing quality education for the past few years. Your generous support helps us purchase essential resources for our students and hire experienced teachers. By becoming a patron, you ensure that we can continue to offer transformative learning experiences and create a nurturing environment for our community. Your contribution makes a real difference.',
                                                     textAlign: TextAlign.center,
                                                     style: FlutterFlowTheme.of(
                                                             context)
@@ -3725,7 +3725,7 @@ class _BusinessLineWidgetState extends State<BusinessLineWidget>
                                                           0.17,
                                                   decoration: const BoxDecoration(),
                                                   child: Text(
-                                                    'Partner with Northern Horizon by providing us with your projects and benefit from innovative, high-quality solutions at no cost. Collaborate with our talented students to gain fresh perspectives and practical solutions while supporting the next generation of professionals. Enhance your business with creative, cost-effective project solutions and help shape the future workforce.',
+                                                    'Partner with us to bring real-world projects to life. Our collaborative approach connects students with practical opportunities, allowing them to apply their skills and knowledge in meaningful ways. Together, we can create impactful projects that benefit both our students and the broader community.',
                                                     textAlign: TextAlign.center,
                                                     style: FlutterFlowTheme.of(
                                                             context)

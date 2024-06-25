@@ -1235,6 +1235,7 @@ class _HomePageWidgetState extends State<HomePageWidget>
                                             40.0, 15.0, 40.0, 0.0),
                                         child: Text(
                                           'Discover the Northern Horizon experience firsthand. \nNestled in the scenic Catskills, our campus \noffers an inspiring environment for learning \nand growth. Whether you are a prospective \nstudent, parent, or industry partner, \nvisit us to see how our innovative \napproach is shaping the future of \neducation. Explore our facilities, meet our \nteam, and learn how we can help you \nachieve your career aspirations.',
+                                          textAlign: TextAlign.center,
                                           style: FlutterFlowTheme.of(context)
                                               .bodyMedium
                                               .override(
