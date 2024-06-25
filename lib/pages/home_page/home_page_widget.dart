@@ -1067,7 +1067,7 @@ class _HomePageWidgetState extends State<HomePageWidget>
                                   ClipRRect(
                                     borderRadius: BorderRadius.circular(0),
                                     child: Image.asset(
-                                      'images/2023NA_289.webp',
+                                      'assets/images/2023NA_289.webp',
                                       width: MediaQuery.sizeOf(context).width *
                                           1.0,
                                       height:
@@ -1555,7 +1555,7 @@ class _HomePageWidgetState extends State<HomePageWidget>
                           ))
                             Container(
                               width: MediaQuery.sizeOf(context).width * 1.0,
-                              height: MediaQuery.sizeOf(context).height * 0.75,
+                              height: MediaQuery.sizeOf(context).height * 0.9,
                               decoration: const BoxDecoration(
                                 color: Colors.white,
                               ),
