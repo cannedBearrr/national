@@ -387,8 +387,22 @@ class _ContactUsWidgetState extends State<ContactUsWidget> {
                                               const EdgeInsetsDirectional.fromSTEB(
                                                   0.0, 15.0, 0.0, 0.0),
                                           child: FFButtonWidget(
-                                            onPressed: () {
-                                              print('Button pressed ...');
+                                            onPressed: () async {
+                                              await launchUrl(Uri(
+                                                  scheme: 'mailto',
+                                                  path:
+                                                  'yuvraj.mundi@g.northernacademy.org',
+                                                  query: {
+                                                    'subject':
+                                                    'More Information',
+                                                    'body': 'Hello Yuvraj, ...',
+                                                  }
+                                                      .entries
+                                                      .map((MapEntry<String,
+                                                      String>
+                                                  e) =>
+                                                  '${Uri.encodeComponent(e.key)}=${Uri.encodeComponent(e.value)}')
+                                                      .join('&')));
                                             },
                                             text: 'CONTACT NOW',
                                             options: FFButtonOptions(
@@ -502,8 +516,22 @@ class _ContactUsWidgetState extends State<ContactUsWidget> {
                                               const EdgeInsetsDirectional.fromSTEB(
                                                   0.0, 15.0, 0.0, 0.0),
                                           child: FFButtonWidget(
-                                            onPressed: () {
-                                              print('Button pressed ...');
+                                            onPressed: () async {
+                                              await launchUrl(Uri(
+                                                  scheme: 'mailto',
+                                                  path:
+                                                  'ducminh.vu@g.northernacademy.org',
+                                                  query: {
+                                                    'subject':
+                                                    'More Information',
+                                                    'body': 'Hello Richard, ...',
+                                                  }
+                                                      .entries
+                                                      .map((MapEntry<String,
+                                                      String>
+                                                  e) =>
+                                                  '${Uri.encodeComponent(e.key)}=${Uri.encodeComponent(e.value)}')
+                                                      .join('&')));
                                             },
                                             text: 'CONTACT NOW',
                                             options: FFButtonOptions(
@@ -617,8 +645,22 @@ class _ContactUsWidgetState extends State<ContactUsWidget> {
                                               const EdgeInsetsDirectional.fromSTEB(
                                                   0.0, 15.0, 0.0, 0.0),
                                           child: FFButtonWidget(
-                                            onPressed: () {
-                                              print('Button pressed ...');
+                                            onPressed: () async {
+                                              await launchUrl(Uri(
+                                                  scheme: 'mailto',
+                                                  path:
+                                                  'angel.yuan@g.northernacademy.org',
+                                                  query: {
+                                                    'subject':
+                                                    'More Information',
+                                                    'body': 'Hello Angel, ...',
+                                                  }
+                                                      .entries
+                                                      .map((MapEntry<String,
+                                                      String>
+                                                  e) =>
+                                                  '${Uri.encodeComponent(e.key)}=${Uri.encodeComponent(e.value)}')
+                                                      .join('&')));
                                             },
                                             text: 'CONTACT NOW',
                                             options: FFButtonOptions(
@@ -754,8 +796,22 @@ class _ContactUsWidgetState extends State<ContactUsWidget> {
                                                   .fromSTEB(
                                                       0.0, 15.0, 0.0, 0.0),
                                               child: FFButtonWidget(
-                                                onPressed: () {
-                                                  print('Button pressed ...');
+                                                onPressed: () async {
+                                                  await launchUrl(Uri(
+                                                      scheme: 'mailto',
+                                                      path:
+                                                      'azhao@g.northernacademy.org',
+                                                      query: {
+                                                        'subject':
+                                                        'More Information',
+                                                        'body': 'Hello Anson, ...',
+                                                      }
+                                                          .entries
+                                                          .map((MapEntry<String,
+                                                          String>
+                                                      e) =>
+                                                      '${Uri.encodeComponent(e.key)}=${Uri.encodeComponent(e.value)}')
+                                                          .join('&')));
                                                 },
                                                 text: 'CONTACT NOW',
                                                 options: FFButtonOptions(
@@ -878,8 +934,22 @@ class _ContactUsWidgetState extends State<ContactUsWidget> {
                                                   .fromSTEB(
                                                       0.0, 15.0, 0.0, 0.0),
                                               child: FFButtonWidget(
-                                                onPressed: () {
-                                                  print('Button pressed ...');
+                                                onPressed: () async {
+                                                  await launchUrl(Uri(
+                                                      scheme: 'mailto',
+                                                      path:
+                                                      'yuvraj.mundi@g.northernacademy.org',
+                                                      query: {
+                                                        'subject':
+                                                        'More Information',
+                                                        'body': 'Hello Yuvraj, ...',
+                                                      }
+                                                          .entries
+                                                          .map((MapEntry<String,
+                                                          String>
+                                                      e) =>
+                                                      '${Uri.encodeComponent(e.key)}=${Uri.encodeComponent(e.value)}')
+                                                          .join('&')));
                                                 },
                                                 text: 'CONTACT NOW',
                                                 options: FFButtonOptions(
@@ -1002,8 +1072,22 @@ class _ContactUsWidgetState extends State<ContactUsWidget> {
                                                   .fromSTEB(
                                                       0.0, 15.0, 0.0, 0.0),
                                               child: FFButtonWidget(
-                                                onPressed: () {
-                                                  print('Button pressed ...');
+                                                onPressed: () async {
+                                                  await launchUrl(Uri(
+                                                      scheme: 'mailto',
+                                                      path:
+                                                      'ducminh.vu@g.northernacademy.org',
+                                                      query: {
+                                                        'subject':
+                                                        'More Information',
+                                                        'body': 'Hello Richard, ...',
+                                                      }
+                                                          .entries
+                                                          .map((MapEntry<String,
+                                                          String>
+                                                      e) =>
+                                                      '${Uri.encodeComponent(e.key)}=${Uri.encodeComponent(e.value)}')
+                                                          .join('&')));
                                                 },
                                                 text: 'CONTACT NOW',
                                                 options: FFButtonOptions(
@@ -1126,9 +1210,23 @@ class _ContactUsWidgetState extends State<ContactUsWidget> {
                                                   .fromSTEB(
                                                       0.0, 15.0, 0.0, 0.0),
                                               child: FFButtonWidget(
-                                                onPressed: () {
-                                                  print('Button pressed ...');
-                                                },
+                                                onPressed: () async {
+                                                await launchUrl(Uri(
+                                                    scheme: 'mailto',
+                                                    path:
+                                                    'angel.yuan@g.northernacademy.org',
+                                                    query: {
+                                                      'subject':
+                                                      'More Information',
+                                                      'body': 'Hello Angel, ...',
+                                                    }
+                                                        .entries
+                                                        .map((MapEntry<String,
+                                                        String>
+                                                    e) =>
+                                                    '${Uri.encodeComponent(e.key)}=${Uri.encodeComponent(e.value)}')
+                                                        .join('&')));
+                                              },
                                                 text: 'CONTACT NOW',
                                                 options: FFButtonOptions(
                                                   height: 40.0,
