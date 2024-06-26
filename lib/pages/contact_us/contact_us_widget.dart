@@ -252,27 +252,27 @@ class _ContactUsWidgetState extends State<ContactUsWidget> {
                                       ),
                                       Align(
                                         alignment:
-                                            const AlignmentDirectional(0.0, 0.0),
+                                        const AlignmentDirectional(0.0, 0.0),
                                         child: Padding(
                                           padding:
-                                              const EdgeInsetsDirectional.fromSTEB(
-                                                  0.0, 15.0, 0.0, 0.0),
+                                          const EdgeInsetsDirectional.fromSTEB(
+                                              0.0, 15.0, 0.0, 0.0),
                                           child: FFButtonWidget(
                                             onPressed: () async {
                                               await launchUrl(Uri(
                                                   scheme: 'mailto',
                                                   path:
-                                                      'azhao@g.northernacademy.org',
+                                                  'azhao@g.northernacademy.org',
                                                   query: {
                                                     'subject':
-                                                        'More Information',
+                                                    'More Information',
                                                     'body': 'Hello Anson, ...',
                                                   }
                                                       .entries
                                                       .map((MapEntry<String,
-                                                                  String>
-                                                              e) =>
-                                                          '${Uri.encodeComponent(e.key)}=${Uri.encodeComponent(e.value)}')
+                                                      String>
+                                                  e) =>
+                                                  '${Uri.encodeComponent(e.key)}=${Uri.encodeComponent(e.value)}')
                                                       .join('&')));
                                             },
                                             text: 'CONTACT NOW',
@@ -800,7 +800,7 @@ class _ContactUsWidgetState extends State<ContactUsWidget> {
                                                   await launchUrl(Uri(
                                                       scheme: 'mailto',
                                                       path:
-                                                      'azhao@g.northernacademy.org',
+                                                      'azhao@northernacademy.org',
                                                       query: {
                                                         'subject':
                                                         'More Information',

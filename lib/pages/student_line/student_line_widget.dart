@@ -131,6 +131,33 @@ class _StudentLineWidgetState extends State<StudentLineWidget>
                   alignment: const AlignmentDirectional(-1.0, 0.0),
                   child: Padding(
                     padding:
+                    const EdgeInsetsDirectional.fromSTEB(30.0, 0.0, 0.0, 0.0),
+                    child: InkWell(
+                      splashColor: Colors.transparent,
+                      focusColor: Colors.transparent,
+                      hoverColor: Colors.transparent,
+                      highlightColor: Colors.transparent,
+                      onTap: () async {
+                        context.pushNamed('homePage');
+                      },
+                      child: Text(
+                        'Home',
+                        textAlign: TextAlign.start,
+                        style: FlutterFlowTheme.of(context).bodyMedium.override(
+                          fontFamily: 'Rubik',
+                          color: const Color(0xB0000000),
+                          fontSize: 31.0,
+                          letterSpacing: 1.8,
+                          fontWeight: FontWeight.w500,
+                        ),
+                      ),
+                    ),
+                  ),
+                ),
+                Align(
+                  alignment: const AlignmentDirectional(-1.0, 0.0),
+                  child: Padding(
+                    padding:
                         const EdgeInsetsDirectional.fromSTEB(30.0, 0.0, 0.0, 0.0),
                     child: InkWell(
                       splashColor: Colors.transparent,

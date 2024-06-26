@@ -126,6 +126,33 @@ class _BusinessLineWidgetState extends State<BusinessLineWidget>
               Align(
                 alignment: const AlignmentDirectional(-1.0, 0.0),
                 child: Padding(
+                  padding:
+                  const EdgeInsetsDirectional.fromSTEB(30.0, 0.0, 0.0, 0.0),
+                  child: InkWell(
+                    splashColor: Colors.transparent,
+                    focusColor: Colors.transparent,
+                    hoverColor: Colors.transparent,
+                    highlightColor: Colors.transparent,
+                    onTap: () async {
+                      context.pushNamed('homePage');
+                    },
+                    child: Text(
+                      'Home',
+                      textAlign: TextAlign.start,
+                      style: FlutterFlowTheme.of(context).bodyMedium.override(
+                        fontFamily: 'Rubik',
+                        color: const Color(0xAB000000),
+                        fontSize: 31.0,
+                        letterSpacing: 1.8,
+                        fontWeight: FontWeight.w500,
+                      ),
+                    ),
+                  ),
+                ),
+              ),
+              Align(
+                alignment: const AlignmentDirectional(-1.0, 0.0),
+                child: Padding(
                   padding: const EdgeInsetsDirectional.fromSTEB(30.0, 0.0, 0.0, 0.0),
                   child: InkWell(
                     splashColor: Colors.transparent,
@@ -166,10 +193,10 @@ class _BusinessLineWidgetState extends State<BusinessLineWidget>
                       textAlign: TextAlign.start,
                       style: FlutterFlowTheme.of(context).bodyMedium.override(
                             fontFamily: 'Rubik',
-                            color: const Color(0xB0000000),
+                            color: const Color(0xFFEEB609),
                             fontSize: 31.0,
                             letterSpacing: 1.8,
-                            fontWeight: FontWeight.w500,
+                            fontWeight: FontWeight.w800,
                           ),
                     ),
                   ),
@@ -192,10 +219,10 @@ class _BusinessLineWidgetState extends State<BusinessLineWidget>
                       textAlign: TextAlign.start,
                       style: FlutterFlowTheme.of(context).bodyMedium.override(
                             fontFamily: 'Rubik',
-                            color: const Color(0xFFEEB609),
+                            color: const Color(0xAB000000),
                             fontSize: 31.0,
                             letterSpacing: 1.8,
-                            fontWeight: FontWeight.w800,
+                            fontWeight: FontWeight.w500,
                           ),
                     ),
                   ),
