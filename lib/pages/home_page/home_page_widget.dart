@@ -1,3 +1,9 @@
+import 'dart:async';
+import 'dart:convert';
+import 'dart:math';
+
+import 'package:flutter/services.dart';
+import 'package:http/http.dart' as http;
 import '/flutter_flow/flutter_flow_animations.dart';
 import '/flutter_flow/flutter_flow_icon_button.dart';
 import '/flutter_flow/flutter_flow_theme.dart';
@@ -9,6 +15,17 @@ import 'package:flutter_svg/flutter_svg.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'home_page_model.dart';
 export 'home_page_model.dart';
+
+// To send post request to the website
+Future<http.Response> sendEmail(String email) {
+  return http.post(
+    Uri.parse('https://129.213.117.186/newsletter.php'),
+    headers: <String, String>{'Access-Control-Allow-Origin': "*", 'Content-Type': 'application/json'},
+    body: jsonEncode(<String, String>{
+      'email': email,
+    }),
+  );
+}
 
 class HomePageWidget extends StatefulWidget {
   const HomePageWidget({super.key});
@@ -22,8 +39,42 @@ class _HomePageWidgetState extends State<HomePageWidget>
   late HomePageModel _model;
 
   final scaffoldKey = GlobalKey<ScaffoldState>();
+  final _formKey = GlobalKey<FormState>();
+  final scrollController = ScrollController();
 
   final animationsMap = <String, AnimationInfo>{};
+
+  bool isEmailSent = false;
+
+  // To validate the email
+  String? _validateEmail(String value) {
+    if (value.isEmpty && !isEmailSent) {
+      return 'Enter an email';
+    } else if (!isEmailValid(value) && !isEmailSent) {
+      return 'Enter a valid email address';
+    } else {
+      return null;
+    }
+  }
+
+  bool isEmailValid(String email) {
+    return RegExp(r'.+@.+').hasMatch(email);
+  }
+
+  Future<bool>? resetForm() {
+    Future.delayed(const Duration(seconds: 2), () {
+      _formKey.currentState?.reset();
+      setState(() {
+        isEmailSent = false;
+      });
+    });
+    return null;
+  }
+
+  Future<String> loadImage2(url) async {
+    String text = await rootBundle.loadString(url);
+    return text;
+  }
 
   @override
   void initState() {
@@ -90,7 +141,6 @@ class _HomePageWidgetState extends State<HomePageWidget>
       child: Scaffold(
         key: scaffoldKey,
         backgroundColor: FlutterFlowTheme.of(context).primaryBackground,
-
         endDrawer: SizedBox(
           width: MediaQuery.sizeOf(context).width * 0.2,
           child: Drawer(
@@ -1628,18 +1678,31 @@ class _HomePageWidgetState extends State<HomePageWidget>
                                           width:
                                               MediaQuery.sizeOf(context).width *
                                                   0.5,
-                                          child: TextFormField(
+                                          child: Form(
+                                            key: _formKey,
+                                            child: TextFormField(
+                                              autovalidateMode: AutovalidateMode.onUserInteraction,
+                                              onFieldSubmitted: (value) async {
+                                                if (_formKey.currentState!.validate()) {
+                                                              setState(() {
+                                                                sendEmail(value);
+                                                                isEmailSent = true;
+                                                              });
+                                                              _model.textController1?.clear();
+                                                              await resetForm();
+                                                            }
+                                              },
                                             controller: _model.textController1,
                                             focusNode:
                                                 _model.textFieldFocusNode1,
-                                            autofocus: true,
+                                            autofocus: false,
                                             textCapitalization:
                                                 TextCapitalization.none,
                                             textInputAction:
                                                 TextInputAction.done,
                                             obscureText: false,
                                             decoration: InputDecoration(
-                                              labelText: 'Enter Your Email',
+                                              labelText: isEmailSent ? 'Sent' : 'Enter your email',
                                               labelStyle:
                                                   FlutterFlowTheme.of(context)
                                                       .labelMedium
@@ -1704,11 +1767,22 @@ class _HomePageWidgetState extends State<HomePageWidget>
                                                   const EdgeInsetsDirectional
                                                       .fromSTEB(
                                                           10.0, 0.0, 0.0, 0.0),
-                                              suffixIcon: const FaIcon(
-                                                FontAwesomeIcons.arrowRight,
-                                                color: Color(0xFFEEB609),
-                                                size: 30.0,
-                                              ),
+                                              suffixIcon: GestureDetector(
+                                                              onTap: () async {
+                                                                if (_formKey.currentState!.validate()) {
+                                                                  FocusManager.instance.primaryFocus?.unfocus();
+                                                                  setState(() {
+                                                                    sendEmail(_model.textController1.text);
+                                                                    isEmailSent = true;
+                                                                  });
+                                                                  _model.textController1?.clear();
+                                                                  await resetForm();
+                                                                }
+                                                              },
+                                                              child: const Icon(
+                                                                Icons.arrow_forward,
+                                                              ),
+                                                            ),
                                             ),
                                             style: FlutterFlowTheme.of(context)
                                                 .bodyMedium
@@ -1722,6 +1796,7 @@ class _HomePageWidgetState extends State<HomePageWidget>
                                                 .textController1Validator
                                                 .asValidator(context),
                                           ),
+                                          )
                                         ),
                                       ),
                                     ],
@@ -1821,7 +1896,20 @@ class _HomePageWidgetState extends State<HomePageWidget>
                                             width: MediaQuery.sizeOf(context)
                                                     .width *
                                                 0.5,
-                                            child: TextFormField(
+                                            child: Form(
+                                              key: _formKey,
+                                              child: TextFormField(
+                                                autovalidateMode: AutovalidateMode.onUserInteraction,
+                                                          onFieldSubmitted: (value) async {
+                                                            if (_formKey.currentState!.validate()) {
+                                                              setState(() {
+                                                                sendEmail(value);
+                                                                isEmailSent = true;
+                                                              });
+                                                              _model.textController2?.clear();
+                                                              await resetForm();
+                                                            }
+                                                          },
                                               controller:
                                                   _model.textController2,
                                               focusNode:
@@ -1833,7 +1921,7 @@ class _HomePageWidgetState extends State<HomePageWidget>
                                                   TextInputAction.done,
                                               obscureText: false,
                                               decoration: InputDecoration(
-                                                labelText: 'Enter Your Email',
+                                                labelText: isEmailSent ? 'Sent' : 'Enter your email',
                                                 labelStyle:
                                                     FlutterFlowTheme.of(context)
                                                         .labelMedium
@@ -1900,6 +1988,22 @@ class _HomePageWidgetState extends State<HomePageWidget>
                                                 ),
                                                 filled: true,
                                                 fillColor: Colors.white,
+                                                suffixIcon: GestureDetector(
+                                                              onTap: () async {
+                                                                if (_formKey.currentState!.validate()) {
+                                                                  FocusManager.instance.primaryFocus?.unfocus();
+                                                                  setState(() {
+                                                                    sendEmail(_model.textController2.text);
+                                                                    isEmailSent = true;
+                                                                  });
+                                                                  _model.textController2?.clear();
+                                                                  await resetForm();
+                                                                }
+                                                              },
+                                                              child: const Icon(
+                                                                Icons.arrow_forward,
+                                                              ),
+                                                            ),
                                                 contentPadding:
                                                     const EdgeInsetsDirectional
                                                         .fromSTEB(10.0, 0.0,
@@ -1920,6 +2024,7 @@ class _HomePageWidgetState extends State<HomePageWidget>
                                                   .textController2Validator
                                                   .asValidator(context),
                                             ),
+                                              ),
                                           ),
                                         ),
                                       ],
