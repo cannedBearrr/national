@@ -902,7 +902,7 @@ class _HomePageWidgetState extends State<HomePageWidget>
                                                 const EdgeInsetsDirectional.fromSTEB(
                                                     0.0, 0.0, 40.0, 0.0),
                                             child: Text(
-                                              'At Northern Horizon, we transform education by \nintegrating real-world experience with academic learning. Our mission is to \nguide students towards future careers through personalized counseling, \nskill development programs, and project-based learning. \nLocated in the Catskills, we nurture the next \ngeneration of leaders and innovators by providing practical \nexperience and meaningful industry partnerships.',
+                                              'At Northern Horizon, we transform education by \nintegrating real-world experience with academic learning. \nOur mission is to guide students towards future careers \nthrough personalized counseling, \nskill development programs, and project-based learning. \nLocated in the Catskills, we nurture the next \ngeneration of leaders and innovators by providing practical \nexperience and meaningful industry partnerships.',
                                               textAlign: TextAlign.center,
                                               style:
                                                   FlutterFlowTheme.of(context)
@@ -926,13 +926,13 @@ class _HomePageWidgetState extends State<HomePageWidget>
                                                     0.0, 0.0, 0.0, 20.0),
                                             child: ClipRRect(
                                               borderRadius:
-                                                  BorderRadius.circular(8.0),
+                                                  BorderRadius.circular(40.0),
                                               child: Image.network(
                                                 'https://images.unsplash.com/photo-1662663560803-db03b7821eb9?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NTYyMDF8MHwxfHNlYXJjaHwxNHx8Y2F0c2tpbGwlMjBtb3VudGFpbnN8ZW58MHx8fHwxNzE4NzM2NjkxfDA&ixlib=rb-4.0.3&q=80&w=1080',
                                                 width:
                                                     MediaQuery.sizeOf(context)
                                                             .width *
-                                                        0.4,
+                                                        0.3,
                                                 height:
                                                     MediaQuery.sizeOf(context)
                                                             .height *
@@ -991,7 +991,7 @@ class _HomePageWidgetState extends State<HomePageWidget>
                                     padding: const EdgeInsetsDirectional.fromSTEB(
                                         0.0, 0.0, 0.0, 20.0),
                                     child: ClipRRect(
-                                      borderRadius: BorderRadius.circular(0.0),
+                                      borderRadius: BorderRadius.circular(15.0),
                                       child: Image.network(
                                         'https://images.unsplash.com/photo-1662663560803-db03b7821eb9?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NTYyMDF8MHwxfHNlYXJjaHwxNHx8Y2F0c2tpbGwlMjBtb3VudGFpbnN8ZW58MHx8fHwxNzE4NzM2NjkxfDA&ixlib=rb-4.0.3&q=80&w=1080',
                                         width:
@@ -1643,7 +1643,7 @@ class _HomePageWidgetState extends State<HomePageWidget>
                                 child: Container(
                                   width: MediaQuery.sizeOf(context).width * 0.9,
                                   height:
-                                      MediaQuery.sizeOf(context).height * 0.65,
+                                      MediaQuery.sizeOf(context).height * 0.85,
                                   decoration: const BoxDecoration(
                                     color: Color(0xFFE7DCC6),
                                     shape: BoxShape.rectangle,
