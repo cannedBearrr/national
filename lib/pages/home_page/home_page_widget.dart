@@ -90,8 +90,9 @@ class _HomePageWidgetState extends State<HomePageWidget>
       child: Scaffold(
         key: scaffoldKey,
         backgroundColor: FlutterFlowTheme.of(context).primaryBackground,
+
         endDrawer: SizedBox(
-          width: MediaQuery.sizeOf(context).width * 0.1,
+          width: MediaQuery.sizeOf(context).width * 0.2,
           child: Drawer(
             elevation: 16.0,
             child: Column(
@@ -2520,6 +2521,16 @@ class _HomePageWidgetState extends State<HomePageWidget>
                       ),
                     ),
                   ),
+                  Positioned(
+                    top: 40.0,
+                    right: 10.0,
+                    child: IconButton(
+                      icon: Icon(Icons.menu),
+                      onPressed: (){
+                        scaffoldKey.currentState!.openEndDrawer();
+                      }
+                    )
+                  )
               ],
             ),
           ),

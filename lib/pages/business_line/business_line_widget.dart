@@ -4348,6 +4348,16 @@ class _BusinessLineWidgetState extends State<BusinessLineWidget>
                       ),
                     ),
                   ),
+                  Positioned(
+                    top: 40.0,
+                    right: 10.0,
+                    child: IconButton(
+                      icon: Icon(Icons.menu),
+                      onPressed: (){
+                        scaffoldKey.currentState!.openEndDrawer();
+                      }
+                    )
+                  )
               ],
             ),
           ),
