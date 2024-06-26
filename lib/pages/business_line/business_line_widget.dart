@@ -2195,7 +2195,7 @@ class _BusinessLineWidgetState extends State<BusinessLineWidget>
                                               child: Padding(
                                                 padding: const EdgeInsetsDirectional
                                                     .fromSTEB(
-                                                        0.0, 0.0, 200.0, 0.0),
+                                                        0.0, 0.0, 100.0, 0.0),
                                                 child: ClipRRect(
                                                   borderRadius:
                                                       BorderRadius.circular(
@@ -2361,7 +2361,7 @@ class _BusinessLineWidgetState extends State<BusinessLineWidget>
                                               child: Padding(
                                                 padding: const EdgeInsetsDirectional
                                                     .fromSTEB(
-                                                        200.0, 0.0, 0.0, 0.0),
+                                                        100.0, 0.0, 0.0, 0.0),
                                                 child: ClipRRect(
                                                   borderRadius:
                                                       BorderRadius.circular(
@@ -2417,7 +2417,7 @@ class _BusinessLineWidgetState extends State<BusinessLineWidget>
                                               child: Padding(
                                                 padding: const EdgeInsetsDirectional
                                                     .fromSTEB(
-                                                        0.0, 0.0, 200.0, 0.0),
+                                                        0.0, 0.0, 100.0, 0.0),
                                                 child: ClipRRect(
                                                   borderRadius:
                                                       BorderRadius.circular(
@@ -2471,7 +2471,7 @@ class _BusinessLineWidgetState extends State<BusinessLineWidget>
                                                         fontFamily:
                                                             'Inria Serif',
                                                         color: Colors.white,
-                                                        fontSize: 20.0,
+                                                        fontSize: 15.0,
                                                         letterSpacing: 0.0,
                                                         fontWeight:
                                                             FontWeight.w300,
@@ -2613,7 +2613,7 @@ class _BusinessLineWidgetState extends State<BusinessLineWidget>
                                                         fontFamily:
                                                         'Inria Serif',
                                                         color: Colors.white,
-                                                        fontSize: 20.0,
+                                                        fontSize: 15.0,
                                                         letterSpacing: 0.0,
                                                         fontWeight:
                                                         FontWeight.w300,
