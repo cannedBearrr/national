@@ -141,155 +141,148 @@ class _HomePageWidgetState extends State<HomePageWidget>
       child: Scaffold(
         key: scaffoldKey,
         backgroundColor: FlutterFlowTheme.of(context).primaryBackground,
-        endDrawer: SizedBox(
-          width: MediaQuery.sizeOf(context).width * 0.2,
-          child: Drawer(
-            elevation: 16.0,
-            child: Column(
-              mainAxisSize: MainAxisSize.max,
-              children: [
-                Align(
-                  alignment: const AlignmentDirectional(1.0, -1.0),
-                  child: Padding(
-                    padding:
-                        const EdgeInsetsDirectional.fromSTEB(0.0, 10.0, 5.0, 0.0),
-                    child: InkWell(
-                      splashColor: Colors.transparent,
-                      focusColor: Colors.transparent,
-                      hoverColor: Colors.transparent,
-                      highlightColor: Colors.transparent,
-                      onTap: () async {
-                        if (scaffoldKey.currentState!.isDrawerOpen ||
-                            scaffoldKey.currentState!.isEndDrawerOpen) {
-                          Navigator.pop(context);
-                        }
-                      },
-                      child: Icon(
-                        Icons.close_sharp,
-                        color: FlutterFlowTheme.of(context).primaryText,
-                        size: 35.0,
+        endDrawer: Drawer(
+          elevation: 16.0,
+          child: Column(
+            mainAxisSize: MainAxisSize.max,
+            children: [
+              Align(
+                alignment: const AlignmentDirectional(1.0, -1.0),
+                child: Padding(
+                  padding: const EdgeInsetsDirectional.fromSTEB(0.0, 10.0, 5.0, 0.0),
+                  child: InkWell(
+                    splashColor: Colors.transparent,
+                    focusColor: Colors.transparent,
+                    hoverColor: Colors.transparent,
+                    highlightColor: Colors.transparent,
+                    onTap: () async {
+                      if (scaffoldKey.currentState!.isDrawerOpen ||
+                          scaffoldKey.currentState!.isEndDrawerOpen) {
+                        Navigator.pop(context);
+                      }
+                    },
+                    child: Icon(
+                      Icons.close_sharp,
+                      color: FlutterFlowTheme.of(context).primaryText,
+                      size: 35.0,
+                    ),
+                  ),
+                ),
+              ),
+              SizedBox(
+                width: 300.0,
+                child: Divider(
+                  height: 65.0,
+                  thickness: 1.0,
+                  color: FlutterFlowTheme.of(context).primaryText,
+                ),
+              ),
+              Align(
+                alignment: const AlignmentDirectional(-1.0, 0.0),
+                child: Padding(
+                  padding:
+                  const EdgeInsetsDirectional.fromSTEB(30.0, 0.0, 0.0, 0.0),
+                  child: InkWell(
+                    splashColor: Colors.transparent,
+                    focusColor: Colors.transparent,
+                    hoverColor: Colors.transparent,
+                    highlightColor: Colors.transparent,
+                    onTap: () async {
+                      context.pushNamed('homePage');
+                    },
+                    child: Text(
+                      'Home',
+                      textAlign: TextAlign.start,
+                      style: FlutterFlowTheme.of(context).bodyMedium.override(
+                        fontFamily: 'Rubik',
+                        color: const Color(0xFFEEB609),
+                        fontSize: 31.0,
+                        letterSpacing: 1.8,
+                        fontWeight: FontWeight.w800,
                       ),
                     ),
                   ),
                 ),
-                SizedBox(
-                  width: 300.0,
-                  child: Divider(
-                    height: 65.0,
-                    thickness: 1.0,
-                    color: FlutterFlowTheme.of(context).primaryText,
-                  ),
-                ),
-                Align(
-                  alignment: const AlignmentDirectional(-1.0, 0.0),
-                  child: Padding(
-                    padding:
-                    const EdgeInsetsDirectional.fromSTEB(30.0, 0.0, 0.0, 0.0),
-                    child: InkWell(
-                      splashColor: Colors.transparent,
-                      focusColor: Colors.transparent,
-                      hoverColor: Colors.transparent,
-                      highlightColor: Colors.transparent,
-                      onTap: () async {
-                        context.pushNamed('homePage');
-                      },
-                      child: Text(
-                        'Home',
-                        textAlign: TextAlign.start,
-                        style: FlutterFlowTheme.of(context).bodyMedium.override(
-                          fontFamily: 'Rubik',
-                          color: const Color(0xFFEEB609),
-                          fontSize: 31.0,
-                          letterSpacing: 1.8,
-                          fontWeight: FontWeight.w800,
-                        ),
+              ),
+              Align(
+                alignment: const AlignmentDirectional(-1.0, 0.0),
+                child: Padding(
+                  padding: const EdgeInsetsDirectional.fromSTEB(30.0, 0.0, 0.0, 0.0),
+                  child: InkWell(
+                    splashColor: Colors.transparent,
+                    focusColor: Colors.transparent,
+                    hoverColor: Colors.transparent,
+                    highlightColor: Colors.transparent,
+                    onTap: () async {
+                      context.pushNamed('studentLine');
+                    },
+                    child: Text(
+                      'STUDENT',
+                      textAlign: TextAlign.start,
+                      style: FlutterFlowTheme.of(context).bodyMedium.override(
+                        fontFamily: 'Rubik',
+                        color: const Color(0xAB000000),
+                        fontSize: 31.0,
+                        letterSpacing: 1.8,
+                        fontWeight: FontWeight.w500,
                       ),
                     ),
                   ),
                 ),
-                Align(
-                  alignment: const AlignmentDirectional(-1.0, 0.0),
-                  child: Padding(
-                    padding:
-                        const EdgeInsetsDirectional.fromSTEB(30.0, 0.0, 0.0, 0.0),
-                    child: InkWell(
-                      splashColor: Colors.transparent,
-                      focusColor: Colors.transparent,
-                      hoverColor: Colors.transparent,
-                      highlightColor: Colors.transparent,
-                      onTap: () async {
-                        context.pushNamed('studentLine');
-                      },
-                      child: Text(
-                        'STUDENT',
-                        textAlign: TextAlign.start,
-                        style: FlutterFlowTheme.of(context).bodyMedium.override(
-                              fontFamily: 'Rubik',
-                              color: const Color(0xAB000000),
-                              fontSize: 31.0,
-                              letterSpacing: 1.8,
-                              fontWeight: FontWeight.w500,
-                            ),
+              ),
+              Align(
+                alignment: const AlignmentDirectional(-1.0, 0.0),
+                child: Padding(
+                  padding: const EdgeInsetsDirectional.fromSTEB(30.0, 0.0, 0.0, 0.0),
+                  child: InkWell(
+                    splashColor: Colors.transparent,
+                    focusColor: Colors.transparent,
+                    hoverColor: Colors.transparent,
+                    highlightColor: Colors.transparent,
+                    onTap: () async {
+                      context.pushNamed('businessLine');
+                    },
+                    child: Text(
+                      'BUSINESS',
+                      textAlign: TextAlign.start,
+                      style: FlutterFlowTheme.of(context).bodyMedium.override(
+                        fontFamily: 'Rubik',
+                        color: const Color(0xAB000000),
+                        fontSize: 31.0,
+                        letterSpacing: 1.8,
+                        fontWeight: FontWeight.w500,
                       ),
                     ),
                   ),
                 ),
-                Align(
-                  alignment: const AlignmentDirectional(-1.0, 0.0),
-                  child: Padding(
-                    padding:
-                        const EdgeInsetsDirectional.fromSTEB(30.0, 0.0, 0.0, 0.0),
-                    child: InkWell(
-                      splashColor: Colors.transparent,
-                      focusColor: Colors.transparent,
-                      hoverColor: Colors.transparent,
-                      highlightColor: Colors.transparent,
-                      onTap: () async {
-                        context.pushNamed('businessLine');
-                      },
-                      child: Text(
-                        'BUSINESS',
-                        textAlign: TextAlign.start,
-                        style: FlutterFlowTheme.of(context).bodyMedium.override(
-                              fontFamily: 'Rubik',
-                              color: const Color(0xAB000000),
-                              fontSize: 31.0,
-                              letterSpacing: 1.8,
-                              fontWeight: FontWeight.w500,
-                            ),
+              ),
+              Align(
+                alignment: const AlignmentDirectional(-1.0, 0.0),
+                child: Padding(
+                  padding: const EdgeInsetsDirectional.fromSTEB(30.0, 0.0, 0.0, 0.0),
+                  child: InkWell(
+                    splashColor: Colors.transparent,
+                    focusColor: Colors.transparent,
+                    hoverColor: Colors.transparent,
+                    highlightColor: Colors.transparent,
+                    onTap: () async {
+                      context.pushNamed('careerLine');
+                    },
+                    child: Text(
+                      'CAREER',
+                      textAlign: TextAlign.start,
+                      style: FlutterFlowTheme.of(context).bodyMedium.override(
+                        fontFamily: 'Rubik',
+                        color: const Color(0xAB000000),
+                        fontSize: 31.0,
+                        letterSpacing: 1.8,
+                        fontWeight: FontWeight.w500,
                       ),
                     ),
                   ),
                 ),
-                Align(
-                  alignment: const AlignmentDirectional(-1.0, 0.0),
-                  child: Padding(
-                    padding:
-                        const EdgeInsetsDirectional.fromSTEB(30.0, 0.0, 0.0, 0.0),
-                    child: InkWell(
-                      splashColor: Colors.transparent,
-                      focusColor: Colors.transparent,
-                      hoverColor: Colors.transparent,
-                      highlightColor: Colors.transparent,
-                      onTap: () async {
-                        context.pushNamed('careerLine');
-                      },
-                      child: Text(
-                        'CAREER',
-                        textAlign: TextAlign.start,
-                        style: FlutterFlowTheme.of(context).bodyMedium.override(
-                              fontFamily: 'Rubik',
-                              color: const Color(0xAB000000),
-                              fontSize: 31.0,
-                              letterSpacing: 1.8,
-                              fontWeight: FontWeight.w500,
-                            ),
-                      ),
-                    ),
-                  ),
-                ),
-              ],
-            ),
+              ),
+            ],
           ),
         ),
         body: SafeArea(
@@ -1202,7 +1195,7 @@ class _HomePageWidgetState extends State<HomePageWidget>
                                         padding: const EdgeInsetsDirectional.fromSTEB(
                                             15.0, 0.0, 15.0, 15.0),
                                         child: Text(
-                                          'Empowering students with real-world experience through hands-on learning and innovative collaborations.',
+                                          'Empowering students with real-world experience.',
                                           textAlign: TextAlign.center,
                                           style: FlutterFlowTheme.of(context)
                                               .bodyMedium
@@ -1244,7 +1237,7 @@ class _HomePageWidgetState extends State<HomePageWidget>
                           ))
                             Container(
                               width: MediaQuery.sizeOf(context).width * 1.0,
-                              height: MediaQuery.sizeOf(context).height * 1.0,
+                              height: MediaQuery.sizeOf(context).height * 0.5,
                               decoration: BoxDecoration(
                                 color: FlutterFlowTheme.of(context)
                                     .secondaryBackground,
@@ -1253,32 +1246,32 @@ class _HomePageWidgetState extends State<HomePageWidget>
                                 mainAxisSize: MainAxisSize.max,
                                 mainAxisAlignment: MainAxisAlignment.center,
                                 children: [
-                                  ClipRRect(
-                                    borderRadius: const BorderRadius.only(
-                                      bottomLeft: Radius.circular(0.0),
-                                      bottomRight: Radius.circular(0.0),
-                                      topLeft: Radius.circular(200.0),
-                                      topRight: Radius.circular(0.0),
-                                    ),
-                                    child: Container(
-                                      width: MediaQuery.sizeOf(context).width *
-                                          0.45,
-                                      height:
-                                          MediaQuery.sizeOf(context).height *
-                                              0.75,
-                                      decoration: BoxDecoration(
-                                        color: FlutterFlowTheme.of(context)
-                                            .secondaryBackground,
-                                        borderRadius: const BorderRadius.only(
-                                          bottomLeft: Radius.circular(0.0),
-                                          bottomRight: Radius.circular(0.0),
-                                          topLeft: Radius.circular(200.0),
-                                          topRight: Radius.circular(0.0),
-                                        ),
-                                        shape: BoxShape.rectangle,
-                                      ),
-                                    ),
-                                  ),
+                                  // ClipRRect(
+                                  //   borderRadius: const BorderRadius.only(
+                                  //     bottomLeft: Radius.circular(0.0),
+                                  //     bottomRight: Radius.circular(0.0),
+                                  //     topLeft: Radius.circular(200.0),
+                                  //     topRight: Radius.circular(0.0),
+                                  //   ),
+                                  //   child: Container(
+                                  //     width: MediaQuery.sizeOf(context).width *
+                                  //         0.45,
+                                  //     height:
+                                  //         MediaQuery.sizeOf(context).height *
+                                  //             0.75,
+                                  //     decoration: BoxDecoration(
+                                  //       color: FlutterFlowTheme.of(context)
+                                  //           .secondaryBackground,
+                                  //       borderRadius: const BorderRadius.only(
+                                  //         bottomLeft: Radius.circular(0.0),
+                                  //         bottomRight: Radius.circular(0.0),
+                                  //         topLeft: Radius.circular(200.0),
+                                  //         topRight: Radius.circular(0.0),
+                                  //       ),
+                                  //       shape: BoxShape.rectangle,
+                                  //     ),
+                                  //   ),
+                                  // ),
                                   Column(
                                     mainAxisSize: MainAxisSize.max,
                                     mainAxisAlignment: MainAxisAlignment.center,
@@ -1294,7 +1287,7 @@ class _HomePageWidgetState extends State<HomePageWidget>
                                               .bodyMedium
                                               .override(
                                                 fontFamily: 'NORD',
-                                                fontSize: 80.0,
+                                                fontSize: 96.0,
                                                 letterSpacing: 0.0,
                                                 fontWeight: FontWeight.bold,
                                                 useGoogleFonts: false,
@@ -1302,9 +1295,9 @@ class _HomePageWidgetState extends State<HomePageWidget>
                                         ),
                                       ),
                                       const SizedBox(
-                                        width: 450.0,
+                                        width: 500.0,
                                         child: Divider(
-                                          thickness: 1.5,
+                                          thickness: 2,
                                           color: Color(0xCC000000),
                                         ),
                                       ),
@@ -1312,7 +1305,7 @@ class _HomePageWidgetState extends State<HomePageWidget>
                                         padding: const EdgeInsetsDirectional.fromSTEB(
                                             40.0, 15.0, 40.0, 0.0),
                                         child: Text(
-                                          'Discover the Northern Horizon experience firsthand. \nNestled in the scenic Catskills, our campus \noffers an inspiring environment for learning \nand growth. Whether you are a prospective \nstudent, parent, or industry partner, \nvisit us to see how our innovative \napproach is shaping the future of \neducation. Explore our facilities, meet our \nteam, and learn how we can help you \nachieve your career aspirations.',
+                                          'Discover the Northern Horizon experience firsthand. Nestled in the scenic Catskills, our campus \noffers an inspiring environment for learning and growth. Whether you are a prospective \nstudent, parent, or industry partner, visit us to see how our innovative \napproach is shaping the future of education. Explore our facilities, meet our \nteam, and learn how we can help you achieve your career aspirations.',
                                           textAlign: TextAlign.center,
                                           style: FlutterFlowTheme.of(context)
                                               .bodyMedium
@@ -1441,7 +1434,7 @@ class _HomePageWidgetState extends State<HomePageWidget>
                           ))
                             Container(
                               width: MediaQuery.sizeOf(context).width * 1.0,
-                              height: MediaQuery.sizeOf(context).height * 1.0,
+                              height: MediaQuery.sizeOf(context).height * 0.5,
                               decoration: BoxDecoration(
                                 color: FlutterFlowTheme.of(context)
                                     .secondaryBackground,
@@ -1597,32 +1590,32 @@ class _HomePageWidgetState extends State<HomePageWidget>
                                       ),
                                     ],
                                   ),
-                                  ClipRRect(
-                                    borderRadius: const BorderRadius.only(
-                                      bottomLeft: Radius.circular(0.0),
-                                      bottomRight: Radius.circular(0.0),
-                                      topLeft: Radius.circular(75.0),
-                                      topRight: Radius.circular(0.0),
-                                    ),
-                                    child: Container(
-                                      width: MediaQuery.sizeOf(context).width *
-                                          0.75,
-                                      height:
-                                          MediaQuery.sizeOf(context).height *
-                                              0.4,
-                                      decoration: BoxDecoration(
-                                        color: FlutterFlowTheme.of(context)
-                                            .secondaryBackground,
-                                        borderRadius: const BorderRadius.only(
-                                          bottomLeft: Radius.circular(0.0),
-                                          bottomRight: Radius.circular(0.0),
-                                          topLeft: Radius.circular(75.0),
-                                          topRight: Radius.circular(0.0),
-                                        ),
-                                        shape: BoxShape.rectangle,
-                                      ),
-                                    ),
-                                  ),
+                                  // ClipRRect(
+                                  //   borderRadius: const BorderRadius.only(
+                                  //     bottomLeft: Radius.circular(0.0),
+                                  //     bottomRight: Radius.circular(0.0),
+                                  //     topLeft: Radius.circular(75.0),
+                                  //     topRight: Radius.circular(0.0),
+                                  //   ),
+                                  //   child: Container(
+                                  //     width: MediaQuery.sizeOf(context).width *
+                                  //         0.75,
+                                  //     height:
+                                  //         MediaQuery.sizeOf(context).height *
+                                  //             0.4,
+                                  //     decoration: BoxDecoration(
+                                  //       color: FlutterFlowTheme.of(context)
+                                  //           .secondaryBackground,
+                                  //       borderRadius: const BorderRadius.only(
+                                  //         bottomLeft: Radius.circular(0.0),
+                                  //         bottomRight: Radius.circular(0.0),
+                                  //         topLeft: Radius.circular(75.0),
+                                  //         topRight: Radius.circular(0.0),
+                                  //       ),
+                                  //       shape: BoxShape.rectangle,
+                                  //     ),
+                                  //   ),
+                                  // ),
                                 ],
                               ),
                             ), //Visit Us
@@ -1853,7 +1846,7 @@ class _HomePageWidgetState extends State<HomePageWidget>
                                     width:
                                         MediaQuery.sizeOf(context).width * 0.9,
                                     height:
-                                        MediaQuery.sizeOf(context).height * 1.0,
+                                        MediaQuery.sizeOf(context).height * 0.9,
                                     decoration: const BoxDecoration(
                                       color: Color(0xFFE7DCC6),
                                       shape: BoxShape.rectangle,
@@ -1893,7 +1886,7 @@ class _HomePageWidgetState extends State<HomePageWidget>
                                                 .override(
                                                   fontFamily: 'NORD',
                                                   color: Colors.black,
-                                                  fontSize: 35.0,
+                                                  fontSize: 30.0,
                                                   letterSpacing: 0.0,
                                                   fontWeight: FontWeight.bold,
                                                   useGoogleFonts: false,
@@ -2596,15 +2589,20 @@ class _HomePageWidgetState extends State<HomePageWidget>
                           ),
                           Align(
                             alignment: const AlignmentDirectional(-1.0, 0.0),
-                            child: ClipRRect(
-                              borderRadius: BorderRadius.circular(8.0),
-                              child: SvgPicture.network(
-                                'https://northernhorizon.org/public/assets/logo-blue.svg',
-                                width: MediaQuery.sizeOf(context).width * 0.3,
-                                height:
-                                    MediaQuery.sizeOf(context).height * 0.08,
-                                fit: BoxFit.contain,
-                                alignment: const Alignment(0.0, 0.0),
+                            child: Padding(
+                              padding: const EdgeInsetsDirectional.fromSTEB(
+                                  40.0, 0.0, 0.0, 0.0),
+                              child: ClipRRect(
+                                borderRadius: BorderRadius.circular(0.0),
+                                child: SvgPicture.network(
+                                  'https://northernhorizon.org/public/assets/logo-blue.svg',
+                                  width:
+                                  MediaQuery.sizeOf(context).width * 0.25,
+                                  height:
+                                  MediaQuery.sizeOf(context).height * 0.08,
+                                  fit: BoxFit.contain,
+                                  alignment: const Alignment(0.0, 0.0),
+                                ),
                               ),
                             ),
                           ),
@@ -2637,7 +2635,7 @@ class _HomePageWidgetState extends State<HomePageWidget>
                               padding: const EdgeInsetsDirectional.fromSTEB(
                                   40.0, 0.0, 0.0, 0.0),
                               child: ClipRRect(
-                                borderRadius: BorderRadius.circular(8.0),
+                                borderRadius: BorderRadius.circular(0.0),
                                 child: SvgPicture.network(
                                   'https://northernhorizon.org/public/assets/logo-blue.svg',
                                   width:

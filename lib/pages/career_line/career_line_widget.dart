@@ -90,128 +90,148 @@ class _CareerLineWidgetState extends State<CareerLineWidget>
       child: Scaffold(
         key: scaffoldKey,
         backgroundColor: FlutterFlowTheme.of(context).primaryBackground,
-        endDrawer: SizedBox(
-          width: MediaQuery.sizeOf(context).width * 0.85,
-          child: Drawer(
-            elevation: 16.0,
-            child: Column(
-              mainAxisSize: MainAxisSize.max,
-              children: [
-                Align(
-                  alignment: const AlignmentDirectional(1.0, -1.0),
-                  child: Padding(
-                    padding:
-                        const EdgeInsetsDirectional.fromSTEB(0.0, 10.0, 5.0, 0.0),
-                    child: InkWell(
-                      splashColor: Colors.transparent,
-                      focusColor: Colors.transparent,
-                      hoverColor: Colors.transparent,
-                      highlightColor: Colors.transparent,
-                      onTap: () async {
-                        if (scaffoldKey.currentState!.isDrawerOpen ||
-                            scaffoldKey.currentState!.isEndDrawerOpen) {
-                          Navigator.pop(context);
-                        }
-                      },
-                      child: Icon(
-                        Icons.close_sharp,
-                        color: FlutterFlowTheme.of(context).primaryText,
-                        size: 35.0,
+        endDrawer: Drawer(
+          elevation: 16.0,
+          child: Column(
+            mainAxisSize: MainAxisSize.max,
+            children: [
+              Align(
+                alignment: const AlignmentDirectional(1.0, -1.0),
+                child: Padding(
+                  padding: const EdgeInsetsDirectional.fromSTEB(0.0, 10.0, 5.0, 0.0),
+                  child: InkWell(
+                    splashColor: Colors.transparent,
+                    focusColor: Colors.transparent,
+                    hoverColor: Colors.transparent,
+                    highlightColor: Colors.transparent,
+                    onTap: () async {
+                      if (scaffoldKey.currentState!.isDrawerOpen ||
+                          scaffoldKey.currentState!.isEndDrawerOpen) {
+                        Navigator.pop(context);
+                      }
+                    },
+                    child: Icon(
+                      Icons.close_sharp,
+                      color: FlutterFlowTheme.of(context).primaryText,
+                      size: 35.0,
+                    ),
+                  ),
+                ),
+              ),
+              SizedBox(
+                width: 300.0,
+                child: Divider(
+                  height: 65.0,
+                  thickness: 1.0,
+                  color: FlutterFlowTheme.of(context).primaryText,
+                ),
+              ),
+              Align(
+                alignment: const AlignmentDirectional(-1.0, 0.0),
+                child: Padding(
+                  padding:
+                  const EdgeInsetsDirectional.fromSTEB(30.0, 0.0, 0.0, 0.0),
+                  child: InkWell(
+                    splashColor: Colors.transparent,
+                    focusColor: Colors.transparent,
+                    hoverColor: Colors.transparent,
+                    highlightColor: Colors.transparent,
+                    onTap: () async {
+                      context.pushNamed('homePage');
+                    },
+                    child: Text(
+                      'Home',
+                      textAlign: TextAlign.start,
+                      style: FlutterFlowTheme.of(context).bodyMedium.override(
+                        fontFamily: 'Rubik',
+                        color: const Color(0xAB000000),
+                        fontSize: 31.0,
+                        letterSpacing: 1.8,
+                        fontWeight: FontWeight.w500,
                       ),
                     ),
                   ),
                 ),
-                SizedBox(
-                  width: 300.0,
-                  child: Divider(
-                    height: 65.0,
-                    thickness: 1.0,
-                    color: FlutterFlowTheme.of(context).primaryText,
-                  ),
-                ),
-                Align(
-                  alignment: const AlignmentDirectional(-1.0, 0.0),
-                  child: Padding(
-                    padding:
-                        const EdgeInsetsDirectional.fromSTEB(30.0, 0.0, 0.0, 0.0),
-                    child: InkWell(
-                      splashColor: Colors.transparent,
-                      focusColor: Colors.transparent,
-                      hoverColor: Colors.transparent,
-                      highlightColor: Colors.transparent,
-                      onTap: () async {
-                        context.pushNamed('studentLine');
-                      },
-                      child: Text(
-                        'STUDENT',
-                        textAlign: TextAlign.start,
-                        style: FlutterFlowTheme.of(context).bodyMedium.override(
-                              fontFamily: 'Rubik',
-                              color: const Color(0xAB000000),
-                              fontSize: 31.0,
-                              letterSpacing: 1.8,
-                              fontWeight: FontWeight.w500,
-                            ),
+              ),
+              Align(
+                alignment: const AlignmentDirectional(-1.0, 0.0),
+                child: Padding(
+                  padding: const EdgeInsetsDirectional.fromSTEB(30.0, 0.0, 0.0, 0.0),
+                  child: InkWell(
+                    splashColor: Colors.transparent,
+                    focusColor: Colors.transparent,
+                    hoverColor: Colors.transparent,
+                    highlightColor: Colors.transparent,
+                    onTap: () async {
+                      context.pushNamed('studentLine');
+                    },
+                    child: Text(
+                      'STUDENT',
+                      textAlign: TextAlign.start,
+                      style: FlutterFlowTheme.of(context).bodyMedium.override(
+                        fontFamily: 'Rubik',
+                        color: const Color(0xAB000000),
+                        fontSize: 31.0,
+                        letterSpacing: 1.8,
+                        fontWeight: FontWeight.w500,
                       ),
                     ),
                   ),
                 ),
-                Align(
-                  alignment: const AlignmentDirectional(-1.0, 0.0),
-                  child: Padding(
-                    padding:
-                        const EdgeInsetsDirectional.fromSTEB(30.0, 0.0, 0.0, 0.0),
-                    child: InkWell(
-                      splashColor: Colors.transparent,
-                      focusColor: Colors.transparent,
-                      hoverColor: Colors.transparent,
-                      highlightColor: Colors.transparent,
-                      onTap: () async {
-                        context.pushNamed('businessLine');
-                      },
-                      child: Text(
-                        'BUSINESS',
-                        textAlign: TextAlign.start,
-                        style: FlutterFlowTheme.of(context).bodyMedium.override(
-                              fontFamily: 'Rubik',
-                              color: const Color(0xB0000000),
-                              fontSize: 31.0,
-                              letterSpacing: 1.8,
-                              fontWeight: FontWeight.w500,
-                            ),
+              ),
+              Align(
+                alignment: const AlignmentDirectional(-1.0, 0.0),
+                child: Padding(
+                  padding: const EdgeInsetsDirectional.fromSTEB(30.0, 0.0, 0.0, 0.0),
+                  child: InkWell(
+                    splashColor: Colors.transparent,
+                    focusColor: Colors.transparent,
+                    hoverColor: Colors.transparent,
+                    highlightColor: Colors.transparent,
+                    onTap: () async {
+                      context.pushNamed('businessLine');
+                    },
+                    child: Text(
+                      'BUSINESS',
+                      textAlign: TextAlign.start,
+                      style: FlutterFlowTheme.of(context).bodyMedium.override(
+                        fontFamily: 'Rubik',
+                        color: const Color(0xAB000000),
+                        fontSize: 31.0,
+                        letterSpacing: 1.8,
+                        fontWeight: FontWeight.w500,
                       ),
                     ),
                   ),
                 ),
-                Align(
-                  alignment: const AlignmentDirectional(-1.0, 0.0),
-                  child: Padding(
-                    padding:
-                        const EdgeInsetsDirectional.fromSTEB(30.0, 0.0, 0.0, 0.0),
-                    child: InkWell(
-                      splashColor: Colors.transparent,
-                      focusColor: Colors.transparent,
-                      hoverColor: Colors.transparent,
-                      highlightColor: Colors.transparent,
-                      onTap: () async {
-                        context.pushNamed('careerLine');
-                      },
-                      child: Text(
-                        'CAREER',
-                        textAlign: TextAlign.start,
-                        style: FlutterFlowTheme.of(context).bodyMedium.override(
-                              fontFamily: 'Rubik',
-                              color: const Color(0xFFEEB609),
-                              fontSize: 31.0,
-                              letterSpacing: 1.8,
-                              fontWeight: FontWeight.w800,
-                            ),
+              ),
+              Align(
+                alignment: const AlignmentDirectional(-1.0, 0.0),
+                child: Padding(
+                  padding: const EdgeInsetsDirectional.fromSTEB(30.0, 0.0, 0.0, 0.0),
+                  child: InkWell(
+                    splashColor: Colors.transparent,
+                    focusColor: Colors.transparent,
+                    hoverColor: Colors.transparent,
+                    highlightColor: Colors.transparent,
+                    onTap: () async {
+                      context.pushNamed('careerLine');
+                    },
+                    child: Text(
+                      'CAREER',
+                      textAlign: TextAlign.start,
+                      style: FlutterFlowTheme.of(context).bodyMedium.override(
+                        fontFamily: 'Rubik',
+                        color: const Color(0xFFEEB609),
+                        fontSize: 31.0,
+                        letterSpacing: 1.8,
+                        fontWeight: FontWeight.w800,
                       ),
                     ),
                   ),
                 ),
-              ],
-            ),
+              ),
+            ],
           ),
         ),
         body: SafeArea(
@@ -2134,7 +2154,7 @@ class _CareerLineWidgetState extends State<CareerLineWidget>
                                                       BorderRadius
                                                           .circular(8.0),
                                                       child: Image.asset(
-                                                        'images/7422495_nasa_space_shuttle_universe_explore_icon_1.png',
+                                                        'assets/images/7422495_nasa_space_shuttle_universe_explore_icon_1.png',
                                                         width:
                                                         MediaQuery.sizeOf(
                                                             context)
@@ -2144,7 +2164,7 @@ class _CareerLineWidgetState extends State<CareerLineWidget>
                                                         MediaQuery.sizeOf(
                                                             context)
                                                             .height *
-                                                            0.1,
+                                                            0.075,
                                                         fit: BoxFit.cover,
                                                       ),
                                                     ),
@@ -2161,15 +2181,15 @@ class _CareerLineWidgetState extends State<CareerLineWidget>
                                                       color: FlutterFlowTheme
                                                           .of(context)
                                                           .secondaryBackground,
-                                                      fontSize: 15.0,
+                                                      fontSize: 20.0,
                                                       letterSpacing: 0.0,
                                                       useGoogleFonts:
                                                       false,
                                                     ),
                                                   ),
                                                   Text(
-                                                    'In 2019, Northern Horizon embarked on a \ngroundbreaking journey by partnering with NASA. \nThis collaboration provided our students with unparalleled \nopportunities to work on cutting-edge space projects, \nsetting the foundation for our mission to bridge the gap \nbetween education and real-world applications.',
-                                                    textAlign: TextAlign.center,
+                                                    'In 2019, Northern Horizon embarked on a \ngroundbreaking journey by partnering with NASA. \nThis collaboration provided our students with \nunparalleled opportunities to work on cutting-edge space \nprojects, setting the foundation for our mission to bridge the gap \nbetween education and real-world applications.',
+                                                    textAlign: TextAlign.right,
                                                     style: FlutterFlowTheme.of(
                                                         context)
                                                         .bodyMedium
@@ -2177,7 +2197,7 @@ class _CareerLineWidgetState extends State<CareerLineWidget>
                                                       fontFamily:
                                                       'Inria Serif',
                                                       color: Colors.white,
-                                                      fontSize: 20.0,
+                                                      fontSize: 12.0,
                                                       letterSpacing: 0.0,
                                                       fontWeight:
                                                       FontWeight.w300,
@@ -2192,7 +2212,7 @@ class _CareerLineWidgetState extends State<CareerLineWidget>
                                                       fontFamily:
                                                       'Inria Serif',
                                                       color: Colors.white,
-                                                      fontSize: 50.0,
+                                                      fontSize: 25.0,
                                                       letterSpacing: 0.0,
                                                     ),
                                                   ),
@@ -2253,7 +2273,7 @@ class _CareerLineWidgetState extends State<CareerLineWidget>
                                                       BorderRadius
                                                           .circular(8.0),
                                                       child: Image.asset(
-                                                        'images/Mask_group.png',
+                                                        'assets/images/Mask_group.png',
                                                         width:
                                                         MediaQuery.sizeOf(
                                                             context)
@@ -2263,7 +2283,7 @@ class _CareerLineWidgetState extends State<CareerLineWidget>
                                                         MediaQuery.sizeOf(
                                                             context)
                                                             .height *
-                                                            0.1,
+                                                            0.075,
                                                         fit: BoxFit.contain,
                                                       ),
                                                     ),
@@ -2280,7 +2300,7 @@ class _CareerLineWidgetState extends State<CareerLineWidget>
                                                       color: FlutterFlowTheme
                                                           .of(context)
                                                           .secondaryBackground,
-                                                      fontSize: 15.0,
+                                                      fontSize: 20.0,
                                                       letterSpacing: 0.0,
                                                       useGoogleFonts:
                                                       false,
@@ -2288,7 +2308,7 @@ class _CareerLineWidgetState extends State<CareerLineWidget>
                                                   ),
                                                   Text(
                                                     'In 2020, we took a significant step forward by \npartnering with the United Nations. This collaboration \nenabled our students to engage in global initiatives, enhancing \ntheir skills and perspectives while preparing them for \nimpactful careers on the international stage.',
-                                                    textAlign: TextAlign.center,
+                                                    textAlign: TextAlign.right,
                                                     style: FlutterFlowTheme.of(
                                                         context)
                                                         .bodyMedium
@@ -2296,7 +2316,7 @@ class _CareerLineWidgetState extends State<CareerLineWidget>
                                                       fontFamily:
                                                       'Inria Serif',
                                                       color: Colors.white,
-                                                      fontSize: 15.0,
+                                                      fontSize: 12.0,
                                                       letterSpacing: 0.0,
                                                       fontWeight:
                                                       FontWeight.w300,
@@ -2311,7 +2331,7 @@ class _CareerLineWidgetState extends State<CareerLineWidget>
                                                       fontFamily:
                                                       'Inria Serif',
                                                       color: Colors.white,
-                                                      fontSize: 45.0,
+                                                      fontSize: 25.0,
                                                       letterSpacing: 0.0,
                                                     ),
                                                   ),
@@ -2381,17 +2401,17 @@ class _CareerLineWidgetState extends State<CareerLineWidget>
                                                             .circular(
                                                             8.0),
                                                         child: Image.asset(
-                                                          'images/USGS.png',
+                                                          'assets/images/USGS.png',
                                                           width: MediaQuery
                                                               .sizeOf(
                                                               context)
                                                               .width *
-                                                              0.328,
+                                                              0.45,
                                                           height: MediaQuery
                                                               .sizeOf(
                                                               context)
                                                               .height *
-                                                              0.1,
+                                                              0.075,
                                                           fit: BoxFit.contain,
                                                         ),
                                                       ),
@@ -2409,15 +2429,15 @@ class _CareerLineWidgetState extends State<CareerLineWidget>
                                                       color: FlutterFlowTheme
                                                           .of(context)
                                                           .secondaryBackground,
-                                                      fontSize: 15.0,
+                                                      fontSize: 20.0,
                                                       letterSpacing: 0.0,
                                                       useGoogleFonts:
                                                       false,
                                                     ),
                                                   ),
                                                   Text(
-                                                    'In 2021, we formed a partnership with the USGS, \nfurther broadening the scope of hands-on experiences available to \nour students. This collaboration allows our students to work on real-world \nenvironmental and scientific projects, developing critical skills and \ngaining valuable insights into the field of science and technology.',
-                                                    textAlign: TextAlign.center,
+                                                    'In 2021, we formed a partnership with the USGS, \nfurther broadening the scope of hands-on experiences available to \nour students. This collaboration allows our students to work on \nreal-world environmental and scientific projects, developing \ncritical skills and gaining valuable insights into the field of science and technology.',
+                                                    textAlign: TextAlign.right,
                                                     style: FlutterFlowTheme.of(
                                                         context)
                                                         .bodyMedium
@@ -2425,7 +2445,7 @@ class _CareerLineWidgetState extends State<CareerLineWidget>
                                                       fontFamily:
                                                       'Inria Serif',
                                                       color: Colors.white,
-                                                      fontSize: 20.0,
+                                                      fontSize: 12.0,
                                                       letterSpacing: 0.0,
                                                       fontWeight:
                                                       FontWeight.w300,
@@ -2440,7 +2460,7 @@ class _CareerLineWidgetState extends State<CareerLineWidget>
                                                       fontFamily:
                                                       'Inria Serif',
                                                       color: Colors.white,
-                                                      fontSize: 50.0,
+                                                      fontSize: 25.0,
                                                       letterSpacing: 0.0,
                                                     ),
                                                   ),
@@ -4471,14 +4491,20 @@ class _CareerLineWidgetState extends State<CareerLineWidget>
                         ),
                         Align(
                           alignment: const AlignmentDirectional(-1.0, 0.0),
-                          child: ClipRRect(
-                            borderRadius: BorderRadius.circular(8.0),
-                            child: SvgPicture.network(
-                              'https://northernhorizon.org/public/assets/logo-blue.svg',
-                              width: MediaQuery.sizeOf(context).width * 0.3,
-                              height: MediaQuery.sizeOf(context).height * 0.08,
-                              fit: BoxFit.contain,
-                              alignment: const Alignment(0.0, 0.0),
+                          child: Padding(
+                            padding: const EdgeInsetsDirectional.fromSTEB(
+                                40.0, 0.0, 0.0, 0.0),
+                            child: ClipRRect(
+                              borderRadius: BorderRadius.circular(0.0),
+                              child: SvgPicture.network(
+                                'https://northernhorizon.org/public/assets/logo-blue.svg',
+                                width:
+                                MediaQuery.sizeOf(context).width * 0.25,
+                                height:
+                                MediaQuery.sizeOf(context).height * 0.08,
+                                fit: BoxFit.contain,
+                                alignment: const Alignment(0.0, 0.0),
+                              ),
                             ),
                           ),
                         ),
@@ -4511,7 +4537,7 @@ class _CareerLineWidgetState extends State<CareerLineWidget>
                             padding: const EdgeInsetsDirectional.fromSTEB(
                                 40.0, 0.0, 0.0, 0.0),
                             child: ClipRRect(
-                              borderRadius: BorderRadius.circular(8.0),
+                              borderRadius: BorderRadius.circular(0.0),
                               child: SvgPicture.network(
                                 'https://northernhorizon.org/public/assets/logo-blue.svg',
                                 width: MediaQuery.sizeOf(context).width * 0.25,
@@ -4523,6 +4549,16 @@ class _CareerLineWidgetState extends State<CareerLineWidget>
                             ),
                           ),
                         ),
+                        Positioned(
+                            top: 40.0,
+                            right: 10.0,
+                            child: IconButton(
+                                icon: Icon(Icons.menu),
+                                onPressed: (){
+                                  scaffoldKey.currentState!.openEndDrawer();
+                                }
+                            )
+                        )
                       ],
                     ),
                   ),

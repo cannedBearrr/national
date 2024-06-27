@@ -46,55 +46,6 @@ class _ContactUsWidgetState extends State<ContactUsWidget> {
       child: Scaffold(
         key: scaffoldKey,
         backgroundColor: FlutterFlowTheme.of(context).primaryBackground,
-        body: NestedScrollView(
-          floatHeaderSlivers: true,
-          headerSliverBuilder: (context, _) => [
-            SliverAppBar(
-              expandedHeight: MediaQuery.sizeOf(context).height * 0.03,
-              collapsedHeight: MediaQuery.sizeOf(context).height * 0.02,
-              pinned: true,
-              floating: false,
-              backgroundColor: Colors.white,
-              iconTheme: const IconThemeData(color: Colors.black),
-              automaticallyImplyLeading: false,
-              actions: const [],
-              flexibleSpace: FlexibleSpaceBar(
-                title: Align(
-                  alignment: const AlignmentDirectional(-1.0, 0.0),
-                  child: Padding(
-                    padding:
-                        const EdgeInsetsDirectional.fromSTEB(0.0, 14.0, 0.0, 0.0),
-                    child: Row(
-                      mainAxisSize: MainAxisSize.min,
-                      mainAxisAlignment: MainAxisAlignment.start,
-                      crossAxisAlignment: CrossAxisAlignment.center,
-                      children: [
-                        Flexible(
-                          child: Align(
-                            alignment: const AlignmentDirectional(-1.0, 0.0),
-                            child: ClipRRect(
-                              borderRadius: BorderRadius.circular(8.0),
-                              child: SvgPicture.network(
-                                'https://northernhorizon.org/public/assets/logo-blue.svg',
-                                width: MediaQuery.sizeOf(context).width * 0.244,
-                                height:
-                                    MediaQuery.sizeOf(context).height * 0.054,
-                                fit: BoxFit.contain,
-                              ),
-                            ),
-                          ),
-                        ),
-                      ],
-                    ),
-                  ),
-                ),
-                centerTitle: false,
-                expandedTitleScale: 1.0,
-              ),
-              toolbarHeight: MediaQuery.sizeOf(context).height * 0.02,
-              elevation: 3.0,
-            )
-          ],
           body: Builder(
             builder: (context) {
               return SafeArea(
@@ -177,6 +128,7 @@ class _ContactUsWidgetState extends State<ContactUsWidget> {
                                 mainAxisSize: MainAxisSize.max,
                                 mainAxisAlignment:
                                     MainAxisAlignment.spaceEvenly,
+                                crossAxisAlignment: CrossAxisAlignment.start,
                                 children: [
                                   Column(
                                     mainAxisSize: MainAxisSize.max,
@@ -187,13 +139,13 @@ class _ContactUsWidgetState extends State<ContactUsWidget> {
                                         borderRadius:
                                             BorderRadius.circular(0.0),
                                         child: Image.asset(
-                                          'images/Mr.Anson.png',
+                                          'assets/images/Mr.Anson.png',
                                           width:
                                               MediaQuery.sizeOf(context).width *
-                                                  0.183,
+                                                  0.15,
                                           height: MediaQuery.sizeOf(context)
                                                   .height *
-                                              0.3,
+                                              0.4,
                                           fit: BoxFit.cover,
                                         ),
                                       ),
@@ -241,13 +193,14 @@ class _ContactUsWidgetState extends State<ContactUsWidget> {
                                         ),
                                       ),
                                       Text(
-                                        'Lorem ipsum dolor sit amet, consectetur \nadipiscing elit. In a quam tellus. Mauris \nrisus dui, efficitur sit amet eros ut, \nultricies cursus felis. Phasellus egestas \nfinibus nisi, id vehicula arcu sodales in. \nPellentesque vitae efficitur eros. Fusce in \nvarius elit, quis ullamcorper arcu. \nSuspendisse ligula purus, molestie non \nnunc vitae, consectetur vestibulum sem.\n\nLorem ipsum dolor sit amet, consectetur \nadipiscing elit. In a quam tellus. Mauris \nrisus dui, efficitur sit amet eros ut, \nultricies cursus felis. Phasellus egestas \nfinibus nisi, id vehicula arcu sodales in. \nPellentesque vitae efficitur eros. Fusce in \nvarius elit, quis ullamcorper arcu. \nSuspendisse ligula purus, molestie non \nnunc vitae, consectetur vestibulum sem.',
+                                        'Anson Zhao, with over 20 years \nin the tech industry, is known for \nhis strategic vision and leadership. \nHe holds a PhD in Computer \nScience from MIT and has led \nmultiple successful startups. \nUnder his leadership, our \ncompany has seen significant \ngrowth and innovation.',
                                         textAlign: TextAlign.start,
                                         style: FlutterFlowTheme.of(context)
                                             .bodyMedium
                                             .override(
                                               fontFamily: 'Plus Jakarta Sans',
                                               letterSpacing: 0.0,
+                                              fontSize: 22.0,
                                             ),
                                       ),
                                       Align(
@@ -316,13 +269,13 @@ class _ContactUsWidgetState extends State<ContactUsWidget> {
                                         borderRadius:
                                             BorderRadius.circular(0.0),
                                         child: Image.asset(
-                                          'images/Yuvraj.png',
+                                          'assets/images/Yuvraj.png',
                                           width:
                                               MediaQuery.sizeOf(context).width *
-                                                  0.183,
+                                                  0.15,
                                           height: MediaQuery.sizeOf(context)
                                                   .height *
-                                              0.3,
+                                              0.4,
                                           fit: BoxFit.cover,
                                         ),
                                       ),
@@ -370,13 +323,14 @@ class _ContactUsWidgetState extends State<ContactUsWidget> {
                                         ),
                                       ),
                                       Text(
-                                        'Lorem ipsum dolor sit amet, consectetur \nadipiscing elit. In a quam tellus. Mauris \nrisus dui, efficitur sit amet eros ut, \nultricies cursus felis. Phasellus egestas \nfinibus nisi, id vehicula arcu sodales in. \nPellentesque vitae efficitur eros. Fusce in \nvarius elit, quis ullamcorper arcu. \nSuspendisse ligula purus, molestie non \nnunc vitae, consectetur vestibulum sem.\n\nLorem ipsum dolor sit amet, consectetur \nadipiscing elit. In a quam tellus. Mauris \nrisus dui, efficitur sit amet eros ut, \nultricies cursus felis. Phasellus egestas \nfinibus nisi, id vehicula arcu sodales in. \nPellentesque vitae efficitur eros. Fusce in \nvarius elit, quis ullamcorper arcu. \nSuspendisse ligula purus, molestie non \nnunc vitae, consectetur vestibulum sem.',
+                                        'Yuvraj Mundi, a high school student, \nexcels in software development. \nHe has completed advanced \ncoding courses and participated \nin national competitions. Yuvraj\'s \nskills and dedication make him a \nkey member of our coding team.',
                                         textAlign: TextAlign.start,
                                         style: FlutterFlowTheme.of(context)
                                             .bodyMedium
                                             .override(
                                               fontFamily: 'Plus Jakarta Sans',
                                               letterSpacing: 0.0,
+                                              fontSize: 22.0,
                                             ),
                                       ),
                                       Align(
@@ -445,13 +399,13 @@ class _ContactUsWidgetState extends State<ContactUsWidget> {
                                         borderRadius:
                                             BorderRadius.circular(0.0),
                                         child: Image.asset(
-                                          'images/Richard.png',
+                                          'assets/images/Richard.png',
                                           width:
                                               MediaQuery.sizeOf(context).width *
-                                                  0.183,
+                                                  0.15,
                                           height: MediaQuery.sizeOf(context)
                                                   .height *
-                                              0.3,
+                                              0.4,
                                           fit: BoxFit.cover,
                                         ),
                                       ),
@@ -499,13 +453,14 @@ class _ContactUsWidgetState extends State<ContactUsWidget> {
                                         ),
                                       ),
                                       Text(
-                                        'Lorem ipsum dolor sit amet, consectetur \nadipiscing elit. In a quam tellus. Mauris \nrisus dui, efficitur sit amet eros ut, \nultricies cursus felis. Phasellus egestas \nfinibus nisi, id vehicula arcu sodales in. \nPellentesque vitae efficitur eros. Fusce in \nvarius elit, quis ullamcorper arcu. \nSuspendisse ligula purus, molestie non \nnunc vitae, consectetur vestibulum sem.\n\nLorem ipsum dolor sit amet, consectetur \nadipiscing elit. In a quam tellus. Mauris \nrisus dui, efficitur sit amet eros ut, \nultricies cursus felis. Phasellus egestas \nfinibus nisi, id vehicula arcu sodales in. \nPellentesque vitae efficitur eros. Fusce in \nvarius elit, quis ullamcorper arcu. \nSuspendisse ligula purus, molestie non \nnunc vitae, consectetur vestibulum sem.',
+                                        'Richard Vu, a high school \nstudent, has a talent for \ndesign and user experience. \nHe has won awards for his \ncreative work and is skilled \nin using various design \ntools. Richard\'s fresh perspective \nbrings innovative ideas to our \nUI/UX projects.',
                                         textAlign: TextAlign.start,
                                         style: FlutterFlowTheme.of(context)
                                             .bodyMedium
                                             .override(
                                               fontFamily: 'Plus Jakarta Sans',
                                               letterSpacing: 0.0,
+                                              fontSize: 22,
                                             ),
                                       ),
                                       Align(
@@ -574,13 +529,13 @@ class _ContactUsWidgetState extends State<ContactUsWidget> {
                                         borderRadius:
                                             BorderRadius.circular(0.0),
                                         child: Image.asset(
-                                          'images/Angel.png',
+                                          'assets/images/Angel.png',
                                           width:
                                               MediaQuery.sizeOf(context).width *
-                                                  0.183,
+                                                  0.15,
                                           height: MediaQuery.sizeOf(context)
                                                   .height *
-                                              0.3,
+                                              0.4,
                                           fit: BoxFit.cover,
                                         ),
                                       ),
@@ -628,13 +583,14 @@ class _ContactUsWidgetState extends State<ContactUsWidget> {
                                         ),
                                       ),
                                       Text(
-                                        'Lorem ipsum dolor sit amet, consectetur \nadipiscing elit. In a quam tellus. Mauris \nrisus dui, efficitur sit amet eros ut, \nultricies cursus felis. Phasellus egestas \nfinibus nisi, id vehicula arcu sodales in. \nPellentesque vitae efficitur eros. Fusce in \nvarius elit, quis ullamcorper arcu. \nSuspendisse ligula purus, molestie non \nnunc vitae, consectetur vestibulum sem.\n\nLorem ipsum dolor sit amet, consectetur \nadipiscing elit. In a quam tellus. Mauris \nrisus dui, efficitur sit amet eros ut, \nultricies cursus felis. Phasellus egestas \nfinibus nisi, id vehicula arcu sodales in. \nPellentesque vitae efficitur eros. Fusce in \nvarius elit, quis ullamcorper arcu. \nSuspendisse ligula purus, molestie non \nnunc vitae, consectetur vestibulum sem.',
+                                        'Angel Yuan, an ambitious high school \nstudent, has a strong interest in \nmarketing. She has been involved in \nschool marketing projects and is \nproactive in learning about digital \nmarketing trends. Angel\'s \ncreativity and drive are \nassets to our marketing team.',
                                         textAlign: TextAlign.start,
                                         style: FlutterFlowTheme.of(context)
                                             .bodyMedium
                                             .override(
                                               fontFamily: 'Plus Jakarta Sans',
                                               letterSpacing: 0.0,
+                                              fontSize: 22,
                                             ),
                                       ),
                                       Align(
@@ -721,7 +677,7 @@ class _ContactUsWidgetState extends State<ContactUsWidget> {
                                             borderRadius:
                                                 BorderRadius.circular(0.0),
                                             child: Image.asset(
-                                              'images/Mr.Anson.png',
+                                              'assets/images/Mr.Anson.png',
                                               width: MediaQuery.sizeOf(context)
                                                       .width *
                                                   0.43,
@@ -777,7 +733,7 @@ class _ContactUsWidgetState extends State<ContactUsWidget> {
                                             ),
                                           ),
                                           Text(
-                                            'Lorem ipsum dolor sit amet, consectetur \nadipiscing elit. In a quam tellus. Mauris \nrisus dui, efficitur sit amet eros ut, \nultricies cursus felis. Phasellus egestas \nfinibus nisi, id vehicula arcu sodales in. \nPellentesque vitae efficitur eros. Fusce in \nvarius elit, quis ullamcorper arcu. \nSuspendisse ligula purus, molestie non \nnunc vitae, consectetur vestibulum sem.\n\nLorem ipsum dolor sit amet, consectetur \nadipiscing elit. In a quam tellus. Mauris \nrisus dui, efficitur sit amet eros ut, \nultricies cursus felis. Phasellus egestas \nfinibus nisi, id vehicula arcu sodales in. \nPellentesque vitae efficitur eros. Fusce in \nvarius elit, quis ullamcorper arcu. \nSuspendisse ligula purus, molestie non \nnunc vitae, consectetur vestibulum sem.',
+                                            'Anson Zhao, with over 20 years in the tech industry, is known for his strategic vision and leadership. He holds a PhD in Computer Science from MIT and has led multiple successful startups. Under his leadership, our company has seen significant growth and innovation.',
                                             textAlign: TextAlign.start,
                                             style: FlutterFlowTheme.of(context)
                                                 .bodyMedium
@@ -859,7 +815,7 @@ class _ContactUsWidgetState extends State<ContactUsWidget> {
                                             borderRadius:
                                                 BorderRadius.circular(0.0),
                                             child: Image.asset(
-                                              'images/Yuvraj.png',
+                                              'assets/images/Yuvraj.png',
                                               width: MediaQuery.sizeOf(context)
                                                       .width *
                                                   0.43,
@@ -915,7 +871,7 @@ class _ContactUsWidgetState extends State<ContactUsWidget> {
                                             ),
                                           ),
                                           Text(
-                                            'Lorem ipsum dolor sit amet, consectetur \nadipiscing elit. In a quam tellus. Mauris \nrisus dui, efficitur sit amet eros ut, \nultricies cursus felis. Phasellus egestas \nfinibus nisi, id vehicula arcu sodales in. \nPellentesque vitae efficitur eros. Fusce in \nvarius elit, quis ullamcorper arcu. \nSuspendisse ligula purus, molestie non \nnunc vitae, consectetur vestibulum sem.\n\nLorem ipsum dolor sit amet, consectetur \nadipiscing elit. In a quam tellus. Mauris \nrisus dui, efficitur sit amet eros ut, \nultricies cursus felis. Phasellus egestas \nfinibus nisi, id vehicula arcu sodales in. \nPellentesque vitae efficitur eros. Fusce in \nvarius elit, quis ullamcorper arcu. \nSuspendisse ligula purus, molestie non \nnunc vitae, consectetur vestibulum sem.',
+                                            'Yuvraj Mundi, a high school student, excels in software development. He has completed advanced coding courses and participated in national competitions. Yuvraj\'s skills and dedication make him a key member of our coding team.',
                                             textAlign: TextAlign.start,
                                             style: FlutterFlowTheme.of(context)
                                                 .bodyMedium
@@ -997,7 +953,7 @@ class _ContactUsWidgetState extends State<ContactUsWidget> {
                                             borderRadius:
                                                 BorderRadius.circular(0.0),
                                             child: Image.asset(
-                                              'images/Richard.png',
+                                              'assets/images/Richard.png',
                                               width: MediaQuery.sizeOf(context)
                                                       .width *
                                                   0.43,
@@ -1053,7 +1009,7 @@ class _ContactUsWidgetState extends State<ContactUsWidget> {
                                             ),
                                           ),
                                           Text(
-                                            'Lorem ipsum dolor sit amet, consectetur \nadipiscing elit. In a quam tellus. Mauris \nrisus dui, efficitur sit amet eros ut, \nultricies cursus felis. Phasellus egestas \nfinibus nisi, id vehicula arcu sodales in. \nPellentesque vitae efficitur eros. Fusce in \nvarius elit, quis ullamcorper arcu. \nSuspendisse ligula purus, molestie non \nnunc vitae, consectetur vestibulum sem.\n\nLorem ipsum dolor sit amet, consectetur \nadipiscing elit. In a quam tellus. Mauris \nrisus dui, efficitur sit amet eros ut, \nultricies cursus felis. Phasellus egestas \nfinibus nisi, id vehicula arcu sodales in. \nPellentesque vitae efficitur eros. Fusce in \nvarius elit, quis ullamcorper arcu. \nSuspendisse ligula purus, molestie non \nnunc vitae, consectetur vestibulum sem.',
+                                            'Richard Vu, a high school student, has a talent for design and user experience. He has won awards for his creative work and is skilled in using various design tools. Richard\'s fresh perspective brings innovative ideas to our UI/UX projects.',
                                             textAlign: TextAlign.start,
                                             style: FlutterFlowTheme.of(context)
                                                 .bodyMedium
@@ -1135,7 +1091,7 @@ class _ContactUsWidgetState extends State<ContactUsWidget> {
                                             borderRadius:
                                                 BorderRadius.circular(0.0),
                                             child: Image.asset(
-                                              'images/Angel.png',
+                                              'assets/images/Angel.png',
                                               width: MediaQuery.sizeOf(context)
                                                       .width *
                                                   0.43,
@@ -1191,7 +1147,7 @@ class _ContactUsWidgetState extends State<ContactUsWidget> {
                                             ),
                                           ),
                                           Text(
-                                            'Lorem ipsum dolor sit amet, consectetur \nadipiscing elit. In a quam tellus. Mauris \nrisus dui, efficitur sit amet eros ut, \nultricies cursus felis. Phasellus egestas \nfinibus nisi, id vehicula arcu sodales in. \nPellentesque vitae efficitur eros. Fusce in \nvarius elit, quis ullamcorper arcu. \nSuspendisse ligula purus, molestie non \nnunc vitae, consectetur vestibulum sem.\n\nLorem ipsum dolor sit amet, consectetur \nadipiscing elit. In a quam tellus. Mauris \nrisus dui, efficitur sit amet eros ut, \nultricies cursus felis. Phasellus egestas \nfinibus nisi, id vehicula arcu sodales in. \nPellentesque vitae efficitur eros. Fusce in \nvarius elit, quis ullamcorper arcu. \nSuspendisse ligula purus, molestie non \nnunc vitae, consectetur vestibulum sem.',
+                                            'Angel Yuan, an ambitious high school student, has a strong interest in marketing. She has been involved in school marketing projects and is proactive in learning about digital marketing trends. Angel\'s creativity and drive are assets to our marketing team.',
                                             textAlign: TextAlign.start,
                                             style: FlutterFlowTheme.of(context)
                                                 .bodyMedium
@@ -1290,7 +1246,6 @@ class _ContactUsWidgetState extends State<ContactUsWidget> {
               );
             },
           ),
-        ),
       ),
     );
   }

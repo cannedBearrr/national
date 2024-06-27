@@ -783,7 +783,7 @@ class _BusinessLineWidgetState extends State<BusinessLineWidget>
                                           borderRadius:
                                               BorderRadius.circular(0.0),
                                           child: Image.asset(
-                                            'images/FT_239_M.webp',
+                                            'assets/images/FT_239_M.webp',
                                             width: MediaQuery.sizeOf(context)
                                                     .width *
                                                 0.35,
@@ -1734,7 +1734,7 @@ class _BusinessLineWidgetState extends State<BusinessLineWidget>
                                                                             BorderRadius.circular(0.0),
                                                                         child: Image
                                                                             .asset(
-                                                                          'images/NAM_007_M.webp',
+                                                                          'assets/images/NAM_007_M.webp',
                                                                           width:
                                                                               MediaQuery.sizeOf(context).width * 1.0,
                                                                           height:
@@ -2522,19 +2522,19 @@ class _BusinessLineWidgetState extends State<BusinessLineWidget>
                                     children: [
                                       SizedBox(
                                         width:
-                                            MediaQuery.sizeOf(context).width *
-                                                1.0,
+                                        MediaQuery.sizeOf(context).width *
+                                            1.0,
                                         height:
-                                            MediaQuery.sizeOf(context).height *
-                                                0.3,
+                                        MediaQuery.sizeOf(context).height *
+                                            0.3,
                                         child: Stack(
                                           children: [
                                             Container(
                                               width: MediaQuery.sizeOf(context)
-                                                      .width *
+                                                  .width *
                                                   1.0,
                                               height: MediaQuery.sizeOf(context)
-                                                      .height *
+                                                  .height *
                                                   0.333,
                                               decoration: const BoxDecoration(
                                                 color: Color(0xFFEEB609),
@@ -2545,42 +2545,42 @@ class _BusinessLineWidgetState extends State<BusinessLineWidget>
                                                   0.0, 0.0),
                                               child: Container(
                                                 width:
-                                                    MediaQuery.sizeOf(context)
-                                                            .width *
-                                                        0.9,
+                                                MediaQuery.sizeOf(context)
+                                                    .width *
+                                                    0.9,
                                                 height:
-                                                    MediaQuery.sizeOf(context)
-                                                            .height *
-                                                        0.255,
+                                                MediaQuery.sizeOf(context)
+                                                    .height *
+                                                    0.255,
                                                 decoration: const BoxDecoration(),
                                                 child: Column(
                                                   mainAxisSize:
-                                                      MainAxisSize.max,
+                                                  MainAxisSize.max,
                                                   mainAxisAlignment:
-                                                      MainAxisAlignment.center,
+                                                  MainAxisAlignment.center,
                                                   crossAxisAlignment:
-                                                      CrossAxisAlignment.end,
+                                                  CrossAxisAlignment.end,
                                                   children: [
                                                     Align(
                                                       alignment:
-                                                          const AlignmentDirectional(
-                                                              1.0, 0.0),
+                                                      const AlignmentDirectional(
+                                                          1.0, 0.0),
                                                       child: ClipRRect(
                                                         borderRadius:
-                                                            BorderRadius
-                                                                .circular(8.0),
+                                                        BorderRadius
+                                                            .circular(8.0),
                                                         child: Image.asset(
-                                                          'images/7422495_nasa_space_shuttle_universe_explore_icon_1.png',
+                                                          'assets/images/7422495_nasa_space_shuttle_universe_explore_icon_1.png',
                                                           width:
-                                                              MediaQuery.sizeOf(
-                                                                          context)
-                                                                      .width *
-                                                                  0.45,
+                                                          MediaQuery.sizeOf(
+                                                              context)
+                                                              .width *
+                                                              0.45,
                                                           height:
-                                                              MediaQuery.sizeOf(
-                                                                          context)
-                                                                      .height *
-                                                                  0.1,
+                                                          MediaQuery.sizeOf(
+                                                              context)
+                                                              .height *
+                                                              0.075,
                                                           fit: BoxFit.cover,
                                                         ),
                                                       ),
@@ -2588,24 +2588,24 @@ class _BusinessLineWidgetState extends State<BusinessLineWidget>
                                                     Text(
                                                       'WHERE IT ALL BEGAN',
                                                       textAlign:
-                                                          TextAlign.start,
+                                                      TextAlign.start,
                                                       style: FlutterFlowTheme
-                                                              .of(context)
+                                                          .of(context)
                                                           .bodyMedium
                                                           .override(
-                                                            fontFamily: 'NORD',
-                                                            color: FlutterFlowTheme
-                                                                    .of(context)
-                                                                .secondaryBackground,
-                                                            fontSize: 15.0,
-                                                            letterSpacing: 0.0,
-                                                            useGoogleFonts:
-                                                                false,
-                                                          ),
+                                                        fontFamily: 'NORD',
+                                                        color: FlutterFlowTheme
+                                                            .of(context)
+                                                            .secondaryBackground,
+                                                        fontSize: 20.0,
+                                                        letterSpacing: 0.0,
+                                                        useGoogleFonts:
+                                                        false,
+                                                      ),
                                                     ),
                                                     Text(
-                                                      'In 2019, Northern Horizon embarked on a \ngroundbreaking journey by partnering with NASA. \nThis collaboration provided our students with unparalleled \nopportunities to work on cutting-edge space projects, \nsetting the foundation for our mission to bridge the gap \nbetween education and real-world applications.',
-                                                      textAlign: TextAlign.center,
+                                                      'In 2019, Northern Horizon embarked on a \ngroundbreaking journey by partnering with NASA. \nThis collaboration provided our students with \nunparalleled opportunities to work on cutting-edge space \nprojects, setting the foundation for our mission to bridge the gap \nbetween education and real-world applications.',
+                                                      textAlign: TextAlign.right,
                                                       style: FlutterFlowTheme.of(
                                                           context)
                                                           .bodyMedium
@@ -2613,7 +2613,7 @@ class _BusinessLineWidgetState extends State<BusinessLineWidget>
                                                         fontFamily:
                                                         'Inria Serif',
                                                         color: Colors.white,
-                                                        fontSize: 15.0,
+                                                        fontSize: 12.0,
                                                         letterSpacing: 0.0,
                                                         fontWeight:
                                                         FontWeight.w300,
@@ -2622,15 +2622,15 @@ class _BusinessLineWidgetState extends State<BusinessLineWidget>
                                                     Text(
                                                       '2019',
                                                       style: FlutterFlowTheme
-                                                              .of(context)
+                                                          .of(context)
                                                           .bodyMedium
                                                           .override(
-                                                            fontFamily:
-                                                                'Inria Serif',
-                                                            color: Colors.white,
-                                                            fontSize: 50.0,
-                                                            letterSpacing: 0.0,
-                                                          ),
+                                                        fontFamily:
+                                                        'Inria Serif',
+                                                        color: Colors.white,
+                                                        fontSize: 25.0,
+                                                        letterSpacing: 0.0,
+                                                      ),
                                                     ),
                                                   ],
                                                 ),
@@ -2641,19 +2641,19 @@ class _BusinessLineWidgetState extends State<BusinessLineWidget>
                                       ),
                                       SizedBox(
                                         width:
-                                            MediaQuery.sizeOf(context).width *
-                                                1.0,
+                                        MediaQuery.sizeOf(context).width *
+                                            1.0,
                                         height:
-                                            MediaQuery.sizeOf(context).height *
-                                                0.3,
+                                        MediaQuery.sizeOf(context).height *
+                                            0.3,
                                         child: Stack(
                                           children: [
                                             Container(
                                               width: MediaQuery.sizeOf(context)
-                                                      .width *
+                                                  .width *
                                                   1.0,
                                               height: MediaQuery.sizeOf(context)
-                                                      .height *
+                                                  .height *
                                                   0.333,
                                               decoration: const BoxDecoration(
                                                 color: Color(0xFFE7DDC6),
@@ -2664,42 +2664,42 @@ class _BusinessLineWidgetState extends State<BusinessLineWidget>
                                                   0.0, 0.0),
                                               child: Container(
                                                 width:
-                                                    MediaQuery.sizeOf(context)
-                                                            .width *
-                                                        0.9,
+                                                MediaQuery.sizeOf(context)
+                                                    .width *
+                                                    0.9,
                                                 height:
-                                                    MediaQuery.sizeOf(context)
-                                                            .height *
-                                                        0.255,
+                                                MediaQuery.sizeOf(context)
+                                                    .height *
+                                                    0.255,
                                                 decoration: const BoxDecoration(),
                                                 child: Column(
                                                   mainAxisSize:
-                                                      MainAxisSize.max,
+                                                  MainAxisSize.max,
                                                   mainAxisAlignment:
-                                                      MainAxisAlignment.center,
+                                                  MainAxisAlignment.center,
                                                   crossAxisAlignment:
-                                                      CrossAxisAlignment.end,
+                                                  CrossAxisAlignment.end,
                                                   children: [
                                                     Align(
                                                       alignment:
-                                                          const AlignmentDirectional(
-                                                              1.0, 0.0),
+                                                      const AlignmentDirectional(
+                                                          1.0, 0.0),
                                                       child: ClipRRect(
                                                         borderRadius:
-                                                            BorderRadius
-                                                                .circular(8.0),
+                                                        BorderRadius
+                                                            .circular(8.0),
                                                         child: Image.asset(
-                                                          'images/Mask_group.png',
+                                                          'assets/images/Mask_group.png',
                                                           width:
-                                                              MediaQuery.sizeOf(
-                                                                          context)
-                                                                      .width *
-                                                                  0.45,
+                                                          MediaQuery.sizeOf(
+                                                              context)
+                                                              .width *
+                                                              0.45,
                                                           height:
-                                                              MediaQuery.sizeOf(
-                                                                          context)
-                                                                      .height *
-                                                                  0.1,
+                                                          MediaQuery.sizeOf(
+                                                              context)
+                                                              .height *
+                                                              0.075,
                                                           fit: BoxFit.contain,
                                                         ),
                                                       ),
@@ -2707,24 +2707,24 @@ class _BusinessLineWidgetState extends State<BusinessLineWidget>
                                                     Text(
                                                       'THE GREAT LEAP FORWARD',
                                                       textAlign:
-                                                          TextAlign.start,
+                                                      TextAlign.start,
                                                       style: FlutterFlowTheme
-                                                              .of(context)
+                                                          .of(context)
                                                           .bodyMedium
                                                           .override(
-                                                            fontFamily: 'NORD',
-                                                            color: FlutterFlowTheme
-                                                                    .of(context)
-                                                                .secondaryBackground,
-                                                            fontSize: 15.0,
-                                                            letterSpacing: 0.0,
-                                                            useGoogleFonts:
-                                                                false,
-                                                          ),
+                                                        fontFamily: 'NORD',
+                                                        color: FlutterFlowTheme
+                                                            .of(context)
+                                                            .secondaryBackground,
+                                                        fontSize: 20.0,
+                                                        letterSpacing: 0.0,
+                                                        useGoogleFonts:
+                                                        false,
+                                                      ),
                                                     ),
                                                     Text(
                                                       'In 2020, we took a significant step forward by \npartnering with the United Nations. This collaboration \nenabled our students to engage in global initiatives, enhancing \ntheir skills and perspectives while preparing them for \nimpactful careers on the international stage.',
-                                                      textAlign: TextAlign.center,
+                                                      textAlign: TextAlign.right,
                                                       style: FlutterFlowTheme.of(
                                                           context)
                                                           .bodyMedium
@@ -2732,7 +2732,7 @@ class _BusinessLineWidgetState extends State<BusinessLineWidget>
                                                         fontFamily:
                                                         'Inria Serif',
                                                         color: Colors.white,
-                                                        fontSize: 15.0,
+                                                        fontSize: 12.0,
                                                         letterSpacing: 0.0,
                                                         fontWeight:
                                                         FontWeight.w300,
@@ -2741,15 +2741,15 @@ class _BusinessLineWidgetState extends State<BusinessLineWidget>
                                                     Text(
                                                       '2020',
                                                       style: FlutterFlowTheme
-                                                              .of(context)
+                                                          .of(context)
                                                           .bodyMedium
                                                           .override(
-                                                            fontFamily:
-                                                                'Inria Serif',
+                                                        fontFamily:
+                                                        'Inria Serif',
                                                         color: Colors.white,
-                                                            fontSize: 45.0,
-                                                            letterSpacing: 0.0,
-                                                          ),
+                                                        fontSize: 25.0,
+                                                        letterSpacing: 0.0,
+                                                      ),
                                                     ),
                                                   ],
                                                 ),
@@ -2760,19 +2760,19 @@ class _BusinessLineWidgetState extends State<BusinessLineWidget>
                                       ),
                                       SizedBox(
                                         width:
-                                            MediaQuery.sizeOf(context).width *
-                                                1.0,
+                                        MediaQuery.sizeOf(context).width *
+                                            1.0,
                                         height:
-                                            MediaQuery.sizeOf(context).height *
-                                                0.3,
+                                        MediaQuery.sizeOf(context).height *
+                                            0.3,
                                         child: Stack(
                                           children: [
                                             Container(
                                               width: MediaQuery.sizeOf(context)
-                                                      .width *
+                                                  .width *
                                                   1.0,
                                               height: MediaQuery.sizeOf(context)
-                                                      .height *
+                                                  .height *
                                                   0.333,
                                               decoration: const BoxDecoration(
                                                 color: Color(0xFFD9D9D9),
@@ -2783,51 +2783,51 @@ class _BusinessLineWidgetState extends State<BusinessLineWidget>
                                                   0.0, 0.0),
                                               child: Container(
                                                 width:
-                                                    MediaQuery.sizeOf(context)
-                                                            .width *
-                                                        0.9,
+                                                MediaQuery.sizeOf(context)
+                                                    .width *
+                                                    0.9,
                                                 height:
-                                                    MediaQuery.sizeOf(context)
-                                                            .height *
-                                                        0.255,
+                                                MediaQuery.sizeOf(context)
+                                                    .height *
+                                                    0.255,
                                                 decoration: const BoxDecoration(),
                                                 child: Column(
                                                   mainAxisSize:
-                                                      MainAxisSize.max,
+                                                  MainAxisSize.max,
                                                   mainAxisAlignment:
-                                                      MainAxisAlignment.center,
+                                                  MainAxisAlignment.center,
                                                   crossAxisAlignment:
-                                                      CrossAxisAlignment.end,
+                                                  CrossAxisAlignment.end,
                                                   children: [
                                                     Align(
                                                       alignment:
-                                                          const AlignmentDirectional(
-                                                              1.0, 0.0),
+                                                      const AlignmentDirectional(
+                                                          1.0, 0.0),
                                                       child: Padding(
                                                         padding:
-                                                            const EdgeInsetsDirectional
-                                                                .fromSTEB(
-                                                                    0.0,
-                                                                    0.0,
-                                                                    0.0,
-                                                                    10.0),
+                                                        const EdgeInsetsDirectional
+                                                            .fromSTEB(
+                                                            0.0,
+                                                            0.0,
+                                                            0.0,
+                                                            10.0),
                                                         child: ClipRRect(
                                                           borderRadius:
-                                                              BorderRadius
-                                                                  .circular(
-                                                                      8.0),
+                                                          BorderRadius
+                                                              .circular(
+                                                              8.0),
                                                           child: Image.asset(
-                                                            'images/USGS.png',
+                                                            'assets/images/USGS.png',
                                                             width: MediaQuery
-                                                                        .sizeOf(
-                                                                            context)
-                                                                    .width *
-                                                                0.328,
+                                                                .sizeOf(
+                                                                context)
+                                                                .width *
+                                                                0.45,
                                                             height: MediaQuery
-                                                                        .sizeOf(
-                                                                            context)
-                                                                    .height *
-                                                                0.1,
+                                                                .sizeOf(
+                                                                context)
+                                                                .height *
+                                                                0.075,
                                                             fit: BoxFit.contain,
                                                           ),
                                                         ),
@@ -2836,24 +2836,24 @@ class _BusinessLineWidgetState extends State<BusinessLineWidget>
                                                     Text(
                                                       'Our Latest Partner',
                                                       textAlign:
-                                                          TextAlign.start,
+                                                      TextAlign.start,
                                                       style: FlutterFlowTheme
-                                                              .of(context)
+                                                          .of(context)
                                                           .bodyMedium
                                                           .override(
-                                                            fontFamily: 'NORD',
-                                                            color: FlutterFlowTheme
-                                                                    .of(context)
-                                                                .secondaryBackground,
-                                                            fontSize: 15.0,
-                                                            letterSpacing: 0.0,
-                                                            useGoogleFonts:
-                                                                false,
-                                                          ),
+                                                        fontFamily: 'NORD',
+                                                        color: FlutterFlowTheme
+                                                            .of(context)
+                                                            .secondaryBackground,
+                                                        fontSize: 20.0,
+                                                        letterSpacing: 0.0,
+                                                        useGoogleFonts:
+                                                        false,
+                                                      ),
                                                     ),
                                                     Text(
-                                                      'In 2021, we formed a partnership with the USGS, \nfurther broadening the scope of hands-on experiences available to \nour students. This collaboration allows our students to work on real-world \nenvironmental and scientific projects, developing critical skills and \ngaining valuable insights into the field of science and technology.',
-                                                      textAlign: TextAlign.center,
+                                                      'In 2021, we formed a partnership with the USGS, \nfurther broadening the scope of hands-on experiences available to \nour students. This collaboration allows our students to work on \nreal-world environmental and scientific projects, developing \ncritical skills and gaining valuable insights into the field of science and technology.',
+                                                      textAlign: TextAlign.right,
                                                       style: FlutterFlowTheme.of(
                                                           context)
                                                           .bodyMedium
@@ -2861,7 +2861,7 @@ class _BusinessLineWidgetState extends State<BusinessLineWidget>
                                                         fontFamily:
                                                         'Inria Serif',
                                                         color: Colors.white,
-                                                        fontSize: 20.0,
+                                                        fontSize: 12.0,
                                                         letterSpacing: 0.0,
                                                         fontWeight:
                                                         FontWeight.w300,
@@ -2870,15 +2870,15 @@ class _BusinessLineWidgetState extends State<BusinessLineWidget>
                                                     Text(
                                                       '2021',
                                                       style: FlutterFlowTheme
-                                                              .of(context)
+                                                          .of(context)
                                                           .bodyMedium
                                                           .override(
-                                                            fontFamily:
-                                                                'Inria Serif',
+                                                        fontFamily:
+                                                        'Inria Serif',
                                                         color: Colors.white,
-                                                            fontSize: 50.0,
-                                                            letterSpacing: 0.0,
-                                                          ),
+                                                        fontSize: 25.0,
+                                                        letterSpacing: 0.0,
+                                                      ),
                                                     ),
                                                   ],
                                                 ),
@@ -4317,15 +4317,20 @@ class _BusinessLineWidgetState extends State<BusinessLineWidget>
                           ),
                           Align(
                             alignment: const AlignmentDirectional(-1.0, 0.0),
-                            child: ClipRRect(
-                              borderRadius: BorderRadius.circular(8.0),
-                              child: SvgPicture.network(
-                                'https://northernhorizon.org/public/assets/logo-blue.svg',
-                                width: MediaQuery.sizeOf(context).width * 0.3,
-                                height:
-                                    MediaQuery.sizeOf(context).height * 0.08,
-                                fit: BoxFit.contain,
-                                alignment: const Alignment(0.0, 0.0),
+                            child: Padding(
+                              padding: const EdgeInsetsDirectional.fromSTEB(
+                                  40.0, 0.0, 0.0, 0.0),
+                              child: ClipRRect(
+                                borderRadius: BorderRadius.circular(0.0),
+                                child: SvgPicture.network(
+                                  'https://northernhorizon.org/public/assets/logo-blue.svg',
+                                  width:
+                                  MediaQuery.sizeOf(context).width * 0.25,
+                                  height:
+                                  MediaQuery.sizeOf(context).height * 0.08,
+                                  fit: BoxFit.contain,
+                                  alignment: const Alignment(0.0, 0.0),
+                                ),
                               ),
                             ),
                           ),
@@ -4358,7 +4363,7 @@ class _BusinessLineWidgetState extends State<BusinessLineWidget>
                               padding: const EdgeInsetsDirectional.fromSTEB(
                                   40.0, 0.0, 0.0, 0.0),
                               child: ClipRRect(
-                                borderRadius: BorderRadius.circular(8.0),
+                                borderRadius: BorderRadius.circular(0.0),
                                 child: SvgPicture.network(
                                   'https://northernhorizon.org/public/assets/logo-blue.svg',
                                   width:
