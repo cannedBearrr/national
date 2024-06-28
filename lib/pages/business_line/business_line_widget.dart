@@ -2952,7 +2952,7 @@ class _BusinessLineWidgetState extends State<BusinessLineWidget>
                                                 borderRadius:
                                                     BorderRadius.circular(0.0),
                                                 child: Image.network(
-                                                  'https://images.unsplash.com/photo-1716223996696-ad6252a7fe7c?q=80&w=2053&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+                                                  'https://images.unsplash.com/photo-1599461149326-2e9dd1113a02?q=80&w=2574&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
                                                   width:
                                                       MediaQuery.sizeOf(context)
                                                               .width *
@@ -3024,7 +3024,7 @@ class _BusinessLineWidgetState extends State<BusinessLineWidget>
                                                         BorderRadius.circular(
                                                             0.0),
                                                     child: Image.network(
-                                                      'https://images.unsplash.com/photo-1716223996696-ad6252a7fe7c?q=80&w=2053&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+                                                      'https://images.unsplash.com/photo-1599461149326-2e9dd1113a02?q=80&w=2574&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
                                                       width: MediaQuery.sizeOf(
                                                                   context)
                                                               .width *
@@ -3213,7 +3213,7 @@ class _BusinessLineWidgetState extends State<BusinessLineWidget>
                                                 borderRadius:
                                                     BorderRadius.circular(0.0),
                                                 child: Image.network(
-                                                  'https://images.unsplash.com/photo-1716223996671-d834e85ccdc6?q=80&w=2075&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+                                                  'https://images.unsplash.com/photo-1494386346843-e12284507169?q=80&w=2564&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
                                                   width:
                                                       MediaQuery.sizeOf(context)
                                                               .width *
@@ -3269,7 +3269,7 @@ class _BusinessLineWidgetState extends State<BusinessLineWidget>
                                                         BorderRadius.circular(
                                                             0.0),
                                                     child: Image.network(
-                                                      'https://images.unsplash.com/photo-1716223996671-d834e85ccdc6?q=80&w=2075&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+                                                      'https://images.unsplash.com/photo-1494386346843-e12284507169?q=80&w=2564&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
                                                       width: MediaQuery.sizeOf(
                                                                   context)
                                                               .width *
@@ -3431,7 +3431,7 @@ class _BusinessLineWidgetState extends State<BusinessLineWidget>
                                             borderRadius:
                                                 BorderRadius.circular(0.0),
                                             child: Image.network(
-                                              'https://images.unsplash.com/photo-1716223996696-ad6252a7fe7c?q=80&w=2053&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+                                              'https://images.unsplash.com/photo-1599461149326-2e9dd1113a02?q=80&w=2574&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
                                               width: MediaQuery.sizeOf(context)
                                                       .width *
                                                   1.0,
@@ -3494,7 +3494,7 @@ class _BusinessLineWidgetState extends State<BusinessLineWidget>
                                                 borderRadius:
                                                     BorderRadius.circular(0.0),
                                                 child: Image.network(
-                                                  'https://images.unsplash.com/photo-1716223996696-ad6252a7fe7c?q=80&w=2053&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+                                                  'https://images.unsplash.com/photo-1599461149326-2e9dd1113a02?q=80&w=2574&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
                                                   width:
                                                       MediaQuery.sizeOf(context)
                                                               .width *
@@ -3648,7 +3648,7 @@ class _BusinessLineWidgetState extends State<BusinessLineWidget>
                                             borderRadius:
                                                 BorderRadius.circular(0.0),
                                             child: Image.network(
-                                              'https://images.unsplash.com/photo-1716223996671-d834e85ccdc6?q=80&w=2075&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+                                              'https://images.unsplash.com/photo-1494386346843-e12284507169?q=80&w=2564&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
                                               width: MediaQuery.sizeOf(context)
                                                       .width *
                                                   1.0,
@@ -3698,7 +3698,7 @@ class _BusinessLineWidgetState extends State<BusinessLineWidget>
                                                 borderRadius:
                                                     BorderRadius.circular(0.0),
                                                 child: Image.network(
-                                                  'https://images.unsplash.com/photo-1716223996671-d834e85ccdc6?q=80&w=2075&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+                                                  'https://images.unsplash.com/photo-1494386346843-e12284507169?q=80&w=2564&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
                                                   width:
                                                       MediaQuery.sizeOf(context)
                                                               .width *
